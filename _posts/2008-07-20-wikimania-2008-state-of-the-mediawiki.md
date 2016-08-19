@@ -3,7 +3,7 @@ id: 75
 title: 'Wikimania 2008: State of the Mediawiki'
 date: 2008-07-20T13:24:20+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=75
 permalink: /2008/07/wikimania-2008-state-of-the-mediawiki/
 categories:

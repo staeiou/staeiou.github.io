@@ -4,7 +4,7 @@ title: 'The Wikipedian Discourse: A Foucauldian Archaeology'
 date: 2007-12-20T20:47:48+00:00
 author: stuart
 excerpt: This paper is a Foucauldian account of power relations as expressed through discourse in the on-line encyclopedia Wikipedia.
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=12
 permalink: /2007/12/the-wikipedian-discourse-a-foucauldian-archaeology/
 categories:

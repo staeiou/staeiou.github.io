@@ -3,11 +3,11 @@ id: 550
 title: 'About a bot: reflections on building software agents'
 date: 2013-08-13T04:22:22+00:00
 author: stuart
-layout: post
+
 guid: http://stuartgeiger.com/wordpress/?p=550
 permalink: /2013/08/about-a-bot-reflections-on-building-software-agents/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Uncategorized
 tags:

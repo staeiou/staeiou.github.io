@@ -3,7 +3,7 @@ id: 127
 title: 'Words and Things: A De-Re-Sub-Post-Construction of Rhizomatic and Non-Arborescent Stratum in Deleuze and Guattari&#8217;s A Thousand Plateaus'
 date: 2008-07-26T17:03:11+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=127
 permalink: /2008/07/words-and-things-a-de-re-sub-post-construction-of-rhizomatic-and-non-arborescent-stratum-in-deleuze-and-guattaris-a-thousand-plateaus/
 categories:

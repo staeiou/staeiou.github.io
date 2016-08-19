@@ -4,11 +4,11 @@ title: 'Wikimania 2008: Wikipedia Administrators / Arbcom Panel'
 date: 2008-07-20T11:38:43+00:00
 author: stuart
 excerpt: 'This panel was at Wikimania 2008, and featured James Forrester, Andrew Lih, Kat Walsh, and Charles Matthews.  Everyone except for Lih is or has been on the Arbitration Committee, and this turned into a discussion about admins.'
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=63
 permalink: /2008/07/wikimania-2008-wikipedia-administrators-arbcom-panel/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Conference Notes
 tags:

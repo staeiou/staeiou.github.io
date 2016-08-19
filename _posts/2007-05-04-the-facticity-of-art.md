@@ -3,7 +3,7 @@ id: 5
 title: The Facticity of Art
 date: 2007-05-04T19:41:48+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=5
 permalink: /2007/05/the-facticity-of-art/
 categories:

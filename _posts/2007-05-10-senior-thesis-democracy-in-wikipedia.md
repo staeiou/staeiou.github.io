@@ -4,7 +4,7 @@ title: 'Senior Thesis: Democracy in Wikipedia'
 date: 2007-05-10T16:43:03+00:00
 author: stuart
 excerpt: My thesis studied the legal culture of Wikipedia to examine the law through stories and histories, giving the reader a sense of not only what the Wikipedian legal system is, but also what fundamental assumptions the community makes in utilizing such a system.
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=3
 permalink: /2007/05/senior-thesis-democracy-in-wikipedia/
 categories:

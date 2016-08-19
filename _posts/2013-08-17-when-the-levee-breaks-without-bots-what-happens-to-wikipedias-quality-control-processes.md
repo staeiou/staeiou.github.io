@@ -3,10 +3,10 @@ id: 534
 title: 'When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control Processes?'
 date: 2013-08-17T03:49:42+00:00
 author: stuart
-layout: posts
+
 guid: http://stuartgeiger.com/wordpress/?p=534
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Academic Works
 tags:

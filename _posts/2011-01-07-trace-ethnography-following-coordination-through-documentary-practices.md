@@ -3,11 +3,11 @@ id: 395
 title: 'Trace Ethnography: Following Coordination through Documentary Practices'
 date: 2011-01-07T15:34:35+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=395
 permalink: /2011/01/trace-ethnography-following-coordination-through-documentary-practices/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Academic Works
   - Published Works

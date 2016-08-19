@@ -4,7 +4,7 @@ title: 'Review: 10 Books That Screwed Up the World by Benjamin Wiker'
 date: 2008-05-12T22:34:21+00:00
 author: stuart
 excerpt: "Benjamin Wiker's book on bad books throughout the ages is misinformed and makes a few critical errors in its analysis.  Specifically, it ignores the cultural context around each book he critiques, treating them as pure subliminal propaganda.  "
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=19
 permalink: /2008/05/review-10-books-that-screwed-up-the-world-by-benjamin-wiker/
 categories:

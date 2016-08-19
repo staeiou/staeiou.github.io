@@ -3,7 +3,7 @@ id: 338
 title: 'Helvetica: A Documentary, A History, An Anthropology'
 date: 2011-03-10T13:30:12+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=338
 permalink: /2011/03/helvetica-a-documentary-a-history-an-anthropology/
 categories:

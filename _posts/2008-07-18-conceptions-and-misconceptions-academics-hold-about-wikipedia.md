@@ -4,11 +4,11 @@ title: Conceptions and Misconceptions Academics Hold About Wikipedia
 date: 2008-07-18T16:47:22+00:00
 author: stuart
 excerpt: 'As an ethnographer, I enter into communities, learn their customs, beliefs, and practices, then report back to the academy to share what I have discovered.  In this presentation, I wish to do the opposite, presenting to the Wikipedian community an ethnography of academics as they relate to Wikipedia.'
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=4
 permalink: /2008/07/conceptions-and-misconceptions-academics-hold-about-wikipedia/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Conference Presentations
 tags:

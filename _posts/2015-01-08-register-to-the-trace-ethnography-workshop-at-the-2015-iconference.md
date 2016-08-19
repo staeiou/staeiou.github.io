@@ -5,8 +5,8 @@ author: stuart
 layout: default
 guid: http://stuartgeiger.com/wordpress/?p=726
 permalink: /2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Uncategorized
 tags:

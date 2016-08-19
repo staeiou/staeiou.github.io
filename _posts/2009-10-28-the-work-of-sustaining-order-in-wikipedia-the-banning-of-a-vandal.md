@@ -3,7 +3,7 @@ id: 264
 title: 'The Work of Sustaining Order in Wikipedia: The Banning of a Vandal'
 date: 2009-10-28T06:46:23+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=264
 permalink: /2009/10/the-work-of-sustaining-order-in-wikipedia-the-banning-of-a-vandal/
 categories:

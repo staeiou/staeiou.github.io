@@ -3,7 +3,7 @@ id: 97
 title: 'Wikimania 2008: New Paradigms for New Tomorrows with Ismail Serageldin'
 date: 2008-07-20T14:58:24+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=97
 permalink: /2008/07/wikimania-2008-new-paradigms-for-new-tomorrows-with-ismail-serageldin/
 categories:

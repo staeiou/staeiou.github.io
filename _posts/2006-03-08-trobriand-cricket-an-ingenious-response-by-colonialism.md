@@ -4,7 +4,7 @@ title: 'Trobriand Cricket: An Ingenious Response by Colonialism'
 date: 2006-03-08T21:44:45+00:00
 author: stuart
 excerpt: Embracing Trobriand cricket as an instance in which domineering cultural empires were repelled is a flawed concept which masks the very forms of domination that it attempts to criticize.
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=14
 permalink: /2006/03/trobriand-cricket-an-ingenious-response-by-colonialism/
 categories:

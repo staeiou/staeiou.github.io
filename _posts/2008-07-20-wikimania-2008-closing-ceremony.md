@@ -3,7 +3,7 @@ id: 57
 title: 'Wikimania 2008: Closing Ceremony'
 date: 2008-07-20T11:55:46+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=57
 permalink: /2008/07/wikimania-2008-closing-ceremony/
 categories:

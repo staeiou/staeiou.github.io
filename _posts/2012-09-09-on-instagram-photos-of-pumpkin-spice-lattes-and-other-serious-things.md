@@ -3,11 +3,11 @@ id: 480
 title: An apologia for instagram photos of pumpkin spice lattes and other serious things
 date: 2012-09-09T21:10:09+00:00
 author: stuart
-layout: post
+
 guid: http://stuartgeiger.com/wordpress/?p=480
 permalink: /2012/09/on-instagram-photos-of-pumpkin-spice-lattes-and-other-serious-things/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Blog Posts
 tags:
