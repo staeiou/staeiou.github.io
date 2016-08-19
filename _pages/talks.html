@@ -6,23 +6,8 @@ author_profile: true
 ---
 
 {% include base_path %}
-<div class="container">
-  <h2>Collapsible Panel</h2>
-  <div class="panel-group">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
-        </h4>
-      </div>
-      <div id="collapse1" class="panel-collapse collapse">
-        <div class="panel-body">Panel Body</div>
-        <div class="panel-footer">Panel Footer</div>
-      </div>
-    </div>
-  </div>
-</div>
-    
+
+<a href="/talkmap.html">See a map of all the places I've given a talk!</a>
     
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
