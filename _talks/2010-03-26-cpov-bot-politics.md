@@ -1,7 +1,9 @@
 ---
 title: "Bot Politics: How is Automation Changing the Wikipedian Society?  Critical Point of View II"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2010-03-26-cpov-bot-politics
-excerpt: '<i>Talk at Critical Point of View: Wikipedia and the Politics of Open Knowledge, 2010-03-26</i><br/>'
+venue: "Critical Point of View: Wikipedia and the Politics of Open Knowledge"
 date: 2010-03-26
----
+location: "Amsterdam, the Netherlands"
+excerpt: "---

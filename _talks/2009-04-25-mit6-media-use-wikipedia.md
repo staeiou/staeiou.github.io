@@ -1,7 +1,9 @@
 ---
 title: "Evolving Governance and Media Use in Wikipedia: A Historical Account"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2009-04-25-mit6-media-use-wikipedia
-excerpt: '<i>Talk at Media in Transition 6, 2009-04-25</i><br/>'
+venue: "Media in Transition 6"
 date: 2009-04-25
----
+location: "Cambridge, MA"
+excerpt: "---

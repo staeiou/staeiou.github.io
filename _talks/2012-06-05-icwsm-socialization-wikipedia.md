@@ -1,9 +1,12 @@
 ---
 title: "Defense Mechanism or Socialization Tactic? Improving Wikipedia’s Notifications to Rejected Contributors"
-category: proceedings
+collection: talks
+talk_type: "Conference proceedings talk"
 permalink: /talks/2012-06-05-icwsm-socialization-wikipedia
-excerpt: '<i>Conference proceeding presented at International Conference on Weblogs and Social Media (ICWSM), 2012-06-05</i><br/>A descriptive study of Wikipedia&apos;s highly-automated socialization processes and an A/B test to improve templated messages to newcomers.'
+venue: "International Conference on Weblogs and Social Media (ICWSM)"
 date: 2012-06-05
+location: "Dublin, Ireland"
+excerpt: "A descriptive study of Wikipedia&apos;s highly-automated socialization processes and an A/B test to improve templated messages to newcomers."
 ---
 
 <a href='http://stuartgeiger.com/defense-mechanism-icwsm.pdf'>Link to more information</a>

@@ -1,9 +1,12 @@
 ---
 title: "When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control Processes? (with Aaron Halfaker)"
-category: proceedings
+collection: talks
+talk_type: "Conference proceedings talk"
 permalink: /talks/2013-08-03-wikisym-levee-breaks-bots
-excerpt: '<i>Conference proceeding presented at International Symposium on Wikis and Open Collaboration (WikiSym 2012), 2013-08-03</i><br/>This paper examines what happened when one of Wikipedia&apos;s counter-vandalism bots unexpectedly went offline.'
+venue: "International Symposium on Wikis and Open Collaboration (WikiSym 2012)"
 date: 2013-08-03
+location: "Hong Kong"
+excerpt: "This paper examines what happened when one of Wikipedia&apos;s counter-vandalism bots unexpectedly went offline."
 ---
 
 <a href='http://stuartgeiger.com/wikisym13-cluebot.pdf'>Link to more information</a>

@@ -1,7 +1,9 @@
 ---
 title: "The Wisdom of Bots: A Critique of ‘Self-Organization’ in Wikipedia"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2010-01-10-cpov-wisdom-of-bots
-excerpt: '<i>Talk at Critical Point of View: Wikipedia and the Politics of Open Knowledge, 2010-01-10</i><br/>'
+venue: "Critical Point of View: Wikipedia and the Politics of Open Knowledge"
 date: 2010-01-10
----
+location: "Bangalore, India"
+excerpt: "---

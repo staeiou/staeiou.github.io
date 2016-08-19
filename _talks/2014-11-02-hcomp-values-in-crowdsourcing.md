@@ -1,9 +1,12 @@
 ---
 title: "Defining, Designing, and Evaluating Civic Values in Human Computation and Collective Action Systems (with Nathan Matias)"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2014-11-02-hcomp-values-in-crowdsourcing
-excerpt: '<i>Talk at Human Computation Conference (HCOMP), Citizen-X Workshop, 2014-11-02</i><br/>We review various crowdsourcing and collective action systems, identifying particular sets of civic values and assumptions.'
+venue: "Human Computation Conference (HCOMP), Citizen-X Workshop"
 date: 2014-11-02
+location: "Pittsburgh, PA"
+excerpt: "We review various crowdsourcing and collective action systems, identifying particular sets of civic values and assumptions."
 ---
 
 <a href='http://stuartgeiger.com/defining-civic-values-hcomp-matias-geiger.pdf'>Link to more information</a>

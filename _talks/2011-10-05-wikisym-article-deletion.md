@@ -1,9 +1,12 @@
 ---
 title: "Participation in Wikipedia’s Article Deletion Processes (with Heather Ford)"
-category: proceedings
+collection: talks
+talk_type: "Conference proceedings talk"
 permalink: /talks/2011-10-05-wikisym-article-deletion
-excerpt: '<i>Conference proceeding presented at International Symposium on Wikis and Open Collaboration, 2011-10-05</i><br/>This paper investigates Wikipedia&apos;s article deletion processes, finding that it is heavily populated by specialists.'
+venue: "International Symposium on Wikis and Open Collaboration"
 date: 2011-10-05
+location: "Mountain View, CA"
+excerpt: "This paper investigates Wikipedia&apos;s article deletion processes, finding that it is heavily populated by specialists."
 ---
 
 <a href='http://www.stuartgeiger.com/papers/article-deletion-wikisym-geiger-ford.pdf'>Link to more information</a>

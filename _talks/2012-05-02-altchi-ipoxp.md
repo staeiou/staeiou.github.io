@@ -1,9 +1,12 @@
 ---
 title: "Black-boxing the user: internet protocol over xylophone players (IPoXP)"
-category: proceedings
+collection: talks
+talk_type: "Conference proceedings talk"
 permalink: /talks/2012-05-02-altchi-ipoxp
-excerpt: '<i>Conference proceeding presented at Conference on Human Factors in Computing (CHI), 2012-05-02</i><br/>We introduce IP over Xylophone Players (IPoXP), a novel Internet protocol between two computers using xylophone-based Arduino interfaces'
+venue: "Conference on Human Factors in Computing (CHI)"
 date: 2012-05-02
+location: "Austin, Texas"
+excerpt: "We introduce IP over Xylophone Players (IPoXP), a novel Internet protocol between two computers using xylophone-based Arduino interfaces"
 ---
 
 <a href='http://stuartgeiger.com/ipoxp.pdf'>Link to more information</a>

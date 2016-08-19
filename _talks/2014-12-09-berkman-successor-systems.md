@@ -1,7 +1,9 @@
 ---
 title: "Supporting Change from Outside Systems with Design and Data"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2014-12-09-berkman-successor-systems
-excerpt: '<i>Talk at Berkman Center for Internet and Society, 2014-12-09</i><br/>'
+venue: "Berkman Center for Internet and Society"
 date: 2014-12-09
----
+location: "Cambridge, MA"
+excerpt: "---

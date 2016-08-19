@@ -1,9 +1,11 @@
 ---
 title: "Trace Ethnography Workshop"
-category: workshop
+collection: talks
+talk_type: "Workshop presentation"
 permalink: /talks/2015-03-24-iconf-trace-ethno
-excerpt: '<i>Workshop talk at ISchools Conference, 2015-03-24</i><br/>'
+venue: "ISchools Conference"
 date: 2015-03-24
----
+location: "Newport Beach, CA"
+excerpt: "---
 
 <a href='http://trace-ethnography.github.io'>Link to more information</a>

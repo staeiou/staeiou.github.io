@@ -1,7 +1,9 @@
 ---
 title: "Trace literacy: a framework for holistically conceptualizing newcomer socialization in socio-technical systems"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2012-10-12-infosocial-trace-literacy
-excerpt: '<i>Talk at Infosocial, 2012-10-12</i><br/>'
+venue: "Infosocial"
 date: 2012-10-12
----
+location: "Evanston, IL"
+excerpt: "---

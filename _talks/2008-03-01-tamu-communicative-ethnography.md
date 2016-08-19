@@ -1,7 +1,9 @@
 ---
 title: "A Communicative Ethnography of Argumentative Strategies in a Wikipedian Content Dispute"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2008-03-01-tamu-communicative-ethnography
-excerpt: '<i>Talk at Exploring New Media Worlds, 2008-03-01</i><br/>'
+venue: "Exploring New Media Worlds"
 date: 2008-03-01
----
+location: "College Station, TX"
+excerpt: "---

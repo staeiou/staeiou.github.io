@@ -1,7 +1,9 @@
 ---
 title: "What Aren’t We Measuring?  Methods for Quantifying Wiki-Work."
-category: panel
+collection: talks
+talk_type: "Panelist"
 permalink: /talks/2012-10-29-wikisym-methods
-excerpt: '<i>Panelist at International Symposium on Wikis and Open Collaboration (WikiSym 2012), 2012-10-29</i><br/>'
+venue: "International Symposium on Wikis and Open Collaboration (WikiSym 2012)"
 date: 2012-10-29
----
+location: "Linz, Austria"
+excerpt: "---

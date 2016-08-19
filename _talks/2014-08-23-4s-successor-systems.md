@@ -1,7 +1,9 @@
 ---
 title: "Successor Systems: The Role of Reflexive Algorithms in Enacting Ideological Critique"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2014-08-23-4s-successor-systems
-excerpt: '<i>Talk at Annual Meeting of the Society for the Social Study of Science (4S), 2014-08-23</i><br/>'
+venue: "Annual Meeting of the Society for the Social Study of Science (4S)"
 date: 2014-08-23
----
+location: "Buenos Aires, Argentina"
+excerpt: "---

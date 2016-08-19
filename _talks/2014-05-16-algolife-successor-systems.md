@@ -1,7 +1,9 @@
 ---
 title: "Successor Systems: The Role of Reflexive Algorithms in Enacting Ideological Critique"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2014-05-16-algolife-successor-systems
-excerpt: '<i>Talk at The Contours of Algorithmic Life, 2014-05-16</i><br/>'
+venue: "The Contours of Algorithmic Life"
 date: 2014-05-16
----
+location: "Davis, CA"
+excerpt: "---

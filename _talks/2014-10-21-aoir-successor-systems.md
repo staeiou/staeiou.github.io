@@ -1,7 +1,9 @@
 ---
 title: "Successor Systems: The Role of Reflexive Algorithms in Enacting Ideological Critique"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2014-10-21-aoir-successor-systems
-excerpt: '<i>Talk at Annual Meeting of the Association of Internet Researchers (AoIR), 2014-10-21</i><br/>'
+venue: "Annual Meeting of the Association of Internet Researchers (AoIR)"
 date: 2014-10-21
----
+location: "Daegu, South Korea"
+excerpt: "---

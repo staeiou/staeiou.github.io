@@ -1,9 +1,12 @@
 ---
 title: "Using Edit Sessions to Measure Participation in Wikipedia (with Aaron Halfaker)"
-category: proceedings
+collection: talks
+talk_type: "Conference proceedings talk"
 permalink: /talks/2013-02-23-cscw-edit-sessions
-excerpt: '<i>Conference proceeding presented at Conference on Computer Supported Cooperative Work, 2013-02-23</i><br/>This paper establishes a quantitative metric for measuring editor activity through temporal edit sessions.'
+venue: "Conference on Computer Supported Cooperative Work"
 date: 2013-02-23
+location: "San Antonio, TX"
+excerpt: "This paper establishes a quantitative metric for measuring editor activity through temporal edit sessions."
 ---
 
 <a href='http://www.stuartgeiger.com/cscw-sessions.pdf'>Link to more information</a>

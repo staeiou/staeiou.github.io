@@ -1,7 +1,9 @@
 ---
 title: "Conceptions and Misconceptions Academics Hold About Wikipedia"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2008-07-19-wikimania-academics-wikipedia
-excerpt: '<i>Talk at Annual Wikimedia Conference (Wikimania), 2008-07-19</i><br/>'
+venue: "Annual Wikimedia Conference (Wikimania)"
 date: 2008-07-19
----
+location: "Alexandria, Egypt"
+excerpt: "---

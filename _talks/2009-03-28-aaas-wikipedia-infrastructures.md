@@ -1,7 +1,9 @@
 ---
 title: "Working With/in Wikipedia: Infrastructures of Knowing and Knowledge Production"
-category: talk
+collection: talks
+talk_type: "Talk"
 permalink: /talks/2009-03-28-aaas-wikipedia-infrastructures
-excerpt: '<i>Talk at Annual Conference on Science and Technology in Society, 2009-03-28</i><br/>'
+venue: "Annual Conference on Science and Technology in Society"
 date: 2009-03-28
----
+location: "Wasthington, Dc"
+excerpt: "---
