@@ -6,4 +6,4 @@ permalink: /talks/2009-09-25-nyu-trace-ethnography
 venue: " the Second Annual Media Sociology Forum"
 date: 2009-09-25
 location: "New York, NY"
-excerpt: "---
+---

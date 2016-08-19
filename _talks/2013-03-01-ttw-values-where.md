@@ -6,4 +6,4 @@ permalink: /talks/2013-03-01-ttw-values-where
 venue: "Theorizing the Web"
 date: 2013-03-01
 location: "New York, NY"
-excerpt: "---
+---

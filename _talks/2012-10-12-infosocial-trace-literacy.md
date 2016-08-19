@@ -6,4 +6,4 @@ permalink: /talks/2012-10-12-infosocial-trace-literacy
 venue: "Infosocial"
 date: 2012-10-12
 location: "Evanston, IL"
-excerpt: "---
+---

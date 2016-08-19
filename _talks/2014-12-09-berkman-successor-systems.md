@@ -6,4 +6,4 @@ permalink: /talks/2014-12-09-berkman-successor-systems
 venue: "Berkman Center for Internet and Society"
 date: 2014-12-09
 location: "Cambridge, MA"
-excerpt: "---
+---
