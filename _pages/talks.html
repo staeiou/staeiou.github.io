@@ -6,8 +6,10 @@ author_profile: true
 ---
 
 {% include base_path %}
-
-
+    <div data-role="collapsible">
+      <h1>Show map of places I've given talks</h1>
+      <iframe height="650" width="850" frameBorder="0" src="https://staeiou.github.io/talk_map/map.html"> </iframe>
+    </div>
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
