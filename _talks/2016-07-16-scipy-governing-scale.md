@@ -1,6 +1,7 @@
 ---
 title: "Governing Open Source Projects at Scale: Lessons from Wikipedia's Growing Pains"
 collection: talks
+layout: single
 talk_type: "Talk"
 permalink: /talks/2016-07-16-scipy-governing-scale
 venue: "SciPy"
