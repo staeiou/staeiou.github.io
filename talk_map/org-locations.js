@@ -15,6 +15,11 @@ var addressPoints = [
     -66.0534398736473
   ],
   [
+    "2016-02-17, Talk at The Hacker Within, BIDS<br/>\n<a href='2016-02-17-thw-scraping-wikipedia'>Scraping Wikipedia Data</a>",
+    37.8708393,
+    -122.2728638
+  ],
+  [
     "2012-03-31, Talk at GCOE International Symposium on Informatics Education<br/>\n<a href='2012-03-31-gcoe-wikipedia-notifications'>Improving Wikipedia\u2019s Notifications to Rejected Contributors</a>",
     35.0185804,
     135.763835
