@@ -3,7 +3,7 @@ id: 18
 title: 'Response: Patchwork Girl by Shelly Jackson'
 date: 2007-04-12T22:12:21+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=18
 permalink: /2007/04/response-patchwork-girl-by-shelly-jackson/
 categories:

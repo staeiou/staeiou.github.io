@@ -3,7 +3,7 @@ id: 24
 title: 'Web Design: Blueprints on the CSS Zen Garden'
 date: 2006-05-18T13:16:55+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=24
 permalink: /2006/05/web-design-blueprints-on-the-css-zen-garden/
 categories:

@@ -3,7 +3,7 @@ id: 37
 title: 'Wikimania 2008: Content and the Internet in the (Globalized) Middle East'
 date: 2008-07-18T00:42:58+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=37
 permalink: /2008/07/wikimania-2008-content-and-the-internet-in-the-globalized-middle-east/
 categories:

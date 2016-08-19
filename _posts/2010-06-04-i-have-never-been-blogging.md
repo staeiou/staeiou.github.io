@@ -3,7 +3,7 @@ id: 332
 title: I Have Never Been Blogging
 date: 2010-06-04T06:41:34+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=332
 permalink: /2010/06/i-have-never-been-blogging/
 categories:

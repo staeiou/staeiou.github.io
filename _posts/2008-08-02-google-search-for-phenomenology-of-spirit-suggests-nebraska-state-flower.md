@@ -3,7 +3,7 @@ id: 140
 title: 'Google Search for &#8220;Phenomenology of Spirit&#8221; Suggests &#8220;Nebraska State Flower&#8221;'
 date: 2008-08-02T11:05:59+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=140
 permalink: /2008/08/google-search-for-phenomenology-of-spirit-suggests-nebraska-state-flower/
 categories:

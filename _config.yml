@@ -233,8 +233,8 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: single
-      author_profile: false
+      layout: talk
+      author_profile: true
       share: true
 
 

@@ -3,7 +3,7 @@ id: 167
 title: 'Video: Conceptions and Misconceptions Academics Hold About Wikipedia'
 date: 2008-08-15T14:32:06+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=167
 permalink: /2008/08/video-conceptions-and-misconceptions-academics-hold-about-wikipedia/
 categories:

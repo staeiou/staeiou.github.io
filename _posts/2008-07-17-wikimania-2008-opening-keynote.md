@@ -3,11 +3,11 @@ id: 32
 title: 'Wikimania 2008: Opening Keynote with Egyptian Minister Ahmed Darwish'
 date: 2008-07-17T04:10:52+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=32
 permalink: /2008/07/wikimania-2008-opening-keynote/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Conference Notes
 tags:

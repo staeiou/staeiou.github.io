@@ -3,7 +3,7 @@ id: 422
 title: The Lives of Bots
 date: 2011-03-05T08:10:44+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=422
 permalink: /2011/03/the-lives-of-bots/
 categories:

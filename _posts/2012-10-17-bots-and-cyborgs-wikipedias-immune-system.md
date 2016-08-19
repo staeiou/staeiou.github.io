@@ -3,11 +3,11 @@ id: 544
 title: 'Bots and Cyborgs: Wikipedia&#8217;s Immune System'
 date: 2012-10-17T04:13:31+00:00
 author: stuart
-layout: post
+
 guid: http://stuartgeiger.com/wordpress/?p=544
 permalink: /2012/10/bots-and-cyborgs-wikipedias-immune-system/
-spacious_page_layout:
-  - default_layout
+
+
 categories:
   - Uncategorized
 tags:

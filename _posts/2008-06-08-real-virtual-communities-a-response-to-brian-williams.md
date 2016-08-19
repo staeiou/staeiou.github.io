@@ -5,7 +5,7 @@ date: 2008-06-08T18:13:03+00:00
 author: stuart
 excerpt: |
   Brian Williams talked about how this year's primary season has shown that even in the age of the Internet, we still have a longing for real communities.  I take issue with his use of "virtual community" and claim that most political communities are virtual.
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=28
 permalink: /2008/06/real-virtual-communities-a-response-to-brian-williams/
 categories:

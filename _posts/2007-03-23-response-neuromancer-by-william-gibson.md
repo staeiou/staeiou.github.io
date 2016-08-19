@@ -3,7 +3,7 @@ id: 17
 title: 'Response: Neuromancer by William Gibson'
 date: 2007-03-23T22:09:46+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=17
 permalink: /2007/03/response-neuromancer-by-william-gibson/
 categories:

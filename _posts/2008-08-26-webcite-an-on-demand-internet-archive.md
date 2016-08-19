@@ -3,7 +3,7 @@ id: 179
 title: 'WebCite: An On-Demand Internet Archive'
 date: 2008-08-26T09:49:23+00:00
 author: stuart
-layout: post
+
 guid: http://www.stuartgeiger.com/wordpress/?p=179
 permalink: /2008/08/webcite-an-on-demand-internet-archive/
 categories:
