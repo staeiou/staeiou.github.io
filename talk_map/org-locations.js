@@ -215,6 +215,11 @@ var addressPoints = [
     -117.1627713
   ],
   [
+    "2016-01-16, Talk at Wikipedia 15th Anniversary Birthday Bash<br/>\n<a href='2016-01-16-wiki15-bots'>Why bots are my favorite contribution to Wikipedia</a>",
+    37.7792808,
+    -122.4192362
+  ],
+  [
     "2011-01-03, Conference proceedings talk at Hawaii International Conference on System Sciences<br/>\n<a href='2011-01-03-hicss-trace-ethnography'>Trace Ethnography: Following Coordination through Documentary Practices</a>",
     21.9811111,
     -159.371111
