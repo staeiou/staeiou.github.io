@@ -82,6 +82,8 @@ author:
   avatar           : "http://stuartgeiger.com/wordpress/wp-content/uploads/2008/05/oban3.jpg"
   bio              : "computational ethnographer & ethnographer of computation"
   location         : "Berkeley, CA"
+  employer         : "Berkeley Institute for Data Science"
+  googlescholar    : "https://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en"
   email            :
   uri              : 
   bitbucket        :
@@ -106,6 +108,7 @@ author:
   weibo            :
   xing             :
   youtube          :
+  wikipedia        : "staeiou"
 
 
 # Reading Files
