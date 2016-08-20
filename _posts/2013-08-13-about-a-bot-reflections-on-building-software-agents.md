@@ -19,4 +19,4 @@ tags:
   - technology
   - wikipedia
 ---
-[This post for Ethnography Matters](ttp://ethnographymatters.net/2013/08/13/about-a-bot/) is a very personal, reflective musing about the first bot I ever developed for Wikipedia. It makes the argument that while it is certainly important to think about software code and algorithms behind bots and other AI agents, they are not immaterial. In fact, the physical locations and social contexts in which they are run are often critical to understanding how they both &#8216;live&#8217; and &#8216;die&#8217;.
+[This post for Ethnography Matters](http://ethnographymatters.net/2013/08/13/about-a-bot/) is a very personal, reflective musing about the first bot I ever developed for Wikipedia. It makes the argument that while it is certainly important to think about software code and algorithms behind bots and other AI agents, they are not immaterial. In fact, the physical locations and social contexts in which they are run are often critical to understanding how they both &#8216;live&#8217; and &#8216;die&#8217;.
