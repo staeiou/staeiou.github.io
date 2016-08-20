@@ -22,6 +22,7 @@ tags:
   - social media
   - timeline
 ---
+
 I don&#8217;t normally pick on people whose work I really admire, but I recently saw [a tweet](https://twitter.com/samplereality/status/244151842974609408) from Mark Sample that struck a nerve: &#8220;Look, if you don&#8217;t instagram your first pumpkin spice latte of the season, humanity&#8217;s historical record will be dangerously impoverished.&#8221;  While it got quite a number of retweets and equally snarky responses, he is far from the first to make such a flippant critique of the vapid nature of social media.  It also seriously upset me for reasons that I&#8217;ve been trying to work out, which is why I found myself doing one of those shifts that researchers of knowledge production tend to do far too often with critics: don&#8217;t get mad, get reflexive.  What is it that makes such a sentiment resonate with us, particularly when it is issued over Twitter, a platform that is the target of this kind of critique?  The reasons have to do with a fundamental disagreement over what it means to interact in a mediated space: do we understand our posts, status updates, and shared photos as representations of how we exist in the world which collectively constitute a certain persistent performance of the self, or do we understand them a form of communication in which we subjectively and interactionally relate our experience of the world to others?
 
 <!--more-->
