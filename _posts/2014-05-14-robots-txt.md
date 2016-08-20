@@ -2,7 +2,8 @@
 id: 653
 title: 'A dynamically-generated robots.txt: will search engine bots recognize themselves?'
 date: 2014-05-14T01:37:02+00:00
-author: stuartguid: http://stuartgeiger.com/wordpress/?p=653
+author: stuart
+guid: http://stuartgeiger.com/wordpress/?p=653
 permalink: /2014/05/robots-txt/
 redirect_from:
   - /wordpress/2014/05/robots-txt/
@@ -19,6 +20,7 @@ tags:
   - philosophy
   - technology
 ---
+
 In short, I built a script that dynamically generates a robots.txt file for search engine bots, who download the file when they seek direction on what parts of a website they are allowed to index. By default, it directs all bots to stay away from the entire site, but then presents an exception: only the bot that requests the robots.txt file is allowed full reign over the site. If Google&#8217;s bot downloads the robots.txt file, it will see that only Google&#8217;s bot gets to index the entire site. If Yahoo&#8217;s bot downloads the robots.txt file, it will see that only Yahoo&#8217;s bot gets to index the entire site. Of course, this is assuming that bots identify themselves to my server in a way that they recognize when it is reflected back to them.
 
 <!--more-->
