@@ -80,7 +80,7 @@ analytics:
 author:
   name             : *name
   avatar           : "http://stuartgeiger.com/wordpress/wp-content/uploads/2008/05/oban3.jpg"
-  bio              : "computational ethnographer & ethnographer of computation<br/><a href='http://bids.berkeley.edu'>Postdoc at the Berkeley Institute for Data Science</a>"
+  bio              : "computational ethnographer & ethnographer of computation<br/>Postdoc at <a href='http://bids.berkeley.edu'>the Berkeley Institute for Data Science</a>"
   location         : "Berkeley, CA"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en"
