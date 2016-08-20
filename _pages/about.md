@@ -2,7 +2,9 @@
 permalink: /
 title: "About"
 excerpt: "About me"
-modified: 2016-04-18T16:39:37-04:00
+redirect_from: 
+  - "/wordpress/"
+  - "/wordpress/index.html"
 ---
 
 {% include base_path %}

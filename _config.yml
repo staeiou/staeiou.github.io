@@ -80,8 +80,10 @@ analytics:
 author:
   name             : *name
   avatar           : "http://stuartgeiger.com/wordpress/wp-content/uploads/2008/05/oban3.jpg"
-  bio              : "computational ethnographer & ethnographer of computation"
+  bio              : "<ul style='list-style: none;'><li>computational ethnographer</li><li>ethnographer of computation</li><li>Postdoc at the <a href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a></li>"
   location         : "Berkeley, CA"
+  employer         : 
+  googlescholar    : "https://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en"
   email            :
   uri              : 
   bitbucket        :
@@ -96,6 +98,7 @@ author:
   instagram        : 
   lastfm           :
   linkedin         :
+  orcid            : "http://orcid.org/0000-0001-7215-0532"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -106,6 +109,7 @@ author:
   weibo            :
   xing             :
   youtube          :
+  wikipedia        : "staeiou"
 
 
 # Reading Files
@@ -258,6 +262,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:

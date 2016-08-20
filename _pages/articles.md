@@ -3,6 +3,8 @@ layout: archive
 title: "Academic Articles"
 permalink: /articles/
 author_profile: true
+redirect_from: 
+  - /wordpress/academic-papers/
 ---
 You can also find my articles on [Google Scholar](http://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en)
 

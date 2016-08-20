@@ -25,8 +25,14 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
+      {% if author.employer %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.uri }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
@@ -51,6 +57,9 @@
       {% endif %}
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+      {% endif %}
+      {% if author.orcid %}
+        <li><a href="{{ author.orcid }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> ORCID</a></li>
       {% endif %}
       {% if author.tumblr %}
         <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></li>
@@ -96,6 +105,9 @@
       {% endif %}
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
+      {% endif %}
+      {% if author.wikipedia %}
+        <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa fa-fw fa-wikipedia" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
     </ul>
   </div>

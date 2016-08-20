@@ -1,11 +1,11 @@
 # main links links
 main:
+  - title: "Academic Publications"
+    url: /articles/
+
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Academic Articles"
-    url: /articles/
-  
   - title: "Expressions"
     url: /expressions/
     
