@@ -3,9 +3,10 @@ id: 422
 title: The Lives of Bots
 date: 2011-03-05T08:10:44+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=422
 permalink: /2011/03/the-lives-of-bots/
+redirect_from:
+  - /wordpress/2011/03/the-lives-of-bots/
+  - /wordpress/?p=422
 categories:
   - Academic Works
   - Published Works

@@ -3,9 +3,10 @@ id: 242
 title: 'WikiConference New York: An Open Unconference'
 date: 2009-09-07T12:35:10+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=242
 permalink: /2009/09/wikiconference-new-york-an-open-unconference/
+redirect_from:
+  - /wordpress/2009/09/wikiconference-new-york-an-open-unconference/
+  - /wordpress/?p=242
 categories:
   - Conference Notes
   - Wikis

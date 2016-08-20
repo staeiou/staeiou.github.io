@@ -3,9 +3,10 @@ id: 198
 title: 'Researching Wikipedia Holistically: A Tentative Approach'
 date: 2008-10-11T18:25:03+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=198
 permalink: /2008/10/researching-wikipedia-holistically-a-tentative-approach/
+redirect_from:
+  - /wordpress/2008/10/researching-wikipedia-holistically-a-tentative-approach/
+  - /wordpress/?p=198
 categories:
   - Thesis
   - Unpublished

@@ -5,8 +5,10 @@ date: 2008-05-23T20:04:17+00:00
 author: stuart
 excerpt: Works licensed under the GPL and the GFDL can be modified and then freely redistributed, as long as the modified versions are released under the same conditions. Why are we not allowed to modify these licenses and redistribute them?
 
-guid: http://www.stuartgeiger.com/wordpress/?p=22
 permalink: /2008/05/why-arent-the-gpl-and-the-gfdl-freely-licensed/
+redirect_from:
+  - /wordpress/2008/05/why-arent-the-gpl-and-the-gfdl-freely-licensed/
+  - /wordpress/?p=22
 categories:
   - Blog Posts
 tags:

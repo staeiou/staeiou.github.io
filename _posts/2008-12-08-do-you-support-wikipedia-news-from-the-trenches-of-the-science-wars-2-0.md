@@ -5,8 +5,10 @@ date: 2008-12-08T08:56:23+00:00
 author: stuart
 excerpt: 'I show that asking whether Wikipedia is a reliable academic source enframes Wikipedia into an objectless standing-reserve of potential citations, foreclosing many other possibilities for its use.  Instead of asking what Wikipedia has done to reality, I ask: what have we done to Wikipedia in the name of reality?'
 
-guid: http://www.stuartgeiger.com/wordpress/?p=213
 permalink: /2008/12/do-you-support-wikipedia-news-from-the-trenches-of-the-science-wars-2-0/
+redirect_from:
+  - /wordpress/2008/12/do-you-support-wikipedia-news-from-the-trenches-of-the-science-wars-2-0/
+  - /wordpress/?p=213
 categories:
   - Academic Works
   - Unpublished

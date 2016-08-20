@@ -3,9 +3,10 @@ id: 188
 title: 'FAS Virtual Worlds Almanac: A Semantic Structured Wiki'
 date: 2008-09-05T09:23:58+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=188
 permalink: /2008/09/fas-virtual-worlds-almanac-a-semantic-structured-wiki/
+redirect_from:
+  - /wordpress/2008/09/fas-virtual-worlds-almanac-a-semantic-structured-wiki/
+  - /wordpress/?p=188
 categories:
   - Blog Posts
 ---

@@ -1,12 +1,11 @@
 ---
 title: Come to the Trace Ethnography workshop at the 2015 iConference!
 date: 2015-01-08T16:23:09+00:00
-author: stuart
-layout: default
-guid: http://stuartgeiger.com/wordpress/?p=726
+author: stuartlayout: default
 permalink: /2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
-
-
+redirect_from:
+  - /wordpress/2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
+  - /wordpress/?p=726
 categories:
   - Uncategorized
 tags:

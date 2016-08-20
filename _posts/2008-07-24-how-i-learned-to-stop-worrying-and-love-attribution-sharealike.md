@@ -3,9 +3,10 @@ id: 123
 title: How I Learned to Stop Worrying and Love Attribution-ShareAlike
 date: 2008-07-24T13:38:49+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=123
 permalink: /2008/07/how-i-learned-to-stop-worrying-and-love-attribution-sharealike/
+redirect_from:
+  - /wordpress/2008/07/how-i-learned-to-stop-worrying-and-love-attribution-sharealike/
+  - /wordpress/?p=123
 categories:
   - Blog Posts
 tags:

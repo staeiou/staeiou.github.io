@@ -3,9 +3,10 @@ id: 16
 title: 'Response: Me++: The Cyborg Self and the Networked City by William Mitchell'
 date: 2007-01-29T22:05:28+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=16
 permalink: /2007/01/response-the-cyborg-self-and-the-networked-city-by-william-mitchell/
+redirect_from:
+  - /wordpress/2007/01/response-the-cyborg-self-and-the-networked-city-by-william-mitchell/
+  - /wordpress/?p=16
 categories:
   - Reviews and Responses
 tags:

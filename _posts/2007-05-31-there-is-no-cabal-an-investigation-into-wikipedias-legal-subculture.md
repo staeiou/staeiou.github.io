@@ -5,8 +5,10 @@ date: 2007-05-31T22:18:36+00:00
 author: stuart
 excerpt: 'An investigation into the community formed by small number of Wikipedia contributors who care enough to decide how, at some level, Wikipedia is run.  The work discusses identity, communication, and organizational hierarchy in this subculture.'
 
-guid: http://www.stuartgeiger.com/wordpress/?p=27
 permalink: /2007/05/there-is-no-cabal-an-investigation-into-wikipedias-legal-subculture/
+redirect_from:
+  - /wordpress/2007/05/there-is-no-cabal-an-investigation-into-wikipedias-legal-subculture/
+  - /wordpress/?p=27
 categories:
   - Academic Works
   - Unpublished

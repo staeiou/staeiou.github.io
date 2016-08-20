@@ -5,8 +5,10 @@ date: 2006-05-05T21:37:10+00:00
 author: stuart
 excerpt: 'The vast worlds of MMORPGs seem close to postmodern theories of identity, as a player is able to radically constitute their on-line self at will.  Despite this, these virtual gaming communities should not be seen as safe spaces in which a subject can realize their true (or ideal) self.'
 
-guid: http://www.stuartgeiger.com/wordpress/?p=13
 permalink: /2006/05/notions-of-identity-liberation-in-virtual-gaming-communities/
+redirect_from:
+  - /wordpress/2006/05/notions-of-identity-liberation-in-virtual-gaming-communities/
+  - /wordpress/?p=13
 categories:
   - Academic Works
   - Unpublished

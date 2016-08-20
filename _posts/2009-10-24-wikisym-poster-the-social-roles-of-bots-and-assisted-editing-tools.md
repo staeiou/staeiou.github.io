@@ -3,9 +3,10 @@ id: 272
 title: 'Wikisym Poster: The Social Roles of Bots and Assisted Editing Tools'
 date: 2009-10-24T10:04:21+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=272
 permalink: /2009/10/wikisym-poster-the-social-roles-of-bots-and-assisted-editing-tools/
+redirect_from:
+  - /wordpress/2009/10/wikisym-poster-the-social-roles-of-bots-and-assisted-editing-tools/
+  - /wordpress/?p=272
 categories:
   - Conference Presentations
   - Wikis

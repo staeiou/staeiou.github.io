@@ -3,9 +3,10 @@ id: 447
 title: 'Closed-source papers on open source communities: a problem and a partial solution'
 date: 2011-06-12T11:24:27+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=447
 permalink: /2011/06/closed-source-papers-on-open-source-communities-a-problem-and-a-partial-solution/
+redirect_from:
+  - /wordpress/2011/06/closed-source-papers-on-open-source-communities-a-problem-and-a-partial-solution/
+  - /wordpress/?p=447
 categories:
   - Blog Posts
   - Wikis

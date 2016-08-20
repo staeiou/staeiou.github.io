@@ -5,8 +5,10 @@ date: 2009-01-23T10:10:06+00:00
 author: stuart
 excerpt: "In an age of information overload, the history of Wikipedia's co-evolving media use and governance model gives us a powerful lesson regarding the way in which the development of social structures and media technologies are fundamentally interrelated in the digital era.   "
 
-guid: http://www.stuartgeiger.com/wordpress/?p=218
 permalink: /2009/01/evolving-governance-and-media-use-in-wikipedia-a-historical-account/
+redirect_from:
+  - /wordpress/2009/01/evolving-governance-and-media-use-in-wikipedia-a-historical-account/
+  - /wordpress/?p=218
 categories:
   - Conference Presentations
 tags:

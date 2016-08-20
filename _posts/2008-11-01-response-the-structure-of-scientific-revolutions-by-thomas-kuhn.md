@@ -5,8 +5,10 @@ date: 2008-11-01T06:45:47+00:00
 author: stuart
 excerpt: "A response to Thomas Kuhn's The Structure of Scientific Revolutions, in which his work is applied to a personal vignette of experimentation practices in a High School Physics class.  When in the course of scientific education should students be allowed to modify scientific theories to fit experimental data instead of modifying experiments to fit the theories?"
 
-guid: http://www.stuartgeiger.com/wordpress/?p=200
 permalink: /2008/11/response-the-structure-of-scientific-revolutions-by-thomas-kuhn/
+redirect_from:
+  - /wordpress/2008/11/response-the-structure-of-scientific-revolutions-by-thomas-kuhn/
+  - /wordpress/?p=200
 categories:
   - Reviews and Responses
 tags:

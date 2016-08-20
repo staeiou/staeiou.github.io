@@ -3,9 +3,10 @@ id: 158
 title: 'Virtual Worlds in 1996: The More Things Change&#8230;'
 date: 2008-08-13T07:34:37+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=158
 permalink: /2008/08/virtual-worlds-in-1996-the-more-things-change/
+redirect_from:
+  - /wordpress/2008/08/virtual-worlds-in-1996-the-more-things-change/
+  - /wordpress/?p=158
 categories:
   - Blog Posts
 tags:

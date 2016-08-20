@@ -3,9 +3,10 @@ id: 26
 title: A Communicative Ethnography of Argumentative Strategies in a Wikipedian Content Dispute
 date: 2008-03-28T13:39:02+00:00
 author: stuart
-
-guid: http://www.stuartgeiger.com/wordpress/?p=26
 permalink: /2008/03/a-communicative-ethnography-of-argumentative-strategies-in-a-wikipedian-content-dispute/
+redirect_from:
+  - /wordpress/2008/03/a-communicative-ethnography-of-argumentative-strategies-in-a-wikipedian-content-dispute/
+  - /wordpress/?p=26
 categories:
   - Conference Presentations
 tags:
