@@ -2,7 +2,6 @@
 permalink: /
 title: "About"
 excerpt: "About me"
-modified: 2016-04-18T16:39:37-04:00
 ---
 
 {% include base_path %}
