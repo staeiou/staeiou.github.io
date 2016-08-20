@@ -2,6 +2,9 @@
 permalink: /
 title: "About"
 excerpt: "About me"
+redirect_from: 
+  - "/wordpress/"
+  - "/wordpress/index.html"
 ---
 
 {% include base_path %}
