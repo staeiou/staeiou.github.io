@@ -1,11 +1,12 @@
 ---
 title: Come to the Trace Ethnography workshop at the 2015 iConference!
-date: 2015-01-08T16:23:09+00:00
+date: 2015-01-08T16:23:09.000Z
 author: stuart
 layout: default
 permalink: /2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
 redirect_from:
-  - /wordpress/2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
+  - >-
+    /wordpress/2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
   - /wordpress/?p=726
 categories:
   - Uncategorized
@@ -17,6 +18,7 @@ tags:
   - research
   - trace data
   - virtual
+published: true
 ---
 We&#8217;re organizing a workshop on trace ethnography at the 2015 iConference, led by Amelia Acker, Matt Burton, David Ribes, and myself. See more information about it on [the workshop&#8217;s website](http://trace-ethnography.github.io/), or feel free to contact me for more information.
 
