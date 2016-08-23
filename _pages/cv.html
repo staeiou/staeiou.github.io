@@ -64,17 +64,7 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}
 
-{% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" or collection.label == "expressions" %}
-    {% capture label %}{{ collection.label }}{% endcapture %}
-    {% if label != written_label %}
-      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}
-  {% endunless %}
-  {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single-cv.html %}
-    {% endunless %}
+<h2>Talks</h2>
+  {% for post in site.talks %}
+    {% include archive-single-cv.html %}
   {% endfor %}
-{% endfor %}
