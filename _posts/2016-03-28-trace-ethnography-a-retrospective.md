@@ -1,6 +1,7 @@
 ---
 title: 'Trace Ethnography: A Retrospective'
 date: 2016-03-28T18:55:01+00:00
+permalink: /posts/2016/03/trace-ethnography-a-retrospective
 ---
 _This is a cross-post of [a post I wrote](http://ethnographymatters.net/blog/2016/03/23/trace-ethnography-a-retrospective/) for Ethnography Matters, in their [&#8220;The Person in the (Big) Data&#8221; series](http://ethnographymatters.net/editions/the-person-in-the-big-data/)_
 
