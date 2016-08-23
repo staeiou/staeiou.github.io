@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "images/oban3.jpg"
+  avatar           : "oban3.jpg"
   bio              : "Ethnographer and postdoc at the <a style='color: black;' href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a>"
   location         : "Berkeley, CA"
   employer         : 
