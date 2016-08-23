@@ -66,5 +66,7 @@ redirect_from:
 
 <h2>Talks</h2>
   {% for post in site.talks %}
-    {% include archive-single-talk.html %}
+    {% unless post.talk_type == "Conference proceedings talk" %}
+      {% include archive-single-talk.html %}
+    {% endunless %}
   {% endfor %}
