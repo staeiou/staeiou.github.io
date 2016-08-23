@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : *name
+  name             : 
   avatar           : "oban3.jpg"
   bio              : "Computational ethnographer, ethnographer of computation, and postdoc at the <a style='color: black;' href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a>"
   location         : "Berkeley, CA"
