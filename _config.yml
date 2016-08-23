@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "https://stuartgeiger.com/wordpress/wp-content/uploads/2008/05/oban3.jpg"
+  avatar           : "images/oban3.jpg"
   bio              : "Ethnographer and postdoc at the <a style='text-color:black;' href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a>"
   location         : "Berkeley, CA"
   employer         : 
