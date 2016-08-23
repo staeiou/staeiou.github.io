@@ -5,7 +5,7 @@ date: 2008-08-09T10:26:43+00:00
 author: stuart
 excerpt: 'An outright ban on technology in the classroom - which may or may not include the pen and paper - is not the right answer.  If one wishes to curb disruptive behavior, then ban disruptive behavior instead of banning all the little things that could be disruptive. '
 
-permalink: /2008/08/technology-in-the-classroom-a-response-to-arthur-bochner/
+permalink: /posts/2008/08/technology-in-the-classroom-a-response-to-arthur-bochner/
 redirect_from:
   - /wordpress/2008/08/technology-in-the-classroom-a-response-to-arthur-bochner/
   - /wordpress/?p=146

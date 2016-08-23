@@ -3,7 +3,7 @@ id: 18
 title: 'Response: Patchwork Girl by Shelly Jackson'
 date: 2007-04-12T22:12:21+00:00
 author: stuart
-permalink: /2007/04/response-patchwork-girl-by-shelly-jackson/
+permalink: /posts/2007/04/response-patchwork-girl-by-shelly-jackson/
 redirect_from:
   - /wordpress/2007/04/response-patchwork-girl-by-shelly-jackson/
   - /wordpress/?p=18

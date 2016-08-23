@@ -3,7 +3,7 @@ id: 455
 title: 'The ethnography of robots: interview at Ethnography Matters'
 date: 2012-08-14T17:55:17+00:00
 author: stuart
-permalink: /2012/08/the-ethnography-of-robots-interview-at-ethnography-matters/
+permalink: /posts/2012/08/the-ethnography-of-robots-interview-at-ethnography-matters/
 redirect_from:
   - /wordpress/2012/08/the-ethnography-of-robots-interview-at-ethnography-matters/
   - /wordpress/?p=455

@@ -3,7 +3,7 @@ id: 35
 title: 'Wikimania 2008: Education and the Wiki Paradigm: A Tug of War?'
 date: 2008-07-17T23:48:55+00:00
 author: stuart
-permalink: /2008/07/wikimania-2008-education-and-the-wiki-paradigm-a-tug-of-war/
+permalink: /posts/2008/07/wikimania-2008-education-and-the-wiki-paradigm-a-tug-of-war/
 redirect_from:
   - /wordpress/2008/07/wikimania-2008-education-and-the-wiki-paradigm-a-tug-of-war/
   - /wordpress/?p=35

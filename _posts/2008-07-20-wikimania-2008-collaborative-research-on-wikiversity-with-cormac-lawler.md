@@ -3,7 +3,7 @@ id: 80
 title: 'Wikimania 2008: Collaborative research on Wikiversity with Cormac Lawler'
 date: 2008-07-20T13:29:15+00:00
 author: stuart
-permalink: /2008/07/wikimania-2008-collaborative-research-on-wikiversity-with-cormac-lawler/
+permalink: /posts/2008/07/wikimania-2008-collaborative-research-on-wikiversity-with-cormac-lawler/
 redirect_from:
   - /wordpress/2008/07/wikimania-2008-collaborative-research-on-wikiversity-with-cormac-lawler/
   - /wordpress/?p=80

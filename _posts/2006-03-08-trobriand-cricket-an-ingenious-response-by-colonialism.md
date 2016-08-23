@@ -5,7 +5,7 @@ date: 2006-03-08T21:44:45+00:00
 author: stuart
 excerpt: Embracing Trobriand cricket as an instance in which domineering cultural empires were repelled is a flawed concept which masks the very forms of domination that it attempts to criticize.
 
-permalink: /2006/03/trobriand-cricket-an-ingenious-response-by-colonialism/
+permalink: /posts/2006/03/trobriand-cricket-an-ingenious-response-by-colonialism/
 redirect_from:
   - /wordpress/2006/03/trobriand-cricket-an-ingenious-response-by-colonialism/
   - /wordpress/?p=14

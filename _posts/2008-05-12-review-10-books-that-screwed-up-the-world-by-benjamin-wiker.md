@@ -5,7 +5,7 @@ date: 2008-05-12T22:34:21+00:00
 author: stuart
 excerpt: "Benjamin Wiker's book on bad books throughout the ages is misinformed and makes a few critical errors in its analysis.  Specifically, it ignores the cultural context around each book he critiques, treating them as pure subliminal propaganda.  "
 
-permalink: /2008/05/review-10-books-that-screwed-up-the-world-by-benjamin-wiker/
+permalink: /posts/2008/05/review-10-books-that-screwed-up-the-world-by-benjamin-wiker/
 redirect_from:
   - /wordpress/2008/05/review-10-books-that-screwed-up-the-world-by-benjamin-wiker/
   - /wordpress/?p=19

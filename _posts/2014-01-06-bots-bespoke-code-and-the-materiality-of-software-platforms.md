@@ -2,7 +2,7 @@
 title: Bots, bespoke code, and the materiality of software platforms
 date: 2014-01-06T21:22:54+00:00
 author: stuart
-permalink: /2014/01/bots-bespoke-code-and-the-materiality-of-software-platforms/
+permalink: /posts/2014/01/bots-bespoke-code-and-the-materiality-of-software-platforms/
 redirect_from: 
   - /wordpress/2014/01/bots-bespoke-code-and-the-materiality-of-software-platforms/
 categories:

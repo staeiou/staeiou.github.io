@@ -3,7 +3,7 @@ id: 316
 title: 'Perils of Keyword-Based Bibliometrics: ISI&#8217;s &#8216;1990 Effect&#8217;'
 date: 2010-02-05T12:32:22+00:00
 author: stuart
-permalink: /2010/02/perils-of-keyword-based-bibliometrics-isis-1990-effect/
+permalink: /posts/2010/02/perils-of-keyword-based-bibliometrics-isis-1990-effect/
 redirect_from:
   - /wordpress/2010/02/perils-of-keyword-based-bibliometrics-isis-1990-effect/
   - /wordpress/?p=316

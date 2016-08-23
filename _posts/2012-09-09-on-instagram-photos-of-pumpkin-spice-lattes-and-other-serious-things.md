@@ -3,7 +3,7 @@ id: 480
 title: An apologia for instagram photos of pumpkin spice lattes and other serious things
 date: 2012-09-09T21:10:09+00:00
 author: stuart
-permalink: /2012/09/on-instagram-photos-of-pumpkin-spice-lattes-and-other-serious-things/
+permalink: /posts/2012/09/on-instagram-photos-of-pumpkin-spice-lattes-and-other-serious-things/
 redirect_from:
   - /wordpress/2012/09/on-instagram-photos-of-pumpkin-spice-lattes-and-other-serious-things/
   - /wordpress/?p=480

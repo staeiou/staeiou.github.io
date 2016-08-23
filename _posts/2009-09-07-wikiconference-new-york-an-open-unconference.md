@@ -3,7 +3,7 @@ id: 242
 title: 'WikiConference New York: An Open Unconference'
 date: 2009-09-07T12:35:10+00:00
 author: stuart
-permalink: /2009/09/wikiconference-new-york-an-open-unconference/
+permalink: /posts/2009/09/wikiconference-new-york-an-open-unconference/
 redirect_from:
   - /wordpress/2009/09/wikiconference-new-york-an-open-unconference/
   - /wordpress/?p=242

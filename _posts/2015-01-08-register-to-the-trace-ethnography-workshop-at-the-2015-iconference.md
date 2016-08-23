@@ -3,7 +3,7 @@ title: Come to the Trace Ethnography workshop at the 2015 iConference!
 date: 2015-01-08T16:23:09.000Z
 author: stuart
 layout: default
-permalink: /2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
+permalink: /posts/2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/
 redirect_from:
   - >-
     /wordpress/2015/01/register-to-the-trace-ethnography-workshop-at-the-2015-iconference/

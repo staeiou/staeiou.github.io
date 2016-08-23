@@ -5,7 +5,7 @@ date: 2008-11-08T09:05:19+00:00
 author: stuart
 excerpt: "This is a review of Julian Orr's Talking About Machines, an ethnography of Xerox photocopier technicians. Blurring the line between ethnomethodology, organizational communication, infrastructure studies, human-computer/machine interaction, business administration, and traditional ethnography of work, his study reveals more than just the daily practices of what may initially seem like a boring job."
 
-permalink: /2008/11/review-talking-about-machines-by-julian-orr/
+permalink: /posts/2008/11/review-talking-about-machines-by-julian-orr/
 redirect_from:
   - /wordpress/2008/11/review-talking-about-machines-by-julian-orr/
   - /wordpress/?p=202

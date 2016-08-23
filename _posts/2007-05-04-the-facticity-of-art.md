@@ -3,7 +3,7 @@ id: 5
 title: The Facticity of Art
 date: 2007-05-04T19:41:48+00:00
 author: stuart
-permalink: /2007/05/the-facticity-of-art/
+permalink: /posts/2007/05/the-facticity-of-art/
 redirect_from:
   - /wordpress/2007/05/the-facticity-of-art/
   - /wordpress/?p=5

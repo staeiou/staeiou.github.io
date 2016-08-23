@@ -3,7 +3,7 @@ id: 65
 title: 'Wikimania 2008: Flagged Revisions with Philipp Birken'
 date: 2008-07-20T11:46:58+00:00
 author: stuart
-permalink: /2008/07/wikimania-2008-flagged-revisions-with-philipp-birken/
+permalink: /posts/2008/07/wikimania-2008-flagged-revisions-with-philipp-birken/
 redirect_from:
   - /wordpress/2008/07/wikimania-2008-flagged-revisions-with-philipp-birken/
   - /wordpress/?p=65

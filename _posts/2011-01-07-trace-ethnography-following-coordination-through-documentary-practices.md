@@ -3,7 +3,7 @@ id: 395
 title: 'Trace Ethnography: Following Coordination through Documentary Practices'
 date: 2011-01-07T15:34:35+00:00
 author: stuart
-permalink: /2011/01/trace-ethnography-following-coordination-through-documentary-practices/
+permalink: /posts/2011/01/trace-ethnography-following-coordination-through-documentary-practices/
 redirect_from:
   - /wordpress/2011/01/trace-ethnography-following-coordination-through-documentary-practices/
   - /wordpress/?p=395

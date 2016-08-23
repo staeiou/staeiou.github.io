@@ -5,7 +5,7 @@ date: 2005-11-23T21:56:19+00:00
 author: stuart
 excerpt: Corporate adoption of open source software should not be viewed as antithetical to capitalism; rather, it is an example of corporations co-opting Communism to become more capitalist.
 
-permalink: /2005/11/open-source-software-the-newest-specter/
+permalink: /posts/2005/11/open-source-software-the-newest-specter/
 redirect_from:
   - /wordpress/2005/11/open-source-software-the-newest-specter/
   - /wordpress/?p=15

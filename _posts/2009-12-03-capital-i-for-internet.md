@@ -6,7 +6,7 @@ author: stuart
 excerpt: |
   Do you capitalize "Internet?"  Some scholars from the emerging field of 'Internet studies' say no.  I say yes.
 
-permalink: /2009/12/capital-i-for-internet/
+permalink: /posts/2009/12/capital-i-for-internet/
 redirect_from:
   - /wordpress/2009/12/capital-i-for-internet/
   - /wordpress/?p=299
