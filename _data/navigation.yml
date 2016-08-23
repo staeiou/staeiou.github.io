@@ -3,15 +3,15 @@ main:
   - title: "Academic Publications"
     url: /articles/
 
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Talks"
+    url: /talks/    
     
   - title: "Expressions"
     url: /expressions/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
     
-  - title: "Talks"
-    url: /talks/    
-
   - title: "CV"
     url: /cv/
   
