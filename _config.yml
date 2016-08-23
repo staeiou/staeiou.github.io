@@ -168,7 +168,7 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  teaching:
     output: true
     permalink: /:collection/:path/
   articles:
@@ -202,18 +202,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
+  # _teaching
   - scope:
       path: ""
-      type: docs
+      type: pages
     values:
       layout: single
       read_time: false
       author_profile: false
       share: false
       comments: false
-      sidebar:
-        nav: "docs"
   # _articles
   - scope:
       path: ""
@@ -240,8 +238,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
-
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
