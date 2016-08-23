@@ -4,6 +4,8 @@ category: articles
 permalink: /articles/2011-10-05-wikisym-article-deletion
 excerpt: '<i>Published in Proceedings of WikiSym, 2011</i><br/>This paper investigates Wikipedia&apos;s article deletion processes, finding that it is heavily populated by specialists.'
 date: 2011-10-05
+venue: 'Proceedings of WikiSym'
+citation: 'Geiger, R. Stuart and Heather Ford. (2011) “Participation in Wikipedia’s Deletion Processes.” In Proceedings of the 7th International Symposium on Wikis and Open Collaboration (WikiSym 2011). New York: ACM Digital Library. http://www.stuartgeiger.com/papers/article-deletion-wikisym-geiger-ford.pdf'
 ---
 
 <a href='http://www.stuartgeiger.com/papers/article-deletion-wikisym-geiger-ford.pdf'>Download PDF here</a>

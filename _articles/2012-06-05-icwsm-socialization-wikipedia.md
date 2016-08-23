@@ -4,6 +4,8 @@ category: articles
 permalink: /articles/2012-06-05-icwsm-socialization-wikipedia
 excerpt: '<i>Published in Proceedings of ICWSM, 2012</i><br/>A descriptive study of Wikipedia&apos;s highly-automated socialization processes and an A/B test to improve templated messages to newcomers.'
 date: 2012-06-05
+venue: 'Proceedings of ICWSM'
+citation: 'Geiger, R. Stuart, Aaron Halfaker, Maryana Pinchuk, and Steven Walling (2012). “Defense Mechanism or Socialization Tactic?  Improving Wikipedia’s Notifications to Rejected Contributors.” In Proceedings of the 2012 International Conference on Weblogs and Social Media (ICWSM 2012). http://stuartgeiger.com/defense-mechanism-icwsm.pdf'
 ---
 
 <a href='http://stuartgeiger.com/defense-mechanism-icwsm.pdf'>Download PDF here</a>

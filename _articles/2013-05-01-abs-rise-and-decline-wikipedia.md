@@ -4,6 +4,8 @@ category: articles
 permalink: /articles/2013-05-01-abs-rise-and-decline-wikipedia
 excerpt: '<i>Published in American Behavioral Scientist, 2013</i><br/>A mixed-method, multi-study analysis of editor retention, socialization, gatekeeping, and governance in Wikipedia.'
 date: 2013-05-01
+venue: 'American Behavioral Scientist'
+citation: 'Halfaker, Aaron., R. Stuart Geiger, Jonathan Morgan, and John Riedl. (2013). “The Rise and Decline of an Open Collaboration System: How Wikipedia’s reaction to sudden popularity is killing it.” American Behavioral Scientist 57(5). http://dx.doi.org/10.1177/0002764212469365'
 ---
 
 <a href='http://www-users.cs.umn.edu/~halfak/publications/The_Rise_and_Decline/halfaker13rise-preprint.pdf'>Download PDF here</a>

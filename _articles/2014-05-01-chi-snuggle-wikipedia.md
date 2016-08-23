@@ -4,6 +4,8 @@ category: articles
 permalink: /articles/2014-05-01-chi-snuggle-wikipedia
 excerpt: '<i>Published in Proceedings of CHI, 2014</i><br/>This paper discusses the Snuggle project, built to support newcomer socialization and reflexive critique of Wikipedia&apos;s existing socialization processes.'
 date: 2014-05-01
+venue: 'Proceedings of CHI'
+citation: 'Halfaker, Aaron., Geiger, R. Stuart., and Treveen, Loren. (2014). “Snuggle: Designing for Efﬁcient Socialization and Ideological Critique.” In Proceedings of the 2014 ACM Conference on Human Factors in Computing (CHI 2014). http://www-users.cs.umn.edu/~halfak/publications/Snuggle/halfaker14snuggle-personal.pdf'
 ---
 
 <a href='http://www-users.cs.umn.edu/~halfak/publications/Snuggle/halfaker14snuggle-personal.pdf'>Download PDF here</a>

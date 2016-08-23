@@ -4,6 +4,8 @@ category: articles
 permalink: /articles/2014-09-10-jobem-old-against-new
 excerpt: '<i>Published in Journal of Broadcasting and Electronic Media, 2014</i><br/>On the history and continued relevance of the term &quot;broadcasting&quot; in an era of social media.'
 date: 2014-09-10
+venue: 'Journal of Broadcasting and Electronic Media'
+citation: 'Geiger, R. Stuart and Lampinen, Airi. (2014). “Old Against New, or a Coming of Age? Broadcasting in an Era of Electronic Media.” Journal of Broadcasting and Electronic Media 58(3). http://www.stuartgeiger.com/jobem.pdf'
 ---
 
 <a href='http://www.stuartgeiger.com/jobem.pdf'>Download PDF here</a>

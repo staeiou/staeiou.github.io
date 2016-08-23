@@ -4,6 +4,8 @@ category: articles
 permalink: /articles/2014-11-02-hcomp-values-in-crowdsourcing
 excerpt: '<i>Published in Proceedings of HCOMP, Citizen-X Workshop, 2014</i><br/>We review various crowdsourcing and collective action systems, identifying particular sets of civic values and assumptions.'
 date: 2014-11-02
+venue: 'Proceedings of HCOMP, Citizen-X Workshop'
+citation: 'Matias, N. and Geiger, R.S. “Defining, Designing, and Evaluating Civic Values in Human Computation and Collective Action Systems.” In Proceedings of HCOMP 2014, Citizen-X Workshop. http://stuartgeiger.com/defining-civic-values-hcomp-matias-geiger.pdf.'
 ---
 
 <a href='http://stuartgeiger.com/defining-civic-values-hcomp-matias-geiger.pdf'>Download PDF here</a>
