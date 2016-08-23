@@ -60,14 +60,12 @@ redirect_from:
 </li>
 </ul>
 <h2>Publications</h2>
-
-
-  {% for post in articles.docs %}
+  {% for post in site.articles %}
     {% include archive-single-cv.html %}
   {% endfor %}
 
-{% for collection in site.collections.talk %}
-  {% unless collection.output == false or collection.label == "posts" %}
+{% for collection in site.collections %}
+  {% unless collection.output == false or collection.label == "posts" or collection.label == "expressions" %}
     {% capture label %}{{ collection.label }}{% endcapture %}
     {% if label != written_label %}
       <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
