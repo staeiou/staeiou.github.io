@@ -63,9 +63,7 @@ redirect_from:
 
 
   {% for post in articles.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single-cv.html %}
-    {% endunless %}
+    {% include archive-single-cv.html %}
   {% endfor %}
 
 {% for collection in site.collections.talk %}
