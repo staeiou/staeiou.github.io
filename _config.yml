@@ -80,7 +80,7 @@ analytics:
 author:
   name             : *name
   avatar           : "images/oban3.jpg"
-  bio              : "Ethnographer and postdoc at the <a style='text-color:black;' href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a>"
+  bio              : "Ethnographer and postdoc at the <a style='color: black;' href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a>"
   location         : "Berkeley, CA"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en"
