@@ -11,7 +11,7 @@ title                    : "R. Stuart Geiger"
 title_separator          : "-"
 name                     : &name "R. Stuart Geiger"
 description              : &description "computational ethnographer<br/>ethnographer of computation"
-url                      : https://staeiou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://stuartgeiger.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "staeiou/staeiou.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -47,7 +47,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : 
+google_site_verification : "3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -71,16 +71,16 @@ social:
 
 # Analytics
 analytics:
-  provider               : # "google-universal"  false (default), "google", "google-universal", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : 
+    tracking_id          : "UA-79273-2"
 
 
 # Site Author
 author:
-  name             : *name
-  avatar           : "http://stuartgeiger.com/wordpress/wp-content/uploads/2008/05/oban3.jpg"
-  bio              : "<ul style='list-style: none;'><li>computational ethnographer</li><li>ethnographer of computation</li><li>Postdoc at the <a href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a></li>"
+  name             : 
+  avatar           : "oban3.jpg"
+  bio              : "Computational ethnographer, ethnographer of computation, and postdoc at the <a style='color: black;' href='http://bids.berkeley.edu'>Berkeley Institute for Data Science</a>"
   location         : "Berkeley, CA"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en"
