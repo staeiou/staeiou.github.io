@@ -5,7 +5,8 @@ teaching_type: "Graduate course"
 permalink: /teaching/fall09-qualitative-data
 institution: "Georgetown University, CCT program"
 date: 2009-09-01
-excerpt: "<i>Role: Teaching assistant</i>
+excerpt: "Role: Teaching assistant<br/>
+Date: Fall 2009<br/>
 CCTP-783 is a core methods course for the CCT program, one of multiple classes M.A. students can take to satisfy their core methods requirement."
 ---
 

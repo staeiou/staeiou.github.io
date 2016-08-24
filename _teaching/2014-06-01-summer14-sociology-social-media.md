@@ -5,7 +5,8 @@ teaching_type: "Undergraduate course"
 permalink: /teaching/summer14-sociology-social-media
 institution: "UC-Berkeley, Dept of Sociology"
 date: 2014-06-01
-excerpt: "<i>Role: Instructor of record</i>
+excerpt: "Role: Instructor of record<br/>
+Date: Summer 2014<br/>
 SOC 167 is an elective undergraduate course in UC-Berkeley&apos;s Sociology Department, providing a wide overview to how classic concepts in the social sciences play out in social media and virtual communities"
 ---
 
