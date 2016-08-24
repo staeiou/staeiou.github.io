@@ -209,11 +209,11 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: pages
+      type: teaching
     values:
       layout: single
       read_time: false
-      author_profile: false
+      author_profile: true
       share: false
       comments: false
   # _articles
