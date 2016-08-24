@@ -5,7 +5,7 @@ teaching_type: "Graduate course"
 permalink: /teaching/spring12-social-info
 institution: "UC-Berkeley School of Information"
 date: 2012-01-01
-excerpt: "<i>Teaching assistant</i><br/>
+excerpt: "<i>Graduate course, Teaching assistant</i><br/>
 INFO 203 is a required course for the UC-Berkeley&apos;s Master of Information Management &amp; Systems (MIMS) program, and open to graduate students from all departments."
 ---
 

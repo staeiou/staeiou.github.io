@@ -5,7 +5,7 @@ teaching_type: "Undergraduate course"
 permalink: /teaching/spring14-sociology-social-media
 institution: "UC-Berkeley, Dept of Sociology"
 date: 2014-01-01
-excerpt: "<i>Adjunct lecturer</i><br/>
+excerpt: "<i>Undergraduate course, Adjunct lecturer</i><br/>
 SOC 167 is an elective undergraduate course in UC-Berkeley&apos;s Sociology Department, providing a wide overview to how classic concepts in the social sciences play out in social media and virtual communities"
 ---
 

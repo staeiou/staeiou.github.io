@@ -5,7 +5,7 @@ teaching_type: "Undergraduate course"
 permalink: /teaching/spring14-history-of-information
 institution: "UC-Berkeley School of Information"
 date: 2014-01-01
-excerpt: "<i>Teaching assistant</i><br/>
+excerpt: "<i>Undergraduate course, Teaching assistant</i><br/>
 INFO 103 is an elective undergraduate course in the UC-Berkeley School of Information, crosslisted with History, Media Studies, and Cognitive Science."
 ---
 
