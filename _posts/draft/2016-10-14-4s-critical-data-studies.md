@@ -1,9 +1,9 @@
 ---
-title: "Critical data studies track at the 4S/EASST Annual Conference"
+title: "Critical data studies track at the 2016 4S/EASST Annual Conference"
 published: 2016-08-25
 ---
 
-This is an updated schedule of track 113, Critical Data Studies. Some of the presenters who are listed in the official program have had to drop out, so this is an updated schedule. Please contact Stuart Geiger for more questions or if there is anything wrong with this list.
+This is an updated schedule of track 113, Critical Data Studies, at the 2016 Annual Meeting of the Society of the Social Study of Science (4S) and the European Association for the Study of Science and Technology (EASST). Some of the presenters who are listed in the official program have had to drop out, so this is an updated schedule. Please contact Stuart Geiger for more questions or if there is anything wrong with this list.
 
 ## Convenors: 
 * Charlotte Cabasse-Mazel (University of California, Berkeley)
@@ -37,7 +37,7 @@ Sat Sept 3rd, 11:00am-12:30pm; Room 116
 
 Chair: Nick Seaver
 
-* It's the context, stupid: Reproducibility as a scientific communication problem
+* It's the context, stupid: Reproducibility as a scientific communication problem [note: previously scheduled in 9am panel]
   * Brittany Fiore‐Gartland (University of Washington)
   * Anissa Tanweer (University of Washington)
 * Emerging Practices of Data‐Driven Accountability in Healthcare: Individual Attribution of C-Sections
