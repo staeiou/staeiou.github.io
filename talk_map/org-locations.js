@@ -160,6 +160,11 @@ var addressPoints = [
     -81.0998341
   ],
   [
+    "2010-07-10, Panelist at Wikimania 2010<br/>\n<a href='https://staeiou.github.io/talks/2010-07-10-wikimania-academic-researchers' target='_blank'>Academic Researchers in Wikimedia Communities: Ethics, Methods, and Policies</a>",
+    54.3482259,
+    18.6542888
+  ],
+  [
     "2015-03-15, Workshop presentation at CSCW Workshop on Ethics for Studying Sociotechnical Systems in a Big Data World<br/>\n<a href='https://staeiou.github.io/talks/2015-03-15-cscw-ethics-workshop' target='_blank'>Does Facebook Have Civil Servants? On Governmentality and Computational Social Science</a>",
     49.2608944,
     -123.1139382
