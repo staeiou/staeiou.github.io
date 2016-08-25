@@ -51,6 +51,8 @@ Chair: Nick Seaver
 ### T113.3: Learning, pedagogy, and practice
 Sat Sept 3rd, 14:00-15:30; Room 116
 
+Chair: TBD
+
 * Infrastructuring data analysis in Digital methods with digital data and tools
   * Klara Benda (IT University of Copenhagen)
 * "An afternoon hack" Enabling data driven scientific computing in the open
