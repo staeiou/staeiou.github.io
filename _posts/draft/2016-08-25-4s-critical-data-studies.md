@@ -17,7 +17,9 @@ This is an updated schedule of track 113, Critical Data Studies, at the 2016 Ann
 From our CFP: We invite papers investigating data-driven techniques in academic research and analytic industries and the consequences of implementing data-driven products and processes. Papers utilizing computational methods or ethnography with theorization of technology, social power, or politics are encouraged.
 
 ## Schedule
+
 ### T113.1: Data and scientific practice
+
 Sat Sept 3rd, 09:00-10:30am; Room 116
 
 Chairs: Charlotte Cabasse-Mazel and Stuart Geiger
