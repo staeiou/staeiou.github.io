@@ -5,6 +5,8 @@ published: 2016-08-25
 
 This is an updated schedule of track 113, Critical Data Studies, at the 2016 Annual Meeting of the Society of the Social Study of Science (4S) and the European Association for the Study of Science and Technology (EASST). Some of the presenters who are listed in the official program have had to drop out, so this is an updated schedule. Please contact Stuart Geiger for more questions or if there is anything wrong with this list.
 
+[Click here for abstracts of all the presentations.](http://www.nomadit.co.uk/easst/easst_4s2016/panels.php5?PanelID=4041)
+
 ## Convenors: 
 * Charlotte Cabasse-Mazel (University of California, Berkeley)
 * Stuart Geiger (UC-Berkeley)
