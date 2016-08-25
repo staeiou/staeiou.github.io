@@ -48,7 +48,7 @@ Chair: Nick Seaver
 * Big data and the mythology of algorithms
   * Howard Rosenbaum (Indiana University)
 
-### T113.3: Learning, pedagodgy, and practice
+### T113.3: Learning, pedagogy, and practice
 Sat Sept 3rd, 14:00-15:30; Room 116
 
 * Infrastructuring data analysis in Digital methods with digital data and tools
