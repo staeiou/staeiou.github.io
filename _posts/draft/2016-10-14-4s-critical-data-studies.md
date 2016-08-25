@@ -72,3 +72,5 @@ Chairs: Stuart Geiger and Charlotte Cabasse-Mazel
   * Tommaso Venturini (King's College); Anders Kristian Munk (University of Aalborg); Mathieu Jacomy (Sciences Po)
 * The Navigators
   * Nicholas Seaver (Tufts University)
+* Broad discussion on lessons learned and next steps
+  * Everyone!
