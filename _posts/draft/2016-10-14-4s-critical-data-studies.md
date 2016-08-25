@@ -1,7 +1,6 @@
 ---
 title: "Critical data studies track at the 4S/EASST Annual Conference"
-visible: false
-published: 3016-10-10
+published: 2016-08-25
 ---
 
 This is an updated schedule of track 113, Critical Data Studies. Some of the presenters who are listed in the official program have had to drop out, so this is an updated schedule. Please contact Stuart Geiger for more questions or if there is anything wrong with this list.
