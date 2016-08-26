@@ -66,7 +66,7 @@ Chair: TBD
 * Data science / science studies
   * Cathryn Carson (University of California, Berkeley)
 
-### T113.4: Data, theory, and design
+### T113.4: Data, theory, and looking forward
 Sat Sept 3rd, 16:00-17:30; Room 116
 
 Chairs: Stuart Geiger and Charlotte Cabasse-Mazel
