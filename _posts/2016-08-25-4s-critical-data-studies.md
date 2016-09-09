@@ -10,12 +10,16 @@ This is an updated schedule of track 113, Critical Data Studies, at the 2016 Ann
 * Charlotte Cabasse-Mazel (University of California, Berkeley)
 * Stuart Geiger (UC-Berkeley)
 * Laura Noren (New York University)
-* Gretchen Gano (University of California Berkeley)
 * Brittany Fiore‐Gartland (University of Washington)
+* Gretchen Gano (University of California Berkeley)
 * Massimo Mazzotti (University of California, Berkeley) 
 
 ## Description
-From our CFP: We invite papers investigating data-driven techniques in academic research and analytic industries and the consequences of implementing data-driven products and processes. Papers utilizing computational methods or ethnography with theorization of technology, social power, or politics are encouraged.
+This track brings together Science and Technology Studies scholars who are investigating data-driven techniques in academic research and analytic industries. Computational methods with large datasets are becoming more common across disciplines in academia (including the social sciences) and analytic industries. However, the sprawling and ambiguous boundaries of “big data” makes it difficult to research. The papers in this track investigate the relationship between theories, instruments, methods, practices, and infrastructures in data science research. How are such practices transforming the processes of knowledge creation and validation, as well as our understanding of empiricism and the scientific method?
+
+Many of the papers in this track are case studies that focus on one particular fieldsite where data-intensive research is taking place. Other papers explore connections between emerging theory, machinery, methods, and practices. These papers examine a wide variety of data-collection instruments, software, inscription devices, packages, algorithms, disciplines, institutions, and many focus on how a broad sociotechnical system is used to produce, analyze, share, and validate knowledge. In looking at the way these knowledge forms are objectified, classified, imagined, and contested, this track looks critically on the maturing practices of quantification and their historical, social, cultural, political, ideological, economical, scientific, and ecological impacts.
+
+When we say "critical," we are drawing on a long lineage from [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) to [critical theory](https://en.wikipedia.org/wiki/Critical_theory), investigating the conditions in which thinking and reasoning takes place. To take a critical approach to a field like data science is **not** to universally disapprove or reject it; it is more about looking at a broad range of social factors and impacts in and around data science. The papers in this track ask questions such as: How are new practices and approaches changing the way science is done? What does the organization of "big science" look like in an era of "big data"? How are institutions like hospitals, governments, schools, and cultural industries using data-driven practices to change how they operate? How are labor and management practices changing as data-intensive research is increasingly a standard part of major organizations? What are the conditions in which people are able to sufficiently understand and contest someone else's data analysis? What happens when data analysts and data scientists are put in the position of keeping their colleagues accountable to various metrics, discovering what music genres are 'hot', or evaluating the impacts of public policy proposals? And how ought we change our own concepts, theories, approaches, and methods in Science and Technology Studies given these changes we are witnessing?
 
 ## Schedule (without abstracts)
 
