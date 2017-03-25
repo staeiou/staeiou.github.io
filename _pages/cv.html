@@ -60,18 +60,18 @@ redirect_from:
 </li>
 </ul>
 <h2>Publications</h2>
-  {% for post in site.articles %}
+  <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}
+  {% endfor %}</ul>
 
 <h2>Talks</h2>
-  {% for post in site.talks %}
+  <ul>{% for post in site.talks %}
     {% unless post.talk_type == "Conference proceedings talk" %}
       {% include archive-single-talk-cv.html %}
     {% endunless %}
-  {% endfor %}
+  {% endfor %}</ul>
 
 <h2>Teaching</h2>
-  {% for post in site.teaching %}
+  <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}
+  {% endfor %}</ul>
