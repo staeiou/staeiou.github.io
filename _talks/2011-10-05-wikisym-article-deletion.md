@@ -1,7 +1,7 @@
 ---
 title: "Participation in Wikipedia’s Article Deletion Processes (with Heather Ford)"
 collection: talks
-talk_type: "Conference proceedings talk"
+type: "Conference proceedings talk"
 permalink: /talks/2011-10-05-wikisym-article-deletion
 venue: "International Symposium on Wikis and Open Collaboration"
 date: 2011-10-05

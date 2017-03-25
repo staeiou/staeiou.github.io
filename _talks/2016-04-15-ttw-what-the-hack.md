@@ -1,11 +1,11 @@
 ---
 title: "“What the hack?” Hacking culture and discourse in data science pedagogy (with Brittany Fiore-Gartland)"
 collection: talks
-talk_type: "Talk"
+type: "Talk"
 permalink: /talks/2016-04-15-ttw-what-the-hack
 venue: "Theorizing the Web"
 date: 2016-04-15
-location: "Queens, New York"
+location: "Astoria, New York"
 ---
 
 <a href='http://theorizingtheweb.tumblr.com/2016/program'>Link to more information</a>

@@ -1,7 +1,7 @@
 ---
 title: "Crowdsourcing: Theoretical Considerations"
 collection: talks
-talk_type: "Panelist"
+type: "Panelist"
 permalink: /talks/2015-11-06-crowdsourcing-academy
 venue: "Crowdsourcing and the Academy Symposium"
 date: 2015-11-06

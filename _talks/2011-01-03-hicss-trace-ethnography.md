@@ -1,7 +1,7 @@
 ---
 title: "Trace Ethnography: Following Coordination through Documentary Practices"
 collection: talks
-talk_type: "Conference proceedings talk"
+type: "Conference proceedings talk"
 permalink: /talks/2011-01-03-hicss-trace-ethnography
 venue: "Hawaii International Conference on System Sciences"
 date: 2011-01-03

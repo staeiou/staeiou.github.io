@@ -1,7 +1,7 @@
 ---
 title: "“The Wisdom of Bots:” An ethnographic study of the delegation of governance work to information infrastructures in Wikipedia"
 collection: talks
-talk_type: "Talk"
+type: "Talk"
 permalink: /talks/2016-09-02-4s-wisdom-of-bots
 venue: "Annual Meeting of the Society for the Social Study of Science (4S)"
 date: 2016-09-02

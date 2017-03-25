@@ -1,7 +1,7 @@
 ---
 title: "But it Wouldn’t Be an Encyclopedia; It Would Be a Wiki: Wikipedia and the Repurposing of WikiWikiWeb"
 collection: talks
-talk_type: "Talk"
+type: "Talk"
 permalink: /talks/2015-05-25-ica-wiki-history
 venue: "Annual Meeting of the International Communication Association (ICA)"
 date: 2015-05-25

@@ -1,7 +1,7 @@
 ---
 title: "Using Edit Sessions to Measure Participation in Wikipedia (with Aaron Halfaker)"
 collection: talks
-talk_type: "Conference proceedings talk"
+type: "Conference proceedings talk"
 permalink: /talks/2013-02-23-cscw-edit-sessions
 venue: "Conference on Computer Supported Cooperative Work"
 date: 2013-02-23

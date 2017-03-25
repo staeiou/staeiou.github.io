@@ -1,7 +1,7 @@
 ---
 title: "Data­-Driven Data Research Using Data and Databases: A Practical Critique of Methods and Approaches in “Big Data” Studies"
 collection: talks
-talk_type: "Panelist"
+type: "Panelist"
 permalink: /talks/2014-05-23-ica-data-driven-data
 venue: "Annual Meeting of the International Communication Association (ICA)"
 date: 2014-05-23

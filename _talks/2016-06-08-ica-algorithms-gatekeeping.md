@@ -1,7 +1,7 @@
 ---
 title: "Algorithms as agents of gatekeeping, governance, and articulation work in Wikipedia"
 collection: talks
-talk_type: "Talk"
+type: "Talk"
 permalink: /talks/2016-06-08-ica-algorithms-gatekeeping
 venue: "Algorithms, Automation, and Politics workshop"
 date: 2016-06-08

@@ -1,7 +1,7 @@
 ---
 title: "Administrative Support Bots in Wikipedia: How Automation Can Transform the Affordances of Platforms and the Governance of Communities"
 collection: talks
-talk_type: "Talk"
+type: "Talk"
 permalink: /talks/2016-06-14-ica-communicating-with-machines
 venue: "Communicating with Machines workshop"
 date: 2016-06-14

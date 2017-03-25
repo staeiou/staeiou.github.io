@@ -1,7 +1,7 @@
 ---
 title: "Successor Systems: Lessons for Big Data From Feminist Epistemology and Activism"
 collection: talks
-talk_type: "Talk"
+type: "Talk"
 permalink: /talks/2016-06-09-ica-successor-systems
 venue: "Big Data: Critiques and Alternatives workshop"
 date: 2016-06-09

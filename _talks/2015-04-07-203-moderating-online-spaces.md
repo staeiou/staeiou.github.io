@@ -1,7 +1,7 @@
 ---
 title: "Moderating Online Conversation Spaces"
 collection: talks
-talk_type: "Guest lecture"
+type: "Guest lecture"
 permalink: /talks/2015-04-07-203-moderating-online-spaces
 venue: "Social Aspects of Information Systems course"
 date: 2015-04-07

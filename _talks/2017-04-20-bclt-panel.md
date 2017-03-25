@@ -1,7 +1,7 @@
 ---
 title: "Demystifying Algorithmic Processes: The Case of Wikipedia"
 collection: talks
-talk_type: "Talk"
+type: "Panel"
 permalink: /talks/2017-04-20-bclt-panel
 venue: " The 21st Annual BCLT/BTLJ Symposium"
 date: 2017-04-20

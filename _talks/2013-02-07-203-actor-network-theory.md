@@ -1,7 +1,7 @@
 ---
 title: "Actor-Network Theory"
 collection: talks
-talk_type: "Guest lecture"
+type: "Guest lecture"
 permalink: /talks/2013-02-07-203-actor-network-theory
 venue: "Social Aspects of Information Systems course"
 date: 2013-02-07
