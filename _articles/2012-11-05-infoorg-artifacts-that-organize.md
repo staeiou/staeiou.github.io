@@ -2,7 +2,7 @@
 title: "Artifacts that Organize: Delegation in the Distributed Organization"
 category: articles
 permalink: /articles/2012-11-05-infoorg-artifacts-that-organize
-excerpt: '<i>Published in Information and Organization, 2012</i><br/>This paper studies the role of computational infrastructure and organizational structure in the Open Science Grid.'
+excerpt: 'This paper studies the role of computational infrastructure and organizational structure in the Open Science Grid.'
 date: 2012-11-05
 venue: 'Information and Organization'
 citation: 'Ribes, David, Steve Jackson, R. Stuart Geiger, Matt C. Burton, and Tom Finholt (2012). “Artifacts that organize: Delegation in the distributed organization.” Information and Organization 23:1–14. http://www.stuartgeiger.com/artifacts-that-organize.pdf'

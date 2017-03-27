@@ -2,7 +2,7 @@
 title: "Using Edit Sessions to Measure Participation in Wikipedia"
 category: articles
 permalink: /articles/2013-02-23-cscw-edit-sessions
-excerpt: '<i>Published in Proceedings of CSCW, 2013</i><br/>This paper establishes a quantitative metric for measuring editor activity through temporal edit sessions.'
+excerpt: 'This paper establishes a quantitative metric for measuring editor activity through temporal edit sessions.'
 date: 2013-02-23
 venue: 'Proceedings of CSCW'
 citation: 'Geiger, R. Stuart and Halfaker, Aaron. (2013). “Using Edit Sessions to Measure Participation in Wikipedia.” In Proceedings of the 2013 ACM Conference on Computer Supported Cooperative Work (CSCW 2013). http://www.stuartgeiger.com/cscw-sessions.pdf'
