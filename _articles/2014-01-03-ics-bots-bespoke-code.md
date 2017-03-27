@@ -2,7 +2,7 @@
 title: "Bots, bespoke code, and the materiality of software platforms"
 category: articles
 permalink: /articles/2014-01-03-ics-bots-bespoke-code
-excerpt: '<i>Published in Information, Communication, and Society, 2014</i><br/>This article introduces and discusses the role of bespoke code in Wikipedia, which is code that runs alongside a platform or system, rather than being integrated into server-side codebases.'
+excerpt: 'This article introduces and discusses the role of bespoke code in Wikipedia, which is code that runs alongside a platform or system, rather than being integrated into server-side codebases.'
 date: 2014-01-03
 venue: 'Information, Communication, and Society'
 citation: 'Geiger, R. Stuart. (2014). “Bots, Bespoke Code, and the Materiality of Software Platforms.” Information, Communication, and Society 17.  http://stuartgeiger.com/bespoke-code-ics.pdf'

@@ -2,7 +2,7 @@
 title: "When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control Processes?"
 category: articles
 permalink: /articles/2013-08-03-wikisym-levee-breaks-bots
-excerpt: '<i>Published in Proceedings of WikiSym, 2013</i><br/>This paper examines what happened when one of Wikipedia&apos;s counter-vandalism bots unexpectedly went offline.'
+excerpt: 'This paper examines what happened when one of Wikipedia&apos;s counter-vandalism bots unexpectedly went offline.'
 date: 2013-08-03
 venue: 'Proceedings of WikiSym'
 citation: 'Geiger, R. Stuart and Halfaker, Aaron. (2013). “When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control Processes?” In Proceedings of the 9th International Symposium on Wikis and Open Collaboration (WikiSym 2013). http://stuartgeiger.com/wikisym13-cluebot.pdf'
