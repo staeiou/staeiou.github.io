@@ -7,20 +7,23 @@
    ========================================================================== */
 
 .sidebar {
+  -webkit-transform: translate3d(0, 0 , 0);
+          transform: translate3d(0, 0 , 0);
+
   @include clearfix();
   margin-bottom: 1em;
-/*
+
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
     }
   }
-*/
+
   @include breakpoint($x-large) {
     padding-right: 0;
   }
@@ -41,7 +44,7 @@
   }
 
   img {
-    width: 125%;
+    width: 100%;
   }
 }
 
@@ -78,7 +81,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 110px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -97,7 +100,7 @@
 
   @include breakpoint($large) {
     display: block;
-    width: 125%;
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
