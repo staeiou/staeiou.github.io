@@ -102,25 +102,31 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
+/*
+$small                      : 400px;
+$medium                     : 500px;
+$medium-wide                : 550px;
+$large                      : 1200px;
+$x-large                    : 1800px;
+*/
 
-$small                      : 600px;
-$medium                     : 768px;
-$medium-wide                : 900px;
-$large                      : 1024px;
-$x-large                    : 1280px;
-
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 800px !default;
+$large                      : 825px !default;
+$x-large                    : 1080px !default;
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 200px;
-$right-sidebar-width        : 300px;
-$right-sidebar-width-wide   : 400px;
+$right-sidebar-width-narrow : 0px;
+$right-sidebar-width        : 0px;
+$right-sidebar-width-wide   : 0px;
 
 $susy: (
   columns: 12,
-  // column-width: 90px,
+  column-width: 120px,
   gutters: 1/4,
   math: fluid,
   output: float,
