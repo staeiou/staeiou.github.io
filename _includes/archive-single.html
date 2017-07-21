@@ -45,8 +45,9 @@
     {% endif %}
 
     {% if post.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | append '<a href="{{ base_path }}{{ post.url }}" rel="permalink"><strong> Read more</strong></a>'}}
     {% endif %}
+
     
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
