@@ -45,7 +45,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-read-more                : "enabled" # if enabled, adds a "read more" link to excerpts 
+read_more                : "enabled" # if enabled, adds a "read more" link to excerpts 
 
 # SEO Related
 google_site_verification : "3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg"
