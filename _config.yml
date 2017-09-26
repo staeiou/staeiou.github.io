@@ -46,6 +46,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 read_more                : "enabled" # if enabled, adds a "read more" link to excerpts 
+future                   : true
 
 # SEO Related
 google_site_verification : "3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg"
