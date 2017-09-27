@@ -1,5 +1,5 @@
 ---
-title: "New article on algorithms as culture and the need to go 'beyond opening up the black box'"
+title: "New article about algorithmic systems in Wikipedia and going 'beyond opening up the black box'"
 published: 2017-09-27
 permalink: /posts/2017/09/beyond-opening-black-box
 ---
