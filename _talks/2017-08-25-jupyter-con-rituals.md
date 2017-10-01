@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2017-08-25-jupyter-con-rituals
 venue: "JupyterCon"
-date: 2017-09-14
+date: 2017-08-25
 location: "New York, New York"
 excerpt: "We (Stuart Geiger, Brittany Fiore-Gartland, and Charlotte Cabasse-Mazel) share ethnographic findings made observing and working with Jupyter notebooks, focusing on how people use Jupyter to create and deliver computational narratives in particular local contexts, like classrooms, hackathons, research collaborations, and more."
 ---
