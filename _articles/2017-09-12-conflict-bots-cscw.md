@@ -8,7 +8,7 @@ venue: 'Proceedings of the ACM on Human-Compter Interaction'
 citation: 'R. Stuart Geiger and Aaron Halfaker. 2017. “Operationalizing conflict and cooperation between automated software agents in Wikipedia: A replication and expansion of Even Good Bots Fight." Proceedings of the ACM on Human-Computer Interaction (Nov 2017 issue, CSCW 2018 Online First) 1, 2, Article 49. DOI:https://doi.org/10.1145/3134684. https://commons.wikimedia.org/wiki/File:conflict-bots-wp-cscw.pdf.'
 ---
 
-This is an article by me and [Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF)), which will be published this November in _Proceedings of the ACM on Human-Computer Interaction_ -- the new home for peer-reviewed papers in the [CSCW](cscw.acm.org/2018) conference.
+This is an article by me and [Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF)), which will be published this November in _Proceedings of the ACM on Human-Computer Interaction_ -- the new home for peer-reviewed papers in the [CSCW](http://cscw.acm.org/2018) conference.
 
 <a href='https://upload.wikimedia.org/wikipedia/commons/f/f4/Operationalizing-conflict-bots-wikipedia-cscw-preprint.pdf'>Download PDF here</a> and [see our GitHub repository here](https://github.com/halfak/are-the-bots-really-fighting)
 
