@@ -43,7 +43,7 @@ In this course, you will not just study social media and virtual communities by 
 
 As this is a summer session, we have to fit a full semester into just 6 weeks, so the average workload is much higher than a normal semester course. This is a four-unit course, and this course&#39;s workload assumes that for every hour of lecture, you will need to spend 1-2 hours outside of class reading, reflecting, using social media, and completing assignments. As this course meets for four hours at a time, each class will be split into four sections with a 10-minute break after the first and third hours, and a 20 minute break after the second hour. There will be a participation component for at least one of the four hours of every class, to break up the lectures.
 
-If you need any particular accommodations to participate in this class, please contact me directly or through the DSP program (dsp.berkeley.edu), and we will work out the necessary arrangements. Please notify me in writing by the second week about any extracurricular conflicts (such as religious observances, graduate or medical school interviews, or team activities). I will try my best to help you with making accommodations, but cannot promise them in all cases. In the event there is no mutually-workable solution, you may be dropped from the class.
+If you need any particular accommodations to participate in this class, please contact me directly or through the DSP program (dsp.berkeley.edu), and we will work out the necessary arrangements. Please notify me in writing by the second week about any extracurricular conflicts (such as religious observances, graduate or medical school interviews, or team activities). 
 
 # Grading
 
