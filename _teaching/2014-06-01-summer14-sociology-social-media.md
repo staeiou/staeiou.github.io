@@ -79,6 +79,8 @@ I do not accept incompletes or late assignments unless discussed with me before 
 
 # Academic integrity, plagiarism, cheating, and the honor code
 
+[this section is taken from the UC-Berkeley Center for Teaching & Learning](https://teaching.berkeley.edu/resources/design/syllabus)
+
 Collaboration and Independence: Reviewing lecture and reading materials and studying for exams can be enjoyable and enriching things to do together with one&#39;s fellow students. We recommend this. However, homework and writing assignments should be completed independently and should be the result of one&#39;s own independent work.
 
 Cheating: Quizzes and exams are closed book, closed note, closed device. Anyone caught cheating on a quiz or exam will receive a failing grade and will be reported to the University Office of Student Conduct. In order to guarantee that you are not suspected of cheating, please keep your eyes on your own materials and do not chat or text during the quizzes and exams.
