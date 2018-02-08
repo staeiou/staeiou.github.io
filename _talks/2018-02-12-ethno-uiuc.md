@@ -2,7 +2,7 @@
 title: "Computational Ethnography and the Ethnography of Computation: The Case for Context"
 collection: talks
 type: "Talk"
-permalink: /talks/2017-09-14-computational-ethnography
+permalink: /talks/2018-02-12-computational-ethnography
 venue: "School of Information Sciences, University of Illinois at Urbana-Champaign"
 date: 2018-02-12
 location: "Urbana, Illinois"
