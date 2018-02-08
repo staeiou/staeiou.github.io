@@ -334,6 +334,16 @@ var addressPoints = [
     30.6253463,
     -96.3271538
   ],
+    [
+    "Computational Ethnography and the Ethnography of Computation | School of Information Sciences, University of Illinois at Urbana-Champaign, Urbana, Illinois",
+    40.1048122,
+    -88.2315515
+  ],
+    [
+    "Computational Ethnography and the Ethnography of Computation | School of Library and Information Sciences, University of North Carolina, Chapel Hill, North Carolina",
+     35.9080737,
+    -79.0503005
+  ],
   [
     "Does Facebook Have Civil Servants? On Governmentality and Computational Social Science | CSCW Workshop on Ethics for Studying Sociotechnical Systems in a Big Data World, Vancouver, BC",
     49.262428,
