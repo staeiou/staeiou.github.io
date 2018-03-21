@@ -1,7 +1,7 @@
 ---
 title: "The Human Contexts of Data: Infrastructures, Institutions, and Interpretations"
 collection: talks
-type: "Guest lecture"
+type: "Talk"
 permalink: /talks/2018-03-22-human-contexts-manchestere
 venue: "University of Manchester, Data Science Institute"
 date: 2018-03-22
