@@ -345,8 +345,27 @@ var addressPoints = [
     -79.0503005
   ],
   [
+    "Computational Ethnography and the Ethnography of Computation | ETHOSlab, IT University of Copenhagen, Copenhagen, Denmark",
+     55.659635,
+     12.5887693
+  ],
+  [
+    "The Human Contexts of Data: Infrastructures, Institutions, and Interpretations | Manchester Data Science Institute, University of Manchester, Manchester, UK",
+    53.4668498,
+    -2.2360724
+  ],
+  [
     "Does Facebook Have Civil Servants? On Governmentality and Computational Social Science | CSCW Workshop on Ethics for Studying Sociotechnical Systems in a Big Data World, Vancouver, BC",
     49.262428,
     -123.11554
+  ],
+   [
+    "Key Values: What We Talk About When We Talk About Open Science | Open Science Symposium, University of Hawaii at Manoa",
+    21.296939,
+    -157.8193005
+  ],
+  ["Publics: Witnessing and Measuring | Department of History, University of California, Berkeley",
+      37.8708393,
+    -122.2728639
   ]
 ];
