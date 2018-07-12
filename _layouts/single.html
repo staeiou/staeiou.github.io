@@ -4,6 +4,17 @@ layout: default
 
 {% include base_path %}
 
+    <script type="application/ld+json">
+    {
+	"@context": "http://schema.org/",
+	"@type": "CreativeWork",
+	"author": "R. Stuart Geiger",
+  "name": "{{ page.title }}"
+	"datePublished": "{{ page.date }}",
+	"description": "{{ page.excerpt }}",
+	"name": "name"
+}
+    </script>
 {% if (page.header.overlay_color or page.header.overlay_image) or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -22,6 +33,8 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    
+
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
