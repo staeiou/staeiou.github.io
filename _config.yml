@@ -68,8 +68,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://facebook.com/michaelrose"
+    - "https://twitter.com/staeiou"
+    - "http://orcid.org/0000-0001-7215-0532"
 
 # Analytics
 analytics:
