@@ -319,6 +319,11 @@ var addressPoints = [
     37.7791185,
     -122.4138641
   ],
+   [
+    "San Francisco, CA, USA | Machine Learning and User Experience SF| <a href='https://stuartgeiger.com/talks/2018-08-16-mlux'>Designing and Using Data Science Ethically </a>",
+    37.7791185,
+    -122.4138641
+  ],
   [
     "San Francisco, CA, USA | PyData SF | <a href='http://stuartgeiger.com/talks/talks/2016-08-13-pydata-community-sustainability'>Community Sustainability in Wikipedia: A Review of Research and Initiatives</a>",
     37.7791185,
