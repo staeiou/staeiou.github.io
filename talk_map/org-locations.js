@@ -345,6 +345,11 @@ var addressPoints = [
     -73.9302673
   ],
   [
+    "Paris, France | OpenSym | <a href-'https://stuartgeiger.com/talks/2018-08-23-opensym'> Qualitative and Quantitative Studies of Wikipedia (with Aaron Halfaker)</a>",
+    48.826543, 
+    2.346576
+  ],
+  [
     "Albany, California | Bay Area Science Festival | <a href='http://stuartgeiger.com/talks/talks/2017-11-01-ai-science'>The Humanity of Artificial Intelligence</a>",
     37.88687,
     -122.2977475
