@@ -4,7 +4,7 @@ published: 2018-10-31
 excerpt: "A summary of the first BIDS Best Practices lunch discussion, where we shared the challenges of doing research in groups."
 permalink: /posts/2018/10/best-practices-team-challenges
 ---
-By Stuart Geiger and Dan Sholler, based on a conversation with Aaron Culich, Ciera Martinez, Fernando Hoces, Francois Lanusse, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Sara Stoudt, and Stéfan van der Walt. 
+*By Stuart Geiger and Dan Sholler, based on a conversation with Aaron Culich, Ciera Martinez, Fernando Hoces, Francois Lanusse, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Sara Stoudt, and Stéfan van der Walt. This post first appeared on the [BIDS Blog](https://bids.berkeley.edu/news/challenges-doing-data-intensive-research-teams-and-groups).*
 
 This post is a summary of the first BIDS Best Practices lunch, in which we bring people together from across the Berkeley campus and beyond to discuss a particular challenge or issue in doing data-intensive research. The goal of the series is to informally share experiences and ideas on how to do data science well (or at least better) from many disciplines and contexts. The topic for this week was doing data-intensive research in teams, labs, and other groups. For this first meeting, we focused on just identifying and diagnosing the many different kinds of challenges. In future meetings, we will dive deeper into some of these specific issues and try to identify best practices for dealing with them.
 
