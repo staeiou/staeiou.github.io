@@ -4,7 +4,7 @@ category: articles
 permalink: /articles/2018-11-11-best-practices-team-challenges
 excerpt: "What are the challenges and best practices for doing data-intensive research in teams, labs, and other groups? This paper reports from a discussion in which researchers from many different disciplines and departments shared their experiences on doing data science in their domains."
 date: 2018-11
-citation: "R. Stuart Geiger, Dan Sholler, Aaron Culich, Ciera Martinez, Fernando Hoces de la Guardia, François Lanusse, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Nelle Varoquaux, Sara Stoudt, and Stéfan van der Walt. Challenges of Doing Data-Intensive Research in Teams, Labs, and Groups. _BIDS Best Practices in Data Science Series._ Berkeley Institute for Data Science: Berkeley, California. 2018. doi:10.31235/osf.io/a7b3m"
+citation: "R. Stuart Geiger, Dan Sholler, Aaron Culich, Ciera Martinez, Fernando Hoces de la Guardia, Francois Lanusse, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Nelle Varoquaux, Sara Stoudt, and Stefan van der Walt. Challenges of Doing Data-Intensive Research in Teams, Labs, and Groups. _BIDS Best Practices in Data Science Series._ Berkeley Institute for Data Science: Berkeley, California. 2018. doi:10.31235/osf.io/a7b3m"
 ---
 
 <a href="https://osf.io/preprints/socarxiv/a7b3m/download">Download PDF here.</a>
