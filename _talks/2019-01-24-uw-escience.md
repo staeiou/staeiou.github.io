@@ -1,5 +1,5 @@
 ---
-title: "Documenting data science and documentation in data science: an ethnographic exploration"
+title: "Documenting Data Science and Documentation in Data Science: an Ethnographic Exploration"
 collection: talks
 type: "Talk"
 permalink: /talks/2019-01-24-uw-documentation
