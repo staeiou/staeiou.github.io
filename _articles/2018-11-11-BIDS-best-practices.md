@@ -18,12 +18,21 @@ Recommended citation: R. Stuart Geiger, Dan Sholler, Aaron Culich, Ciera Martine
 
 ## Best Practices for Fostering Diversity and Inclusion in Data Science
 
-<a href="https://doi.org/10.31235/osf.io/8gsjz">Download PDF here.</a>
+<a href="https://osf.io/preprints/socarxiv/8gsjz/download">Download PDF here.</a>
 
 Abstract: What actions can we take to foster diverse and inclusive workplaces in the broad fields around data science? This paper reports from a discussion in which researchers from many different disciplines and departments raised questions and shared their experiences with various aspects around diversity, inclusion, and equity. The issues we discuss include fostering inclusive interpersonal and small group dynamics, rules and codes of conduct, increasing diversity in less-representative groups and disciplines, organizing events for diversity and inclusion, and long-term efforts to champion change.
 
 Recommended citation: R. Stuart Geiger, Orianna DeMasi, Aaron Culich, Andreas Zoglauer, Diya Das, Fernando Hoces de la Guardia, Kellie Ottoboni, Marsha Fenner, Nelle Varoquaux, Rebecca Barter, Richard Barnes, Sara Stoudt, Stacey Dorton, Stéfan
 van der Walt. "Best Practices for Fostering Diversity and Inclusion in Data Science: Report from the BIDS Best Practices in Data Science Series." _BIDS Best Practices in Data Science Series._ Berkeley, CA: Berkeley Institute for Data Science. 2019.
 <a href="https://doi.org/10.31235/osf.io/8gsjz">doi:10.31235/osf.io/8gsjz</a>
+
+## Best Practices for Managing Turnover in Data Science Groups, Teams, and Labs
+
+<a href="https://osf.io/preprints/socarxiv/wsxru/download">Download PDF here.</a>
+
+Abstract: Turnover is a fact of life for any project, and academic research teams can face particularly high levels of people who come and go through the duration of a project. In this article, we discuss the challenges of turnover and some potential practices for helping manage it, particularly for computational- and data-intensive research teams and projects. The topics we discuss include establishing and implementing data management plans, file and format standardization, workflow and process documentation, clear team roles, and check-in and check-out procedures.
+
+Recommended citation: Recommended citation: Dan Sholler, Diya Das, Fernando Hoces de la Guardia, Chris Hoffmann, François Lanusse, Nelle Varoquaux, Rolando Garcia, R. Stuart Geiger, Shana McDevitt, Scott Peterson, Sara Stoudt. "Best Practices for Managing Turnover in Data Science Groups, Teams, and Labs." BIDS Best Practices in Data Science Series. Berkeley, CA: Berkeley Institute for Data Science. 2019. <a href="https://doi.org/10.31235/osf.io/wsxru">doi:10.31235/osf.io/wsxru</a>
+
 
 
