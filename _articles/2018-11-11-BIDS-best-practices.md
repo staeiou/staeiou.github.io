@@ -34,5 +34,12 @@ Abstract: Turnover is a fact of life for any project, and academic research team
 
 Recommended citation: Recommended citation: Dan Sholler, Diya Das, Fernando Hoces de la Guardia, Chris Hoffmann, François Lanusse, Nelle Varoquaux, Rolando Garcia, R. Stuart Geiger, Shana McDevitt, Scott Peterson, Sara Stoudt. "Best Practices for Managing Turnover in Data Science Groups, Teams, and Labs." BIDS Best Practices in Data Science Series. Berkeley, CA: Berkeley Institute for Data Science. 2019. <a href="https://doi.org/10.31235/osf.io/wsxru">doi:10.31235/osf.io/wsxru</a>
 
+## Resistance to Adoption of Best Practices
+
+<a href="https://osf.io/preprints/socarxiv/qr8cz/download">Download PDF here.</a>
+
+Abstract: There are many recommendations of "best practices" for those doing data science, data-intensive research, and research in general. These documents usually present a particular vision of how people should work with data and computing, recommending specific tools, activities, mechanisms, and sensibilities. However, implementation of best (or better) practices in any setting is often met with resistance from individuals and groups, who perceive some drawbacks to the proposed changes to everyday practice. We offer some definitions of resistance, identify the sources of researchers' hesitancy to adopt new ways of working, and describe some of the ways resistance is manifested in data science teams. We then offer strategies for overcoming resistance based on our group members' experiences working alongside resistors or resisting change themselves. Our discussion concluded with many remaining questions left to tackle, some of which are listed at the end of this piece.
+
+Recommended citation: Recommended citation: Dan Sholler, Sara Stoudt, Chris Kennedy, Fernando Hoces de la Guardia, François Lanusse, Karthik Ram, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Nelle Varoquaux, Rebecca Barter, R. Stuart Geiger, Scott Peterson, and Stéfan van der Walt. "Resistance to Adoption of Best Practices." BIDS Best Practices in Data Science Series. Berkeley Institute for Data Science: Berkeley, California. 2019. <a href="https://osf.io/preprints/socarxiv/qr8cz/download">doi:10.31235/osf.io/qr8cz</a>
 
 
