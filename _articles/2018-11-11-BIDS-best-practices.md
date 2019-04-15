@@ -8,6 +8,8 @@ excerpt: "An ongoing series of short papers that report from discussions where w
 date: 2018-11-11
 ---
 
+This series is a set of reflections and write-ups from meetings we regularly hold at the Berkeley Institute for Data Science, where we bring a wide range of people from across the UC-Berkeley campus and beyond together to discuss how to do something challenging in data science well -- or at least better.
+
 ## Challenges of Doing Data-Intensive Research in Teams, Labs, and Groups
 
 <a href="https://osf.io/preprints/socarxiv/a7b3m/download">Download PDF here.</a>
