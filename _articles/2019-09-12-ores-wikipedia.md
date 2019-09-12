@@ -3,10 +3,9 @@ title: "ORES: Lowering Barriers with Participatory Machine Learning in Wikipedia
 category: articles
 permalink: /articles/2019-09-12-ores-wikipedia
 excerpt: "This paper presents an overview and case studies of ORES, Wikipedia's real-time machine learning as a service platform, which is designed in line with Wikipedia's values of open participation, decentralization, and continual iteration. ORES decouples and reduces incidental complexity around several aspects of applying machine learning in a user-generated content platform, including curating training data sets, building models to serve predictions, auditing predictions, and developing interfaces or automated agents that act on those predictions."
-date: 2019-09-09
+venue: "ArXiv Preprints (paper currently in review)"
+date: 2019-09-12
 ---
-
-Note: this is a public preprint, which is currently in peer-review. 
 
 <a href="https://github.com/staeiou/ores-paper-latex/raw/master/halfaker2019ores.pdf">Download PDF here</a>.
 
