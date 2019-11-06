@@ -8,9 +8,10 @@ permalink: /expressions/indentationerror-poem
 A poem written for the Poethon at the 2019 Moore-Sloan Data Science Environments (MSDSE) annual summit:
 
 ## IndentationError by R. Stuart Geiger
-
+<pre>
 space space space space
 space space space space
 space space space space
 tab
+</pre>
 
