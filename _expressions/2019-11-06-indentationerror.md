@@ -2,7 +2,8 @@
 title: IndentationError
 excerpt: An avant-garde poem about Pyhon
 collection: expressions
-permalink: /expressions/indentationerror-poem/
+date: 2019-11-06
+permalink: /expressions/indentationerror-poem
 ---
 
 A poem written for the Poethon at the 2019 Moore-Sloan Data Science Environments (MSDSE) annual summit:
