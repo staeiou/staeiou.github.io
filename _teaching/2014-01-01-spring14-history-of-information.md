@@ -2,7 +2,7 @@
 title: "INFO-103: History of Information (Spring 2014)"
 collection: teaching
 teaching_type: "Undergraduate course"
-permalink: /teaching/spring14-history-of-information
+permalink: /teaching/spring14-history-of-information/ 
 institution: "UC-Berkeley School of Information"
 date: 2014-01-01
 excerpt: "<i>Undergraduate course, Teaching assistant</i><br/>

@@ -3,7 +3,7 @@ id: 72
 title: 'Wikimania 2008: Wikipedia as Real Utopia with Edo Navot'
 date: 2008-07-20T13:19:39+00:00
 author: stuart
-permalink: /posts/2008/07/wikimania-2008-wikipedia-as-real-utopia-by-edo-navot/
+permalink: /posts/2008/07/wikimania-2008-wikipedia-as-real-utopia-by-edo-navot// 
 redirect_from:
   - /wordpress/2008/07/wikimania-2008-wikipedia-as-real-utopia-by-edo-navot/
   - /wordpress/?p=72

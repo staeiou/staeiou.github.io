@@ -2,7 +2,7 @@
 title: "Defining, Designing, and Evaluating Civic Values in Human Computation and Collective Action Systems (with Nathan Matias)"
 collection: talks
 type: "Talk"
-permalink: /talks/2014-11-02-hcomp-values-in-crowdsourcing
+permalink: /talks/2014-11-02-hcomp-values-in-crowdsourcing/ 
 venue: "Human Computation Conference (HCOMP), Citizen-X Workshop"
 date: 2014-11-02
 location: "Pittsburgh, PA"

@@ -2,7 +2,7 @@
 title: "Computational Ethnography and the Ethnography of Computation: The Case for Context"
 collection: talks
 type: "Talk"
-permalink: /talks/2018-03-26-computational-ethnography-itu
+permalink: /talks/2018-03-26-computational-ethnography-itu/ 
 venue: "IT University of Copenhagen, ETHOSlab"
 date: 2018-03-26
 location: "Copenhagen, Denmark"

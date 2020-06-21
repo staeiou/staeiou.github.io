@@ -2,7 +2,7 @@
 title: "Jupyter and the Changing Rituals around Computation"
 collection: talks
 type: "Talk"
-permalink: /talks/2017-08-25-jupyter-con-rituals
+permalink: /talks/2017-08-25-jupyter-con-rituals/ 
 venue: "JupyterCon"
 date: 2017-08-25
 location: "New York, New York"

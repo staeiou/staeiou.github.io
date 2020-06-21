@@ -2,7 +2,7 @@
 title: "Autoethnographic Methods for Studying Data-Driven Knowledge Production"
 collection: talks
 type: "Talk"
-permalink: /talks/2017-08-31-4s-autoethnographic-data
+permalink: /talks/2017-08-31-4s-autoethnographic-data/ 
 venue: "2017 Annual Meeting of the Society for the Social Studies of Science (4S)"
 date: 2017-08-31
 location: "Boston, Massachusetts"

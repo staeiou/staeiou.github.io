@@ -1,7 +1,7 @@
 ---
 title: "Critical data studies track at the 2016 4S/EASST Annual Conference"
 published: 2016-08-25
-permalink: /posts/2016/08/4s-critical-data-studies
+permalink: /posts/2016/08/4s-critical-data-studies/ 
 ---
 
 This is an updated schedule of track 113, Critical Data Studies, at the 2016 Annual Meeting of the Society of the Social Study of Science (4S) and the European Association for the Study of Science and Technology (EASST). Please contact Stuart Geiger if you have any questions.

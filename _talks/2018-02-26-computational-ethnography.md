@@ -2,7 +2,7 @@
 title: "Computational Ethnography and the Ethnography of Computation: The Case for Context"
 collection: talks
 type: "Talk"
-permalink: /talks/2018-02-26-computational-ethnography
+permalink: /talks/2018-02-26-computational-ethnography/ 
 venue: "College of Information Studies, University of Maryland at College Park"
 date: 2018-02-26
 location: "College Park, Maryland"

@@ -4,7 +4,7 @@ title: 'A dynamically-generated robots.txt: will search engine bots recognize th
 date: 2014-05-14T01:37:02+00:00
 author: stuart
 guid: http://stuartgeiger.com/wordpress/?p=653
-permalink: /posts/2014/05/robots-txt/
+permalink: /posts/2014/05/robots-txt// 
 excerpt: "I built a script that dynamically generates a robots.txt file for search engine bots, who download the file when they seek direction on what parts of a website they are allowed to index. By default, it directs all bots to stay away from the entire site, but then presents an exception: only the bot that requests the robots.txt file is allowed full reign over the site."
 redirect_from:
   - /wordpress/2014/05/robots-txt/

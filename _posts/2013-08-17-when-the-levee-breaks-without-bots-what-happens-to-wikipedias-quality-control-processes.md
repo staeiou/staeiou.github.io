@@ -3,7 +3,7 @@ id: 534
 title: 'When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control Processes?'
 date: 2013-08-17T03:49:42+00:00
 author: stuart
-permalink: /posts/2013/08/when-the-levee-breaks-without-bots-what-happens-to-wikipedias-quality-control-processes
+permalink: /posts/2013/08/when-the-levee-breaks-without-bots-what-happens-to-wikipedias-quality-control-processes/ 
 categories:
   - Academic Works
 tags:

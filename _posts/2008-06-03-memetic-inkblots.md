@@ -5,7 +5,7 @@ date: 2008-06-03T10:54:59+00:00
 author: stuart
 excerpt: I explore the memetic inkblot, which refers to units of cultural information that have effectively no singular semiotic value and therefore serve as a psychosocial indicator. In other words, they are so vague and open to interpretation that you can learn a lot about someone by asking someone to give a simple definition of them.
 
-permalink: /posts/2008/06/memetic-inkblots/
+permalink: /posts/2008/06/memetic-inkblots// 
 redirect_from:
   - /wordpress/2008/06/memetic-inkblots/
   - /wordpress/?p=21

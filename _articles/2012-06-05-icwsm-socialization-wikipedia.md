@@ -1,7 +1,7 @@
 ---
 title: "Defense Mechanism or Socialization Tactic? Improving Wikipedia’s Notifications to Rejected Contributors"
 category: articles
-permalink: /articles/2012-06-05-icwsm-socialization-wikipedia
+permalink: /articles/2012-06-05-icwsm-socialization-wikipedia/ 
 excerpt: 'A descriptive study of Wikipedia&apos;s highly-automated socialization processes and an A/B test to improve templated messages to newcomers.'
 date: 2012-06-05
 venue: 'Proceedings of ICWSM'

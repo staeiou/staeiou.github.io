@@ -2,7 +2,7 @@
 title: "Computational Ethnography and the Ethnography of Computation"
 collection: talks
 type: "Talk"
-permalink: /talks/2017-09-14-computational-ethnography
+permalink: /talks/2017-09-14-computational-ethnography/ 
 venue: "Berkeley Institute for Data Science"
 date: 2017-09-14
 location: "Berkeley, California"

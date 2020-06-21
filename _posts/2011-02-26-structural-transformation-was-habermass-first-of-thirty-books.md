@@ -3,7 +3,7 @@ id: 408
 title: 'Structural Transformation was Habermas&#8217;s first of thirty books'
 date: 2011-02-26T13:40:54+00:00
 author: stuart
-permalink: /posts/2011/02/structural-transformation-was-habermass-first-of-thirty-books/
+permalink: /posts/2011/02/structural-transformation-was-habermass-first-of-thirty-books// 
 redirect_from:
   - /wordpress/2011/02/structural-transformation-was-habermass-first-of-thirty-books/
   - /wordpress/?p=408

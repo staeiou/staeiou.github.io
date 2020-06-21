@@ -3,7 +3,7 @@ id: 422
 title: The Lives of Bots
 date: 2011-03-05T08:10:44+00:00
 author: stuart
-permalink: /posts/2011/03/the-lives-of-bots/
+permalink: /posts/2011/03/the-lives-of-bots// 
 redirect_from:
   - /wordpress/2011/03/the-lives-of-bots/
   - /wordpress/?p=422

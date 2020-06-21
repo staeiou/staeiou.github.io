@@ -2,7 +2,7 @@
 title: "CCTP-783: Qualitative Data Analysis (Fall 2009)"
 collection: teaching
 teaching_type: "Graduate course"
-permalink: /teaching/fall09-qualitative-data
+permalink: /teaching/fall09-qualitative-data/ 
 institution: "Georgetown University, CCT program"
 date: 2009-09-01
 excerpt: "<i>Graduate course, Teaching assistant</i><br/>

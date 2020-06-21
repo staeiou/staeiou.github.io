@@ -3,7 +3,7 @@ id: 332
 title: I Have Never Been Blogging
 date: 2010-06-04T06:41:34+00:00
 author: stuart
-permalink: /posts/2010/06/i-have-never-been-blogging/
+permalink: /posts/2010/06/i-have-never-been-blogging// 
 redirect_from:
   - /wordpress/2010/06/i-have-never-been-blogging/
   - /wordpress/?p=332

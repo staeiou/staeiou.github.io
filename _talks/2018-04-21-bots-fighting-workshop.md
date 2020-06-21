@@ -2,7 +2,7 @@
 title: "Are the bots really fighting? Behind the scenes of an open and reproducible replication study"
 collection: talks
 type: "Workshop"
-permalink: /talks/2018-04-21-bots-fighting-workshop
+permalink: /talks/2018-04-21-bots-fighting-workshop/ 
 venue: "Open Science Symposium, Department of Second Language Studies, University of Hawaiʻi at Mānoa"
 date: 2018-04-21
 location: "Mānoa, Hawaiʻi"

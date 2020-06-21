@@ -2,7 +2,7 @@
 title: "The Work of Sustaining Order in Wikipedia: The Banning of a Vandal"
 collection: talks
 type: "Conference proceedings talk"
-permalink: /talks/2010-02-25-cscw-banning-vandal
+permalink: /talks/2010-02-25-cscw-banning-vandal/ 
 venue: "Conference on Computer Supported Cooperative Work"
 date: 2010-02-25
 location: "Savannah, Georgia"

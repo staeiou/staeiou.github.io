@@ -1,7 +1,7 @@
 ---
 title: "Using Edit Sessions to Measure Participation in Wikipedia"
 category: articles
-permalink: /articles/2013-02-23-cscw-edit-sessions
+permalink: /articles/2013-02-23-cscw-edit-sessions/ 
 excerpt: 'This paper establishes a quantitative metric for measuring editor activity through temporal edit sessions.'
 date: 2013-02-23
 venue: 'Proceedings of CSCW'

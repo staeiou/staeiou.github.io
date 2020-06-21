@@ -2,7 +2,7 @@
 title: "Knowing User Populations at Scale: From the Science of the State to Platform Governmentality"
 collection: talks
 type: "Talk"
-permalink: /talks/2018-05-27-ica-governmentality
+permalink: /talks/2018-05-27-ica-governmentality/ 
 venue: "2018 Annual Conference of the International Communication Association"
 date: 2018-05-27
 location: "Prague, Czech Republic"

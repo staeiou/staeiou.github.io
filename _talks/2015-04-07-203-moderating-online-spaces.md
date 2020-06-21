@@ -2,7 +2,7 @@
 title: "Moderating Online Conversation Spaces"
 collection: talks
 type: "Guest lecture"
-permalink: /talks/2015-04-07-203-moderating-online-spaces
+permalink: /talks/2015-04-07-203-moderating-online-spaces/ 
 venue: "Social Aspects of Information Systems course"
 date: 2015-04-07
 location: "Berkeley, CA"

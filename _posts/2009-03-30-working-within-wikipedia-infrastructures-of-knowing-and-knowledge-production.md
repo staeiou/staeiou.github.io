@@ -5,7 +5,7 @@ date: 2009-03-30T08:22:08+00:00
 author: stuart
 excerpt: 'While Wikipedia does have epistemic standards, the open question is how such an epistemology can be operationalized and enforced. '
 
-permalink: /posts/2009/03/working-within-wikipedia-infrastructures-of-knowing-and-knowledge-production/
+permalink: /posts/2009/03/working-within-wikipedia-infrastructures-of-knowing-and-knowledge-production// 
 redirect_from:
   - /wordpress/2009/03/working-within-wikipedia-infrastructures-of-knowing-and-knowledge-production/
   - /wordpress/?p=231

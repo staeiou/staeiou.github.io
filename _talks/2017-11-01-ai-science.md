@@ -2,7 +2,7 @@
 title: "The Humanity of Artificial Intelligence"
 collection: talks
 type: "Talk"
-permalink: /talks/2017-11-01-ai-science
+permalink: /talks/2017-11-01-ai-science/ 
 venue: "Bay Area Science Festival"
 date: 2017-11-01
 location: "Albany, California"

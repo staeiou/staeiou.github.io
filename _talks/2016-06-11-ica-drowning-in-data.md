@@ -2,7 +2,7 @@
 title: "Drowning in Data: Industry and Academic Approaches to Mixed Methods in “Holistic” Big Data Studies"
 collection: talks
 type: "Panelist"
-permalink: /talks/2016-06-11-ica-drowning-in-data
+permalink: /talks/2016-06-11-ica-drowning-in-data/ 
 venue: "Annual Meeting of the International Communication Association (ICA)"
 date: 2016-06-11
 location: "Fukuoka, Japan"

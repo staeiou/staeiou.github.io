@@ -2,7 +2,7 @@
 title: '"But it wouldn’t be an encyclopedia; it would be a wiki": The changing imagined affordances of wikis, 1995-2002'
 collection: talks
 type: "Talk"
-permalink: /talks/2017-10-19-aoir-wiki-history
+permalink: /talks/2017-10-19-aoir-wiki-history/ 
 venue: "2017 Annual Meeting of the Association of Internet Researchers"
 date: 2017-10-19
 location: "Tartu, Estonia"

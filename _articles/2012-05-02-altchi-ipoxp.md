@@ -1,7 +1,7 @@
 ---
 title: "Black-boxing the user: internet protocol over xylophone players (IPoXP)"
 category: articles
-permalink: /articles/2012-05-02-altchi-ipoxp
+permalink: /articles/2012-05-02-altchi-ipoxp/ 
 excerpt: 'We introduce IP over Xylophone Players (IPoXP), a novel Internet protocol between two computers using xylophone-based Arduino interfaces'
 date: 2012-05-02
 venue: 'Proceedings of CHI (alt.CHI)'

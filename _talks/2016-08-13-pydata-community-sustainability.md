@@ -2,7 +2,7 @@
 title: "Community Sustainability in Wikipedia: A Review of Research and Initiatives"
 collection: talks
 type: "Talk"
-permalink: /talks/2016-08-13-pydata-community-sustainability
+permalink: /talks/2016-08-13-pydata-community-sustainability/ 
 venue: "PyData SF"
 date: 2016-08-13
 location: "San Francisco, CA"
