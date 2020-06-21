@@ -1,7 +1,7 @@
 ---
 title: "The Social Roles of Bots and Assisted Editing Tools"
 category: articles
-permalink: /articles/2009-10-27-wikisym-social-roles-bots
+permalink: /articles/2009-10-27-wikisym-social-roles-bots// 
 excerpt: 'A short paper showing the recent explosive growth of automated editors (or bots) in Wikipedia, which have taken on many new tasks in administrative spaces.'
 date: 2009-10-27
 venue: 'Proceedings of Wikisym'

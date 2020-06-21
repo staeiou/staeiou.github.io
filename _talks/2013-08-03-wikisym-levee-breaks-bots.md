@@ -2,7 +2,7 @@
 title: "When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control Processes? (with Aaron Halfaker)"
 collection: talks
 type: "Conference proceedings talk"
-permalink: /talks/2013-08-03-wikisym-levee-breaks-bots
+permalink: /talks/2013-08-03-wikisym-levee-breaks-bots/ 
 venue: "International Symposium on Wikis and Open Collaboration (WikiSym 2012)"
 date: 2013-08-03
 location: "Hong Kong"

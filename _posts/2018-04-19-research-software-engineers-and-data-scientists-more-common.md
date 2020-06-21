@@ -2,7 +2,7 @@
 title: "Research Software Engineers and Data Scientists: More in Common"
 published: 2018-04-19
 excerpt: "A cross-post of a piece about defining the roles, scopes, and challenges of data scientists and research software engineers, in which we conclude we have more in common and that our differences come more from the context in which these terms and roles emerged."
-permalink: /posts/2018/04/so-you-want-to-start-a-data-science-institute
+permalink: /posts/2018/04/so-you-want-to-start-a-data-science-institute/ 
 ---
 
 _This is a post that first appeared on the [Software Sustainability Institute's blog](https://www.software.ac.uk/blog/2018-04-05-research-software-engineers-and-data-scientists-more-common) and was co-authored by Matthew Archer, Stephen Dowsland, Rosa Filgueira, R. Stuart Geiger, Alejandra Gonzalez-Beltran, Robert Haines, James Hetherington, Christopher Holdgraf, Sanaz Jabbari Bayandor, David Mawdsley, Heiko Mueller, Tom Redfern, Martin O'Reilly, Valentina Staneva, Mark Turner, Jake VanderPlas, Kirstie Whitaker (authors in alphabetical order) during [a workshop](https://github.com/alan-turing-institute/RSE4DataScience18) at the Alan Turing Institute._

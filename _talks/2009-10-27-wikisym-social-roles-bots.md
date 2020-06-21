@@ -2,7 +2,7 @@
 title: "The Social Roles of Bots and Assisted Editing Tools"
 collection: talks
 type: "Conference proceedings talk"
-permalink: /talks/2009-10-27-wikisym-social-roles-bots
+permalink: /talks/2009-10-27-wikisym-social-roles-bots/ 
 venue: "International Symposium on Wikis and Open Collaboration"
 date: 2009-10-27
 location: "Orlando, Florida"

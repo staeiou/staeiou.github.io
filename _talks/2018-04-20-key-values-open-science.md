@@ -2,7 +2,7 @@
 title: "Key Values: What We Talk About When We Talk About 'Open Science'"
 collection: talks
 type: "Keynote"
-permalink: /talks/2018-04-20-
+permalink: /talks/2018-04-20-/ 
 venue: "Open Science Symposium, Department of Second Language Studies, University of Hawaiʻi at Mānoa"
 date: 2018-04-20
 location: "Mānoa, Hawaiʻi"

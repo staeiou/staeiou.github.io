@@ -2,7 +2,7 @@
 title: "Robotic Ethics and Opportunities"
 collection: talks
 type: "Panelist"
-permalink: /talks/2014-04-04-robots-new-media
+permalink: /talks/2014-04-04-robots-new-media/ 
 venue: "Robots and New Media"
 date: 2014-04-04
 location: "Berkeley, CA"

@@ -5,7 +5,7 @@ date: 2008-06-15T21:44:20+00:00
 author: stuart
 excerpt: 'I feel bad that I have not written a new entry in so long.  I feel like I should apologize - not to the readers, but to the software, to the site itself.  I ought to write a new post; I ought to update my status.  How did I get into a situation whereby these collections of code could make ethical demands upon me?  And is this bad?'
 
-permalink: /posts/2008/06/user-generated-content-as-an-ethical-relation/
+permalink: /posts/2008/06/user-generated-content-as-an-ethical-relation// 
 redirect_from:
   - /wordpress/2008/06/user-generated-content-as-an-ethical-relation/
   - /wordpress/?p=29

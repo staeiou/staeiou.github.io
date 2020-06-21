@@ -2,7 +2,7 @@
 title: "Scraping Wikipedia Data"
 collection: talks
 type: "Talk"
-permalink: /talks/2016-02-17-thw-scraping-wikipedia
+permalink: /talks/2016-02-17-thw-scraping-wikipedia/ 
 venue: "The Hacker Within, BIDS"
 date: 2016-02-17
 location: "Berkeley, CA"

@@ -2,7 +2,7 @@
 title: "Ethics and Policy Implications of Big Data"
 collection: talks
 type: "Panelist"
-permalink: /talks/2019-02-15-ucsd-ethics
+permalink: /talks/2019-02-15-ucsd-ethics/ 
 venue: "University of California, San Diego"
 date: 2019-02-15
 location: "San Diego, California"

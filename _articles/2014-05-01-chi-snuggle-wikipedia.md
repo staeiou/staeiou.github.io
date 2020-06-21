@@ -1,7 +1,7 @@
 ---
 title: "Snuggle: Designing for efﬁcient socialization and ideological critique"
 category: articles
-permalink: /articles/2014-05-01-chi-snuggle-wikipedia
+permalink: /articles/2014-05-01-chi-snuggle-wikipedia/ 
 excerpt: 'This paper discusses the Snuggle project, built to support newcomer socialization and reflexive critique of Wikipedia&apos;s existing socialization processes.'
 date: 2014-05-01
 venue: 'Proceedings of CHI'

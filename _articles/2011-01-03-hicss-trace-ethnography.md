@@ -1,7 +1,7 @@
 ---
 title: "Trace Ethnography: Following Coordination through Documentary Practices"
 category: articles
-permalink: /articles/2011-01-03-hicss-trace-ethnography
+permalink: /articles/2011-01-03-hicss-trace-ethnography/ 
 excerpt: 'We detail the methodology of ‘trace ethnography’, which combines the richness of participant-observation with the wealth of data in logs so as to reconstruct patterns and practices of users in distributed sociotechnical systems'
 date: 2011-01-03
 venue: 'Proceedings of HICSS '

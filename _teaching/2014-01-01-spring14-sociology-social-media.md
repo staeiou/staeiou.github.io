@@ -2,7 +2,7 @@
 title: "SOC-167: Sociology of Virtual Communities and Social Media (Spring 2014)"
 collection: teaching
 teaching_type: "Undergraduate course"
-permalink: /teaching/spring14-sociology-social-media
+permalink: /teaching/spring14-sociology-social-media/ 
 institution: "UC-Berkeley, Dept of Sociology"
 date: 2014-01-01
 excerpt: "<i>Undergraduate course, Adjunct lecturer</i><br/>

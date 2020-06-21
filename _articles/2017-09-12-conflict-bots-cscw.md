@@ -1,7 +1,7 @@
 ---
 title: "Operationalizing conflict and cooperation between automated software agents in Wikipedia: A replication and expansion of 'Even Good Bots Fight'"
 category: articles
-permalink: /articles/2017-09-12-conflict-bots-cscw
+permalink: /articles/2017-09-12-conflict-bots-cscw/ 
 excerpt: "A mixed-method trace ethnographic analysis of issues around the governance of automated software agents in Wikipedia, focusing on how to interpret cases where bots reverted each other's edits."
 date: 2017-09-12
 venue: 'Proceedings of the ACM on Human-Compter Interaction'

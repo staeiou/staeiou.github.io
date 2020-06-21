@@ -3,7 +3,7 @@ id: 550
 title: 'About a bot: reflections on building software agents'
 date: 2013-08-13T04:22:22+00:00
 author: stuart
-permalink: /posts/2013/08/about-a-bot-reflections-on-building-software-agents/
+permalink: /posts/2013/08/about-a-bot-reflections-on-building-software-agents// 
 redirect_from:
   - /wordpress/2013/08/about-a-bot-reflections-on-building-software-agents/
   - /wordpress/?p=550

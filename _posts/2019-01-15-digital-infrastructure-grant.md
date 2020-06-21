@@ -2,7 +2,7 @@
 title: Researchers receive grant to study the invisible work of maintaining open-source software
 published: 2019-01-15
 excerpt: "Annoucement of a new multi-institution research grant from the Sloan and Ford Foundations to study maintenance of digital infrastructure, specifically focusing on issues of invisible work, burnout, and community sustainability of open-source software."
-permalink: /posts/2019/01/digital-infrastructure-grant
+permalink: /posts/2019/01/digital-infrastructure-grant/ 
 ---
 
 Researchers at the UC Berkeley Institute for Data Science (BIDS), the University of California, San Diego, and the University of Connecticut have been awarded a grant of $138,055 from the Sloan Foundation and the Ford Foundation [as part of a broad initiative](https://www.fordfoundation.org/ideas/equals-change-blog/posts/announcing-13m-in-funding-for-digital-infrastructure-research/) to investigate the sustainability of digital infrastructures. The grant funds research into the maintenance of open-source software (OSS) projects, particularly focusing on the visible and invisible work that project maintainers do to support their projects and communities, as well as issues of burnout and maintainer sustainability. The research project will be led by BIDS staff ethnographer and principal investigator Stuart Geiger and will be conducted in collaboration with Lilly Irani and Dorothy Howard at UC San Diego, Alexandra Paxton at the University of Connecticut, and Nelle Varoquaux and Chris Holdgraf at UC Berkeley.

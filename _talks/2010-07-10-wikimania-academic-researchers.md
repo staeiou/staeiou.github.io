@@ -2,7 +2,7 @@
 title: "Academic Researchers in Wikimedia Communities: Ethics, Methods, and Policies"
 collection: talks
 type: "Panelist"
-permalink: /talks/2010-07-10-wikimania-academic-researchers
+permalink: /talks/2010-07-10-wikimania-academic-researchers/ 
 venue: "Wikimania 2010"
 date: 2010-07-10
 location: "Gdansk, Poland"

@@ -2,7 +2,7 @@
 title: "Keeping computation open to interpetation: Ethnographers, step right in, please"
 published: 2018-04-16
 excerpt: "A cross-post of a piece written with members of ITU Copenhagen's ETHOSlab, based on a workshop we held about the role of interpretivist social science and humanistic approaches in computation."
-permalink: /posts/2018/04/keeping-computation-open-to-interpretation
+permalink: /posts/2018/04/keeping-computation-open-to-interpretation/ 
 ---
 
 _This is a post that first appeared on the [ETHOSLab Blog](https://ethos.itu.dk/2018/04/16/keeping-computation-open-for-interpretation/), written by myself, [Bastian Jørgensen](https://pure.itu.dk/portal/da/persons/bastian-joergensen(2708b035-533a-455a-b8d2-447ec08f70c9).html) (PhD fellow at Technologies in Practice, ITU), [Michael Hockenhull](https://pure.itu.dk/portal/en/persons/michael-hockenhull(5041f387-908f-4845-9f79-3a6dbd527f4b).html) (PhD fellow at Technologies in Practice, ITU), [Mace Ojala](https://pure.itu.dk/portal/en/persons/mace-ojala(72fb4ba1-ee58-4e93-9cdd-4e9855fa1c3e).html) (Research Assistant at Technologies in Practice, ITU)._

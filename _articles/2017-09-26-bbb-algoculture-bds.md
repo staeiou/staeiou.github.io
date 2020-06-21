@@ -1,7 +1,7 @@
 ---
 title: "Beyond opening up the black box: Investigating the role of algorithmic systems in Wikipedian organizational culture"
 category: articles
-permalink: /articles/2017-09-26-beyond-black-box-wikipedia-bds
+permalink: /articles/2017-09-26-beyond-black-box-wikipedia-bds/ 
 excerpt: "Scholars and practitioners across domains are increasingly concerned with algorithmic transparency and opacity, interrogating the values and assumptions embedded in automated, black-boxed systems, particularly in user-generated content platforms. I report from an ethnography of infrastructure in Wikipedia to discuss an often understudied aspect of this topic: the local, contextual, learned expertise involved in participating in a highly automated social-technical environment."
 date: 2017-09-26
 venue: 'Big Data & Society'

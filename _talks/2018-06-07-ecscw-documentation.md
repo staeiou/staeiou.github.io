@@ -2,7 +2,7 @@
 title: "The Types, Roles, and Practices of Documentation in Data Analytics Open Source Software Libraries: A Collaborative Ethnography of Documentation Work"
 collection: talks
 type: "Talk"
-permalink: /talks/2018-06-07-ecscw-documentation
+permalink: /talks/2018-06-07-ecscw-documentation/ 
 venue: "2018 European Conference on Computer-Supported Cooperative Work"
 date: 2018-06-07
 location: "Nancy, France"

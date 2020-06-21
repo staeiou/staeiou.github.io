@@ -2,7 +2,7 @@
 title: "INFO-203: Social Aspects of Information Systems (Spring 2012)"
 collection: teaching
 teaching_type: "Graduate course"
-permalink: /teaching/spring12-social-info
+permalink: /teaching/spring12-social-info/ 
 institution: "UC-Berkeley School of Information"
 date: 2012-01-01
 excerpt: "<i>Graduate course, Teaching assistant</i><br/>

@@ -1,7 +1,7 @@
 ---
 title: "Old Against New, or a Coming of Age? Broadcasting in an Era of Electronic Media."
 category: articles
-permalink: /articles/2014-09-10-jobem-old-against-new
+permalink: /articles/2014-09-10-jobem-old-against-new/ 
 excerpt: 'On the history and continued relevance of the term &quot;broadcasting&quot; in an era of social media.'
 date: 2014-09-10
 venue: 'Journal of Broadcasting and Electronic Media'

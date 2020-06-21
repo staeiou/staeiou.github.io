@@ -1,7 +1,7 @@
 ---
 title: "The Rise and Decline of an Open Collaboration Community: How Wikipedia’s reaction to sudden popularity is causing its decline"
 category: articles
-permalink: /articles/2013-05-01-abs-rise-and-decline-wikipedia
+permalink: /articles/2013-05-01-abs-rise-and-decline-wikipedia/ 
 excerpt: 'A mixed-method, multi-study analysis of editor retention, socialization, gatekeeping, and governance in Wikipedia.'
 date: 2013-05-01
 venue: 'American Behavioral Scientist'

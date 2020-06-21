@@ -1,7 +1,7 @@
 ---
 title: "New article about algorithmic systems in Wikipedia and going 'beyond opening up the black box'"
 published: 2017-09-27
-permalink: /posts/2017/09/beyond-opening-black-box
+permalink: /posts/2017/09/beyond-opening-black-box/ 
 ---
 
 I&#39;m excited to share a new article, &quot;Beyond opening up the black box: Investigating the role of algorithmic systems in Wikipedian organizational culture&quot; ([open access PDF here](http://stuartgeiger.com/algoculture-bds.pdf)). It is published in _Big Data &amp; Society_ as part of a special issue on &quot;[Algorithms in Culture](http://journals.sagepub.com/page/bds/collections/algorithms-in-culture),&quot; edited by Morgan Ames, Jason Oakes, Massimo Mazzotti, Marion Fourcade, and Gretchen Gano. The special issue came out of [a fantastic workshop](https://sites.google.com/site/algorithmsculture/) of the same name held last year at UC-Berkeley, where we presented and workshopped our papers, which were all taking some kind of socio-cultural approach to algorithms (broadly defined). This was originally a chapter of my dissertation based on my ethnographic research into Wikipedia, and it has gone through many rounds of revision across a few publications, as I&#39;ve tried to connect what I see in Wikipedia to broader conversations about the role of highly-automated, data-driven systems across platforms and domains.

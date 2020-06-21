@@ -1,7 +1,7 @@
 ---
 title: "Defining, Designing, and Evaluating Civic Values in Human Computation and Collective Action Systems"
 category: articles
-permalink: /articles/2014-11-02-hcomp-values-in-crowdsourcing
+permalink: /articles/2014-11-02-hcomp-values-in-crowdsourcing/ 
 excerpt: 'We review various crowdsourcing and collective action systems, identifying particular sets of civic values and assumptions.'
 date: 2014-11-02
 venue: 'Proceedings of HCOMP, Citizen-X Workshop'

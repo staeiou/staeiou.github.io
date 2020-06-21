@@ -2,7 +2,7 @@
 title: "Black-boxing the user: internet protocol over xylophone players (IPoXP)"
 collection: talks
 type: "Conference proceedings talk"
-permalink: /talks/2012-05-02-altchi-ipoxp
+permalink: /talks/2012-05-02-altchi-ipoxp/ 
 venue: "Conference on Human Factors in Computing (CHI)"
 date: 2012-05-02
 location: "Austin, Texas"

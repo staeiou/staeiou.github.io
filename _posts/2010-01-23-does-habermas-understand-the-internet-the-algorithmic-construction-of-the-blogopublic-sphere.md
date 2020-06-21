@@ -3,7 +3,7 @@ id: 303
 title: 'Does Habermas Understand the Internet?  The Algorithmic Construction of the Blogo/Public Sphere'
 date: 2010-01-23T11:12:21+00:00
 author: stuart
-permalink: /posts/2010/01/does-habermas-understand-the-internet-the-algorithmic-construction-of-the-blogopublic-sphere/
+permalink: /posts/2010/01/does-habermas-understand-the-internet-the-algorithmic-construction-of-the-blogopublic-sphere// 
 redirect_from:
   - /wordpress/2010/01/does-habermas-understand-the-internet-the-algorithmic-construction-of-the-blogopublic-sphere/
   - /wordpress/?p=303

@@ -2,7 +2,7 @@
 title: "Are the bots really fighting? Behind the scenes of a reproducible replication"
 collection: talks
 type: "Guest lecture"
-permalink: /talks/2017-10-10-stat-159-259-guest-lecture
+permalink: /talks/2017-10-10-stat-159-259-guest-lecture/ 
 venue: "UC-Berkeley Department of Statistics: Reproducible and Collaborative Data Science"
 date: 2017-10-10
 location: "Berkeley, California"

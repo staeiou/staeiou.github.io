@@ -2,7 +2,7 @@
 title: "Defense Mechanism or Socialization Tactic? Improving Wikipedia’s Notifications to Rejected Contributors"
 collection: talks
 type: "Conference proceedings talk"
-permalink: /talks/2012-06-05-icwsm-socialization-wikipedia
+permalink: /talks/2012-06-05-icwsm-socialization-wikipedia/ 
 venue: "International Conference on Weblogs and Social Media (ICWSM)"
 date: 2012-06-05
 location: "Dublin, Ireland"

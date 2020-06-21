@@ -2,7 +2,7 @@
 title: "Bot-Based Collective Blocklists in Twitter: The Counterpublic Moderation of a Privately-Owned Networked Public Space"
 collection: talks
 type: "Talk"
-permalink: /talks/2015-10-23-aoir-blockbots
+permalink: /talks/2015-10-23-aoir-blockbots/ 
 venue: "Annual Meeting of the Association of Internet Researchers (AoIR)"
 date: 2015-10-23
 location: "Phoenix, AZ"

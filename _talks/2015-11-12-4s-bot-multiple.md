@@ -2,7 +2,7 @@
 title: "The Bot Multiple: Unpacking the Materialities of Automated Software Agents"
 collection: talks
 type: "Talk"
-permalink: /talks/2015-11-12-4s-bot-multiple
+permalink: /talks/2015-11-12-4s-bot-multiple/ 
 venue: "Annual Meeting of the Society for the Social Study of Science (4S)"
 date: 2015-11-12
 location: "Denver, CO"
