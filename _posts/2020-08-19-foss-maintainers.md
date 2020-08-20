@@ -25,4 +25,6 @@ Over the past few years, our team has been working on a few interrelated researc
 
 # Publications
 
-Coming soon!
+We're working on a few different papers at the moment, but you can read this earlier paper from some of our team about a related topic: documentation in FOSS:
+
+* Geiger, R.S., Varoquaux, N., Mazel-Cabasse, C., and Holdgraf, C. "The Types, Roles, and Practices of Documentation in Data Analytics Open Source Software Libraries." Computer Supported Cooperative Work (JCSCW) 27, 767–802 (2018). [https://osf.io/2fdhr/download](https://osf.io/2fdhr/download) https://doi.org/10.1007/s10606-018-9333-1
