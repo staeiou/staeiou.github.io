@@ -20,7 +20,7 @@ Over the past few years, our team has been working on a few interrelated researc
 
 * [Invisible Work, Incentives, & Burnout in Open Communities](https://www.youtube.com/watch?v=qtUxRhmz3Qc) by Dorothy Howard at SciPy 2019
 * [The Invisible Work of Maintaining & Sustaining Open Source Software](https://www.youtube.com/watch?v=PM3iltcaIL8) by R. Stuart Geiger at SciPy 2019
-* ["I didn’t sign up for this”: The Invisible Work of Maintaining Free/Open-Source Software Communities"](https://fasos.maastrichtuniversity.nl/weekly/podcast-hacker-cultures-understanding-the-actors-behind-our-software/) recorded podcast of a discussion by R. Stuart Geiger and Dorothy Howard at the 2020 Annual Meeting of the Society for the Social Studies of Science (4S)
+* ["I didn’t sign up for this”: The Invisible Work of Maintaining Free/Open-Source Software Communities"](https://fasos.maastrichtuniversity.nl/weekly/podcast-hacker-cultures-understanding-the-actors-behind-our-software/) recorded podcast of a discussion by R. Stuart Geiger and Dorothy Howard at the 2020 Annual Meeting of the Society for the Social Studies of Science (4S), part of a 9 episode series on "Hacker Cultures: Understanding the Actors Behind Our Software"
 * Coming soon as a recorded panel discussion: "Labor, Roles, and Incentives in Digital Infrastructure" with R. Stuart Geiger, a panel hosted by the Ford and Sloan Digitial Infrastructure Initiative
 
 # Publications
