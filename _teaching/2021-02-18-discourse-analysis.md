@@ -5,7 +5,7 @@ teaching_type: "Course"
 permalink: /teaching/COGR-201C-discourse-analysis-sp21/ 
 institution: "UC San Diego, Dept of Communication"
 date: 2021-02-18
-excerpt: "Graduate-level course on discourse analysis"
+excerpt: "Graduate-level course on discourse analysis for UCSD Communication"
 ---
 
 This is a draft course description for COGR 201C: Discourse Analysis: Classical, Critical, and Computational, a grad methods class to be taught in Spring 2021.
