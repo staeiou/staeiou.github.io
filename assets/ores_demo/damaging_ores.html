@@ -24,16 +24,16 @@ $(document).ready(function () {
   get_ores_prediction = function(text){
     $("#output").css("visibility", "hidden");
     $.post({
-      url: ORES_HOST + "/v3/scores/enwiki/1050776570/damaging?features",
+      url: ORES_HOST + "/v3/scores/enwiki/1050776570/goodfaith?features",
       data: {"inject": fully_jsonify({1050776570: {"datasource.revision.text": text}})},
       dataType: "json"
     }).done(function(result){
-      var score = result['enwiki']['scores']['1050776570']['damaging']['score'];
-      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + "% damaging)\n";
+      var score = result['enwiki']['scores']['1050776570']['goodfaith']['score'];
+      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + "% good faith)\n";
 
       $("#result").text(fmt);
 
-      var features = result['enwiki']['scores']['1050776570']['damaging']['features'];
+      var features = result['enwiki']['scores']['1050776570']['goodfaith']['features'];
       feature_names = Object.keys(features);
       feature_names.sort();
       fmt = "Features:\n";
