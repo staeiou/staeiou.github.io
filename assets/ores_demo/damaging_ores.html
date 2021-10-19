@@ -21,11 +21,11 @@ $(document).ready(function () {
     sum = score['probability']['true']
     return Math.round(sum*1000)/10
   };
-  get_ores_prediction = function(text){
+  get_ores_prediction = function(text,age){
     $("#output").css("visibility", "hidden");
     $.post({
       url: ORES_HOST + "/v3/scores/enwiki/1050776570/damaging?features",
-      data: {"inject": fully_jsonify({1050776570: {"datasource.revision.text": text, "feature.temporal.revision.user.seconds_since_registration":86401}})},
+      data: {"inject": fully_jsonify({1050776570: {"datasource.revision.text": text, "feature.temporal.revision.user.seconds_since_registration":age*86400}})},
       dataType: "json"
     }).done(function(result){
       var score = result['enwiki']['scores']['1050776570']['damaging']['score'];
@@ -52,7 +52,7 @@ $(document).ready(function () {
   };
 
   $('#submit').click(function(){
-    get_ores_prediction($("#the_text").val())
+    get_ores_prediction($("#the_text").val(),$("#the_age").val())
   });
 });
     </script>
@@ -122,6 +122,8 @@ Put your text here.  Below are some example wikitext elements that you can use.
 
 === Level 3 header ===
 </textarea>
+    <br/>
+How many days ago did the editor create their account? <input type="text" name="the_age" placeholder="1">  
     <br />
     <center>
       <button id="submit">Submit</button>
