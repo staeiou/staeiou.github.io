@@ -34,7 +34,7 @@ $(document).ready(function () {
       dataType: "json"
     }).done(function(result){
       var score = result['enwiki']['scores']['12345678']['damaging']['score'];
-      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + ")\n";
+      fmt = "Prediction: " + score['prediction'] + " (" + score + ")\n";
 
       $("#result").text(fmt);
 
