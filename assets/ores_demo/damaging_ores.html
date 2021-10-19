@@ -35,13 +35,8 @@ $(document).ready(function () {
     }).done(function(result){
       var score = result['enwiki']['scores']['12345678']['damaging']['score'];
       fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + ")\n";
-      fmt += " - FA: " + Math.round(score['probability']['FA']*100) + "%\n";
-      fmt += " - GA: " + Math.round(score['probability']['GA']*100) + "%\n";
-      fmt += " - B: " + Math.round(score['probability']['B']*100) + "%\n";
-      fmt += " - C: " + Math.round(score['probability']['C']*100) + "%\n";
-      fmt += " - Start: " + Math.round(score['probability']['Start']*100) + "%\n";
-      fmt += " - Stub: " + Math.round(score['probability']['Stub']*100) + "%\n";
-      $("#result").text(score);
+
+      $("#result").text(fmt);
 
       var features = result['enwiki']['scores']['12345678']['damaging']['features'];
       feature_names = Object.keys(features);
