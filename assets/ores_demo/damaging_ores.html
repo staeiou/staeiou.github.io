@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <script type="text/javascript" src="jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+$(document).ready(function () {
+  ORES_HOST = "https://ores.wikimedia.org";
+
+  fully_jsonify = function(jsonable){
+    var myJSONString = JSON.stringify(jsonable);
+    var myEscapedJSONString = myJSONString.replace(/\\n/g, "\\n")
+                                          .replace(/\\'/g, "\\'")
+                                          .replace(/\\"/g, '\\"')
+                                          .replace(/\\&/g, "\\&")
+                                          .replace(/\\r/g, "\\r")
+                                          .replace(/\\t/g, "\\t")
+                                          .replace(/\\b/g, "\\b")
+                                          .replace(/\\f/g, "\\f");
+    return myEscapedJSONString
+  };
+  score2sum = function(score){
+    sum = score['probability']['FA']*6 +
+          score['probability']['GA']*5 +
+          score['probability']['B']*4 +
+          score['probability']['C']*3 +
+          score['probability']['Start']*2 +
+          score['probability']['Stub']*1
+    return Math.round(sum*1000)/1000
+  };
+  get_ores_prediction = function(text){
+    $("#output").css("visibility", "hidden");
+    $.post({
+      url: ORES_HOST + "/v3/scores/enwiki/12345678/damaging?features",
+      data: {"inject": fully_jsonify({12345678: {"datasource.revision.text": text}})},
+      dataType: "json"
+    }).done(function(result){
+      var score = result['enwiki']['scores']['12345678']['articlequality']['score'];
+      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + ")\n";
+      fmt += " - FA: " + Math.round(score['probability']['FA']*100) + "%\n";
+      fmt += " - GA: " + Math.round(score['probability']['GA']*100) + "%\n";
+      fmt += " - B: " + Math.round(score['probability']['B']*100) + "%\n";
+      fmt += " - C: " + Math.round(score['probability']['C']*100) + "%\n";
+      fmt += " - Start: " + Math.round(score['probability']['Start']*100) + "%\n";
+      fmt += " - Stub: " + Math.round(score['probability']['Stub']*100) + "%\n";
+      $("#result").text(score);
+
+      var features = result['enwiki']['scores']['12345678']['damaging']['features'];
+      feature_names = Object.keys(features);
+      feature_names.sort();
+      fmt = "Features:\n";
+      for(var i=0; i < feature_names.length; i++){
+        var feature_name = feature_names[i];
+        var formatted_name = feature_name
+          .replace("feature.", "")
+          .replace("datasource.", "")
+          .replace("enwiki.", "")
+          .replace("revision.", "");
+        fmt += " - " + formatted_name + ": " + features[feature_name] + "\n";
+      }
+      $("#features").text(fmt);
+      $("#output").css("visibility", "visible");
+    })
+  };
+
+  $('#submit').click(function(){
+    get_ores_prediction($("#the_text").val())
+  });
+});
+    </script>
+    <style>
+      #the_text {
+        display: block;
+        width: 95%;
+        height: 20em;
+        margin: 2em auto 2em auto;
+      }
+      #submit {
+        font-size: 200%;
+        align: center;
+      }
+      #output {
+        text-align: center;
+        white-space: nowrap;
+        display: inline-block;
+        visibility: hidden;
+      }
+      #features {
+        display: inline-block;
+        text-align: left;
+        white-space: pre;
+        vertical-align: top;
+        font-size: 100%;
+      }
+      #ores_logo {
+        display: inline-block;
+        text-align: left;
+        white-space: nowrap;
+        vertical-align: middle;
+        font-size: 300%;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-bottom: 1em;
+      }
+      #ores_logo img {
+        margin-bottom: -1em;
+      }
+      #result {
+        display: inline-block;
+        text-align: left;
+        white-space: pre;
+        font-size: 200%;
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="the_text">
+Put your text here.  Below are some example wikitext elements that you can use.
+
+* <ref>reference</ref>
+* {{cite|template}}
+* [[wikilink]]
+* [https://external.link]
+* [[Category:Link]]
+* [[Image:link]]
+* {{infobox}}
+* {{citation needed}}
+* {{main|article|template}}
+* {{who|template}}
+* {{sfn}}
+
+== Level 2 header ==
+
+=== Level 3 header ===
+</textarea>
+    <br />
+    <center>
+      <button id="submit">Submit</button>
+      <br />
+      <br />
+      <div id="output">
+        <div id="features"></div>
+        <div id="ores_logo">
+          &rarr;
+          <img src="ores_logo.png" height="100px" width="100px"/>
+          &rarr;
+        </div>
+        <div id="result"></div>
+      </div>
+    </center>
+  </body>
+</html>
