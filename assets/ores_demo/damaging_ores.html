@@ -18,13 +18,8 @@ $(document).ready(function () {
     return myEscapedJSONString
   };
   score2sum = function(score){
-    sum = score['probability']['FA']*6 +
-          score['probability']['GA']*5 +
-          score['probability']['B']*4 +
-          score['probability']['C']*3 +
-          score['probability']['Start']*2 +
-          score['probability']['Stub']*1
-    return Math.round(sum*1000)/1000
+    sum = score['probability']['true']
+    return Math.round(sum*1000)/10
   };
   get_ores_prediction = function(text){
     $("#output").css("visibility", "hidden");
@@ -34,7 +29,7 @@ $(document).ready(function () {
       dataType: "json"
     }).done(function(result){
       var score = result['enwiki']['scores']['12345678']['damaging']['score'];
-      fmt = "Prediction: " + score['prediction'] + " (" + score['probability']['true'] + " damaging)\n";
+      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score['probability']['true']) + "% damaging)\n";
 
       $("#result").text(fmt);
 
