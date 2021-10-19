@@ -29,7 +29,7 @@ $(document).ready(function () {
       dataType: "json"
     }).done(function(result){
       var score = result['enwiki']['scores']['12345678']['damaging']['score'];
-      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score['probability']['true']) + "% damaging)\n";
+      fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + "% damaging)\n";
 
       $("#result").text(fmt);
 
