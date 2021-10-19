@@ -33,7 +33,7 @@ $(document).ready(function () {
       data: {"inject": fully_jsonify({12345678: {"datasource.revision.text": text}})},
       dataType: "json"
     }).done(function(result){
-      var score = result['enwiki']['scores']['12345678']['articlequality']['score'];
+      var score = result['enwiki']['scores']['12345678']['damaging']['score'];
       fmt = "Prediction: " + score['prediction'] + " (" + score2sum(score) + ")\n";
       fmt += " - FA: " + Math.round(score['probability']['FA']*100) + "%\n";
       fmt += " - GA: " + Math.round(score['probability']['GA']*100) + "%\n";
