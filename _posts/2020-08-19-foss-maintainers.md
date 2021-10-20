@@ -25,6 +25,6 @@ Over the past few years, our team has been working on a few interrelated researc
 
 # Publications
 
-*  The Labor of Maintaining and Scaling Free and Open-Source Software Projects, Published in Proceedings of the ACM on Human-Computer Interaction (CSCW 2021), 2021 https://stuartgeiger.com/papers/maintaining-scaling-foss-cscw2021.pdf
+*  R. Stuart Geiger, Dorothy Howard, and Lilly Irani. 2021. The Labor of Maintaining and Scaling Free and Open-Source Software Projects. Proc. ACM Hum.-Comput. Interact. 5, CSCW1, Article 175 (April 2021), 28 pages. https://stuartgeiger.com/papers/maintaining-scaling-foss-cscw2021.pdf
 
 * Geiger, R.S., Varoquaux, N., Mazel-Cabasse, C., and Holdgraf, C. "The Types, Roles, and Practices of Documentation in Data Analytics Open Source Software Libraries." Computer Supported Cooperative Work (JCSCW) 27, 767–802 (2018). [https://osf.io/2fdhr/download](https://osf.io/2fdhr/download) https://doi.org/10.1007/s10606-018-9333-1
