@@ -25,7 +25,7 @@ $(document).ready(function () {
     $("#output").css("visibility", "hidden");
     $.post({
       url: ORES_HOST + "/v3/scores/enwiki/1049151926/damaging?features",
-      data: {"inject": fully_jsonify({1049151926: {"datasource.revision.text": text, "feature.user.is_bot":"false", "feature.temporal.revision.user.seconds_since_registration":864010}})},
+      data: {"inject": fully_jsonify({1049151926: {"datasource.revision.text": text, "feature.revision.user.is_bot":"false", "feature.temporal.revision.user.seconds_since_registration":864010}})},
       dataType: "json"
     }).done(function(result){
       var score = result['enwiki']['scores']['1049151926']['damaging']['score'];
