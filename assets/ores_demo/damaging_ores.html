@@ -39,11 +39,8 @@ $(document).ready(function () {
       fmt = "Features:\n";
       for(var i=0; i < feature_names.length; i++){
         var feature_name = feature_names[i];
-        var formatted_name = feature_name
-          .replace("feature.", "")
-          .replace("datasource.", "")
-          .replace("enwiki.", "")
-          .replace("revision.", "");
+        var formatted_name = feature_name;
+          
         fmt += " - " + formatted_name + ": " + features[feature_name] + "\n";
       }
       $("#features").text(fmt);
