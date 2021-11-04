@@ -16,6 +16,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "staeiou/staeiou.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
+seo_description          : "Site for Richard Stuart Geiger, Professor of Communication and Data Science at UC San Diego"
 words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
