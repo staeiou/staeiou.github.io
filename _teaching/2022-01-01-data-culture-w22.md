@@ -4,7 +4,7 @@ collection: teaching
 teaching_type: "Course"
 permalink: /teaching/COMM-106D-data-culture-w22/ 
 institution: "UC San Diego, Dept of Communication"
-date: 2021-10-01
+date: 2021-11-09
 excerpt: "Intermediate undergraduate course on the relationship between data and culture"
 ---
 
