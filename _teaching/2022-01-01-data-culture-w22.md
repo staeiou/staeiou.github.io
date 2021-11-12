@@ -1,16 +1,18 @@
 ---
-title: "COMM 106D: Data and Culture (Winter 2022)"
+title: "COMM 106D: Data and Culture (Winter 2022, UCSD)"
 collection: teaching
 teaching_type: "Course"
 permalink: /teaching/COMM-106D-data-culture-w22/ 
-institution: "UC San Diego, Dept of Communication"
+redirect_from:
+  - /teaching/COMM-106D-data-culture-w22-ucsd/ 
+institution: "UC San Diego (UCSD), Dept of Communication"
 date: 2021-11-09
 excerpt: "Intermediate undergraduate course on the relationship between data and culture"
 ---
 
 ## THIS IS A DRAFT SYLLABUS -- DETAILS ARE SUBJECT TO CHANGE
 
-## COMM 106D: Data and Culture -- Winter 2022
+## COMM 106D: Data and Culture -- Winter 2022 (UCSD Communication)
 
 **Instructor:** Prof. Stuart Geiger (COMM106D@stuartgeiger.com)
 
