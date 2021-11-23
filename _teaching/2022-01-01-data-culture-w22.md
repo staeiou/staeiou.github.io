@@ -116,6 +116,9 @@ First, we will ask how data collection, data analytics, and AI are discussed and
 ### Potential readings
 Note: You will not be required to purchase any textbooks or other material for this class.
 
+- Eslami, Motahhare, Karrie Karahalios, Christian Sandvig, Kristen Vaccaro, Aimee Rickman, Kevin Hamilton, and Alex Kirlik. “First I ‘like’ It, Then I Hide It: Folk Theories of Social Feeds.” In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, 2371–82. CHI ’16. New York, NY, USA: Association for Computing Machinery, 2016. https://doi.org/10.1145/2858036.2858494.
+- Eslami, Motahhare, Aimee Rickman, Kristen Vaccaro, Amirhossein Aleyasen, Andy Vuong, Karrie Karahalios, Kevin Hamilton, and Christian Sandvig. “‘I Always Assumed That I Wasn’t Really That Close to [Her]’: Reasoning about Invisible Algorithms in News Feeds.” In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, 153–62. CHI ’15. New York, NY, USA: Association for Computing Machinery, 2015. https://doi.org/10.1145/2702123.2702556.
+- Geiger, R. Stuart. “Does Habermas Understand the Internet? The Algorithmic Construction of the Blogo/Public Sphere.” Gnovis. A Journal of Communication, Culture, and Technology 10, no. 1 (October 1, 2009). https://papers.ssrn.com/abstract=2734947.
 - Ghosh, A. (2019) ‘Forecasting’, in Paul, H. (ed.) Critical Terms in Futures Studies. Springer. https://doi.org/10.1007/978-3-030-28987-4.
 - Gillespie, Tarleton. “Algorithmically Recognizable: Santorum’s Google Problem, and Google’s Santorum Problem.” Information, Communication & Society 20, no. 1 (January 2, 2017): 63–80. https://doi.org/10.1080/1369118X.2016.1199721.
 - Johnson, Ben, and Aparna Alluri. “If You’re Happy and You Know It, Write a Tweet.” Marketplace. NPR, February 10, 2015. https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/.
