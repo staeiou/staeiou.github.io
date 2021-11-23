@@ -56,31 +56,96 @@ First, we will ask how data collection, data analytics, and AI are discussed and
 **Final:** The final will be a final paper/project of your choice, in which you analyze cultural representations around data/AI, report on data/AI practices in a culture industry, and/or critique a way of representing culture with data/AI. You can also propose an alternative topic. The default format for the final project is a 6-8 page paper, but students who have experience with filmmaking, creative writing, web design, data science, etc., can propose an alternative format drawing on their skills.
 
 ### Potential readings
-- Eslami, M., Rickman, A., Vaccaro, K., Aleyasen, A., Vuong, A., Karahalios, K., Hamilton, K., and Sandvig, C. (2015). “‘I Always Assumed That I Wasn’t Really That Close to [Her]’: Reasoning about Invisible Algorithms in News Feeds.” In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, 153–62. CHI ’15. New York, NY, USA: Association for Computing Machinery, 2015. https://doi.org/10.1145/2702123.2702556.
-- Geiger, R.S. (2009). “Does Habermas Understand the Internet? The Algorithmic Construction of the Blogo/Public Sphere.” Gnovis. A Journal of Communication, Culture, and Technology 10, no. 1 (October 1, 2009). https://papers.ssrn.com/abstract=2734947.
-- Ghosh, A. (2019) ‘Forecasting’, in Paul, H. (ed.) Critical Terms in Futures Studies. Springer. https://doi.org/10.1007/978-3-030-28987-4.
-- Gillespie, Tarleton. “Algorithmically Recognizable: Santorum’s Google Problem, and Google’s Santorum Problem.” Information, Communication & Society 20, no. 1 (January 2, 2017): 63–80. https://doi.org/10.1080/1369118X.2016.1199721.
-- Johnson, Ben, and Aparna Alluri. “If You’re Happy and You Know It, Write a Tweet.” Marketplace. NPR, February 10, 2015. https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/.
-- Lecompte, C. (2015) ‘Automation in the Newsroom.’ Cambridge, MA: Nieman Foundation.  https://niemanreports.org/articles/automation-in-the-newsroom/
-- Losh, E. et al. (2016) ‘Putting the human back into the digital humanities: Feminism, generosity, and mess’, Debates in the digital humanities, pp. 92–103.
-- Madrigal, A.C. (2014) ‘How Netflix Reverse Engineered Hollywood’, The Atlantic, 2, p. 2014. https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/
-- Manovich, L. (2012) ‘Trending: The Promises and the Challenges of Big Social Data’, in Gold, M.K. (ed.) Debates in the Digital Humanities. University of Minnesota Press, pp. 460–475.  https://www.jstor.org/stable/10.5749/j.ctttv8hq.30 
-- Manovich, L. (2013) ‘The Algorithms of Our Lives’, The Chronicle of Higher Education.  https://www.chronicle.com/article/the-algorithms-of-our-lives/ 
-- Manovich, L. (2019) ‘Data’, in Paul, H. (ed.) Critical Terms in Futures Studies. Springer.  https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10 
-- Manovich, L. (2018) ‘Can We Think Without Categories?’, Digital Culture & Society, 4(1), pp. 17–27.
-- Noble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce Racism. New York University Press, 2018.
-- Phillips, S. (2016) ‘Can Big Data Find the Next “Harry Potter”?’, The Atlantic, 12 September.  https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/ 
-- Podolny, S. (2015) ‘If an Algorithm Wrote This, How Would You Even Know?’, The New York Times, 7 March.  https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html
-- Risam, R. and Josephs, K.B. (2021) The Digital Black Atlantic. U of Minnesota Press.
-- Robertson, S. (2016) ‘The differences between digital humanities and digital history’, Istoriya, 7(7 (51)). 
-- Scott, James C. (2008). ‘Cities, People, and Language’ (ch 2), in Seeing Like a State. 
-- Seaver, N. (2017) ‘Algorithms as culture: Some tactics for the ethnography of algorithmic systems’, Big Data & Society, 4(2), p. 2053951717738104. doi:10.1177/2053951717738104.
-- Seaver, N. (2019a) ‘Captivating algorithms: Recommender systems as traps’, Journal of Material Culture, 24(4), pp. 421–436. doi:10.1177/1359183518820366.
-- Seaver, N. (2019b) ‘Knowing Algorithms’, in Vertesi, J. and Ribes, D., digitalSTS. Available at: https://digitalsts.net/essays/knowing-algorithms/ (Accessed: 23 November 2021).
-- Seaver, N. (2021) ‘Everything lies in a space: cultural data and spatial reality’, Journal of the Royal Anthropological Institute, 27(S1), pp. 43–61. doi:10.1111/1467-9655.13479.
-- Vanderbilt, T. (2013) ‘The Science Behind the Netflix Algorithms That Decide What You’ll Watch Next’, Wired.  https://www.wired.com/2013/08/qq-netflix-algorithm/ 
-- Willard, L. (2016) ‘Tumblr’s GIF Economy: The Promotional Function of Industrially Gifted Gifsets’, Flow [Preprint].  http://www.flowjournal.org/2016/07/tumblrs-gif-economy/
-
+- <span class=SpellE>Eslami</span>, M., Rickman, A.,
+Vaccaro, K., <span class=SpellE>Aleyasen</span>, A., <span class=SpellE>Vuong</span>,
+A., <span class=SpellE>Karahalios</span>, K., Hamilton, K., and <span
+class=SpellE>Sandvig</span>, C. (2015). “‘I Always Assumed That I Wasn’t Really
+That Close to [Her]’: Reasoning about Invisible Algorithms in News Feeds.” In
+Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing
+Systems, 153–62. CHI ’15. New York, NY, USA: Association for Computing
+Machinery, 2015. <a href="https://doi.org/10.1145/2702123.2702556"
+title="[{'start':0,&#13;&#10;'end':39,&#13;&#10;'string':'https://doi.org/10.1145/2702123.2702556',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'doi.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/10.1145/2702123.2702556'}]">https://doi.org/10.1145/2702123.2702556</a>.<br>
+- Geiger, R.S. (2009). “Does Habermas Understand the Internet? The Algorithmic
+Construction of the <span class=SpellE>Blogo</span>/Public Sphere.” <span
+class=SpellE>Gnovis</span>. A Journal of Communication, Culture, and Technology
+10, no. 1 (October 1, 2009). <a href="https://papers.ssrn.com/abstract=2734947"
+title="[{'start':0,&#13;&#10;'end':40,&#13;&#10;'string':'https://papers.ssrn.com/abstract=2734947',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'papers.ssrn.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/abstract=2734947'}]">https://papers.ssrn.com/abstract=2734947</a>.<br>
+- Ghosh, A. (2019) ‘Forecasting’, in Paul, H. (ed.) Critical Terms in Futures
+Studies. Springer. <a href="https://doi.org/10.1007/978-3-030-28987-4"
+title="[{'start':0,&#13;&#10;'end':41,&#13;&#10;'string':'https://doi.org/10.1007/978-3-030-28987-4',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'doi.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/10.1007/978-3-030-28987-4'}]">https://doi.org/10.1007/978-3-030-28987-4</a>.<br>
+- Gillespie, Tarleton. “Algorithmically Recognizable: Santorum’s Google
+Problem, and Google’s Santorum Problem.” Information, Communication &amp;
+Society 20, no. 1 (January 2, 2017): 63–80. <a
+href="https://doi.org/10.1080/1369118X.2016.1199721"
+title="[{'start':0,&#13;&#10;'end':45,&#13;&#10;'string':'https://doi.org/10.1080/1369118X.2016.1199721',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'doi.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/10.1080/1369118X.2016.1199721'}]">https://doi.org/10.1080/1369118X.2016.1199721</a>.<br>
+- Johnson, Ben, and Aparna Alluri. “If You’re Happy and You Know It, Write a
+Tweet.” Marketplace. NPR, February 10, 2015. <a
+href="https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/"
+title="[{'start':0,&#13;&#10;'end':82,&#13;&#10;'string':'https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.marketplace.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2015/02/10/if-youre-happy">https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/</a>.<br>
+- <span class=SpellE>Lecompte</span>, C. (2015) ‘Automation in the Newsroom.’
+Cambridge, MA: Nieman Foundation. <a
+href="https://niemanreports.org/articles/automation-in-the-newsroom/"
+title="[{'start':0,&#13;&#10;'end':62,&#13;&#10;'string':'https://niemanreports.org/articles/automation-in-the-newsroom/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'niemanreports.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/articles/automation-in-the-newsroom'}]">https://niemanreports.org/articles/automation-in-the-newsroom/</a><br>
+- <span class=SpellE>Losh</span>, E. et al. (2016) ‘Putting the human back into
+the digital humanities: Feminism, generosity, and mess’, Debates in the digital
+humanities, pp. 92–103.<br>
+- Madrigal, A.C. (2014) ‘How Netflix Reverse Engineered Hollywood’, The
+Atlantic, 2, p. 2014. <a
+href="https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/"
+title="[{'start':0,&#13;&#10;'end':103,&#13;&#10;'string':'https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.theatlantic.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/tec">https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/</a><br>
+- Manovich, L. (2012) ‘Trending: The Promises and the Challenges of Big Social
+Data’, in Gold, M.K. (ed.) Debates in the Digital Humanities. University of
+Minnesota Press, pp. 460–475. <a
+href="https://www.jstor.org/stable/10.5749/j.ctttv8hq.30"
+title="[{'start':0,&#13;&#10;'end':50,&#13;&#10;'string':'https://www.jstor.org/stable/10.5749/j.ctttv8hq.30',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.jstor.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/stable/10.5749/j.ctttv8hq.30'}]">https://www.jstor.org/stable/10.5749/j.ctttv8hq.30</a><br>
+- Manovich, L. (2013) ‘The Algorithms of Our Lives’, The Chronicle of Higher
+Education. <a
+href="https://www.chronicle.com/article/the-algorithms-of-our-lives/"
+title="[{'start':0,&#13;&#10;'end':62,&#13;&#10;'string':'https://www.chronicle.com/article/the-algorithms-of-our-lives/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.chronicle.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/article/the-algorithms-of-our-lives'}]">https://www.chronicle.com/article/the-algorithms-of-our-lives/</a><br>
+- Manovich, L. (2019) ‘Data’, in Paul, H. (ed.) Critical Terms in Futures
+Studies. Springer. <a
+href="https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10"
+title="[{'start':0,&#13;&#10;'end':62,&#13;&#10;'string':'https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'link.springer.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/chapter/10.1007/978-3-030-28987-4_10'}]">https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10</a><br>
+- Manovich, L. (2018) ‘Can We Think Without Categories?’, Digital Culture &amp;
+Society, 4(1), pp. 17–27.<br>
+- Noble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce
+Racism. New York University Press, 2018.<br>
+- Phillips, S. (2016) ‘Can Big Data Find the Next “Harry Potter”?’, The
+Atlantic, 12 September. <a
+href="https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/"
+title="[{'start':0,&#13;&#10;'end':80,&#13;&#10;'string':'https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.theatlantic.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/technology/archive/2016/09/">https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/</a><br>
+- <span class=SpellE>Podolny</span>, S. (2015) ‘If an Algorithm Wrote This, How
+Would You Even Know?’, The New York Times, 7 March. <a
+href="https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html"
+title="[{'start':0,&#13;&#10;'end':105,&#13;&#10;'string':'https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.nytimes.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2015/">https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html</a><br>
+- <span class=SpellE>Risam</span>, R. and Josephs, K.B. (2021) The Digital
+Black Atlantic. U of Minnesota Press.<br>
+- Robertson, S. (2016) ‘The differences between digital humanities and digital
+history’, <span class=SpellE>Istoriya</span>, 7(7 (51)).<br>
+- Scott, James C. (2008). ‘Cities, People, and Language’ (<span class=SpellE>ch</span>
+2), in Seeing Like a State.<br>
+- <span class=SpellE>Seaver</span>, N. (2017) ‘Algorithms as culture: Some
+tactics for the ethnography of algorithmic systems’, Big Data &amp; Society,
+4(2), p. 2053951717738104. doi:10.1177/2053951717738104.<br>
+- <span class=SpellE>Seaver</span>, N. (2019a) ‘Captivating algorithms:
+Recommender systems as traps’, Journal of Material Culture, 24(4), pp. 421–436.
+doi:10.1177/1359183518820366.<br>
+- <span class=SpellE>Seaver</span>, N. (2019b) ‘Knowing Algorithms’, in <span
+class=SpellE>Vertesi</span>, J. and Ribes, D., <span class=SpellE>digitalSTS</span>.
+Available at: <a href="https://digitalsts.net/essays/knowing-algorithms/"
+title="[{'start':0,&#13;&#10;'end':49,&#13;&#10;'string':'https://digitalsts.net/essays/knowing-algorithms/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'digitalsts.net',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/essays/knowing-algorithms'}]">https://digitalsts.net/essays/knowing-algorithms/</a>
+(Accessed: 23 November 2021).<br>
+- <span class=SpellE>Seaver</span>, N. (2021) ‘Everything lies in a space:
+cultural data and spatial reality’, Journal of the Royal Anthropological
+Institute, 27(S1), pp. 43–61. doi:10.1111/1467-9655.13479.<br>
+- Vanderbilt, T. (2013) ‘The Science Behind the Netflix Algorithms That Decide
+What You’ll Watch Next’, Wired. <a
+href="https://www.wired.com/2013/08/qq-netflix-algorithm/"
+title="[{'start':0,&#13;&#10;'end':51,&#13;&#10;'string':'https://www.wired.com/2013/08/qq-netflix-algorithm/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.wired.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2013/08/qq-netflix-algorithm'}]">https://www.wired.com/2013/08/qq-netflix-algorithm/</a><br>
+- Willard, L. (2016) ‘Tumblr’s GIF Economy: The Promotional Function of
+Industrially Gifted <span class=SpellE>Gifsets</span>’, Flow [Preprint]. <a
+href="http://www.flowjournal.org/2016/07/tumblrs-gif-economy/"
+title="[{'start':0,&#13;&#10;'end':55,&#13;&#10;'string':'http://www.flowjournal.org/2016/07/tumblrs-gif-economy/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'http://',&#13;&#10;'host':'www.flowjournal.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2016/07/tumblrs-gif-economy'}]">http://www.flowjournal.org/2016/07/tumblrs-gif-economy/</a></p>
 
 
 
