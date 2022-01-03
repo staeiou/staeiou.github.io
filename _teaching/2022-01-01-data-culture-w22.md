@@ -10,8 +10,6 @@ date: 2021-11-09
 excerpt: "Intermediate undergraduate course on the relationship between data and culture"
 ---
 
-## THIS IS A DRAFT SYLLABUS -- DETAILS ARE SUBJECT TO CHANGE
-
 ## COMM 106D: Data and Culture -- Winter 2022 (UCSD Communication)
 
 **Instructor:** Prof. Stuart Geiger (COMM106D@stuartgeiger.com)
@@ -28,17 +26,18 @@ First, we will ask how data collection, data analytics, and AI are discussed and
 
 **Prerequisites (this will not change):** This is an intermediate elective, so only COMM 10 as a prereq or a co-req. This means you can enroll in this class at the same time as taking COMM 10. You must submit an EASY request after enrolling in COMM 10. See<https://communication.ucsd.edu/undergrad/academic-overview/faqs.html#I-want-to-enroll-in-COMM-10-and>. No other prereqs are required. We will learn some aspects about how data science and AI works, but this course assumes no prior knowledge of computing. 
 
-### Assessment (some details may change):
+### Assessment 
+
 
 - 15% Mon/Wed in-person participation (you can miss up to 3 classes unexcused; 4 unexcused absences will be penalized 1 letter grade)
 
 - 15% Friday virtual participation
 
-- 20% Take home assignments (3 assignments, lowest grade dropped):
+- 20% Take home essays (400-500 words, 3 assignments, lowest grade dropped):
 
-  - Critique a representation of data/AI
-  - Report on the use of data in a culture industry
-  - (Mis-)represent your culture through data
+  - Write about a real-world system of quantification and its consequences
+  - Write about an algorithmic imaginary of a social networking site
+  - Write about the use of data/AI in a culture industry
 
 - 20% Group midterm performance/skit/parody project, comprised of:
 
@@ -51,101 +50,110 @@ First, we will ask how data collection, data analytics, and AI are discussed and
   - 5% Final paper/project proposal
   - 25% Final paper/project
 
-**Midterm:** The midterm will be a group performance project, in which groups of 3-5 students will produce a 4-6 minute creative segment / skit on a topic related to the class. You will have to propose the topic beforehand. You are free to choose the genre (e.g. fictional drama in the style of Black Mirror, media critic segment, comedy / parody / satire of a common AI trope, etc.) and whether it is recorded or live. The only constraint is that it should not be a lecture-style presentation.
+**Midterm:** The midterm will be a group performance project, in which groups of 3-5 students will produce a 5-7 minute segment on a topic related to the class. You will have to propose the topic beforehand. You are free to choose the format, genre, and whether it is recorded or live.
 
-**Final:** The final will be a final paper/project of your choice, in which you analyze cultural representations around data/AI, report on data/AI practices in a culture industry, and/or critique a way of representing culture with data/AI. You can also propose an alternative topic. The default format for the final project is a 6-8 page paper, but students who have experience with filmmaking, creative writing, web design, data science, etc., can propose an alternative format drawing on their skills.
+**Final:** The final will be a final paper/project of your choice related to the class content. The default format for the final project is a 1750-2000 word paper, but students who have experience with filmmaking, creative writing, web design, data science, etc., can propose an alternative format drawing on their skills.
 
-### Potential readings
-- <span class=SpellE>Eslami</span>, M., Rickman, A.,
-Vaccaro, K., <span class=SpellE>Aleyasen</span>, A., <span class=SpellE>Vuong</span>,
-A., <span class=SpellE>Karahalios</span>, K., Hamilton, K., and <span
-class=SpellE>Sandvig</span>, C. (2015). “‘I Always Assumed That I Wasn’t Really
-That Close to [Her]’: Reasoning about Invisible Algorithms in News Feeds.” In
-Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing
-Systems, 153–62. CHI ’15. New York, NY, USA: Association for Computing
-Machinery, 2015. <a href="https://doi.org/10.1145/2702123.2702556"
-title="[{'start':0,&#13;&#10;'end':39,&#13;&#10;'string':'https://doi.org/10.1145/2702123.2702556',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'doi.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/10.1145/2702123.2702556'}]">https://doi.org/10.1145/2702123.2702556</a>.<br>
-- Geiger, R.S. (2009). “Does Habermas Understand the Internet? The Algorithmic
-Construction of the <span class=SpellE>Blogo</span>/Public Sphere.” <span
-class=SpellE>Gnovis</span>. A Journal of Communication, Culture, and Technology
-10, no. 1 (October 1, 2009). <a href="https://papers.ssrn.com/abstract=2734947"
-title="[{'start':0,&#13;&#10;'end':40,&#13;&#10;'string':'https://papers.ssrn.com/abstract=2734947',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'papers.ssrn.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/abstract=2734947'}]">https://papers.ssrn.com/abstract=2734947</a>.<br>
-- Ghosh, A. (2019) ‘Forecasting’, in Paul, H. (ed.) Critical Terms in Futures
-Studies. Springer. <a href="https://doi.org/10.1007/978-3-030-28987-4"
-title="[{'start':0,&#13;&#10;'end':41,&#13;&#10;'string':'https://doi.org/10.1007/978-3-030-28987-4',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'doi.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/10.1007/978-3-030-28987-4'}]">https://doi.org/10.1007/978-3-030-28987-4</a>.<br>
-- Gillespie, Tarleton. “Algorithmically Recognizable: Santorum’s Google
-Problem, and Google’s Santorum Problem.” Information, Communication &amp;
-Society 20, no. 1 (January 2, 2017): 63–80. <a
-href="https://doi.org/10.1080/1369118X.2016.1199721"
-title="[{'start':0,&#13;&#10;'end':45,&#13;&#10;'string':'https://doi.org/10.1080/1369118X.2016.1199721',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'doi.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/10.1080/1369118X.2016.1199721'}]">https://doi.org/10.1080/1369118X.2016.1199721</a>.<br>
-- Johnson, Ben, and Aparna Alluri. “If You’re Happy and You Know It, Write a
-Tweet.” Marketplace. NPR, February 10, 2015. <a
-href="https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/"
-title="[{'start':0,&#13;&#10;'end':82,&#13;&#10;'string':'https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.marketplace.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2015/02/10/if-youre-happy">https://www.marketplace.org/2015/02/10/if-youre-happy-and-you-know-it-write-tweet/</a>.<br>
-- <span class=SpellE>Lecompte</span>, C. (2015) ‘Automation in the Newsroom.’
-Cambridge, MA: Nieman Foundation. <a
-href="https://niemanreports.org/articles/automation-in-the-newsroom/"
-title="[{'start':0,&#13;&#10;'end':62,&#13;&#10;'string':'https://niemanreports.org/articles/automation-in-the-newsroom/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'niemanreports.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/articles/automation-in-the-newsroom'}]">https://niemanreports.org/articles/automation-in-the-newsroom/</a><br>
-- <span class=SpellE>Losh</span>, E. et al. (2016) ‘Putting the human back into
-the digital humanities: Feminism, generosity, and mess’, Debates in the digital
-humanities, pp. 92–103.<br>
-- Madrigal, A.C. (2014) ‘How Netflix Reverse Engineered Hollywood’, The
-Atlantic, 2, p. 2014. <a
-href="https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/"
-title="[{'start':0,&#13;&#10;'end':103,&#13;&#10;'string':'https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.theatlantic.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/tec">https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/</a><br>
-- Manovich, L. (2012) ‘Trending: The Promises and the Challenges of Big Social
-Data’, in Gold, M.K. (ed.) Debates in the Digital Humanities. University of
-Minnesota Press, pp. 460–475. <a
-href="https://www.jstor.org/stable/10.5749/j.ctttv8hq.30"
-title="[{'start':0,&#13;&#10;'end':50,&#13;&#10;'string':'https://www.jstor.org/stable/10.5749/j.ctttv8hq.30',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.jstor.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/stable/10.5749/j.ctttv8hq.30'}]">https://www.jstor.org/stable/10.5749/j.ctttv8hq.30</a><br>
-- Manovich, L. (2013) ‘The Algorithms of Our Lives’, The Chronicle of Higher
-Education. <a
-href="https://www.chronicle.com/article/the-algorithms-of-our-lives/"
-title="[{'start':0,&#13;&#10;'end':62,&#13;&#10;'string':'https://www.chronicle.com/article/the-algorithms-of-our-lives/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.chronicle.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/article/the-algorithms-of-our-lives'}]">https://www.chronicle.com/article/the-algorithms-of-our-lives/</a><br>
-- Manovich, L. (2019) ‘Data’, in Paul, H. (ed.) Critical Terms in Futures
-Studies. Springer. <a
-href="https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10"
-title="[{'start':0,&#13;&#10;'end':62,&#13;&#10;'string':'https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'link.springer.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/chapter/10.1007/978-3-030-28987-4_10'}]">https://link.springer.com/chapter/10.1007/978-3-030-28987-4_10</a><br>
-- Manovich, L. (2018) ‘Can We Think Without Categories?’, Digital Culture &amp;
-Society, 4(1), pp. 17–27.<br>
-- Noble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce
-Racism. New York University Press, 2018.<br>
-- Phillips, S. (2016) ‘Can Big Data Find the Next “Harry Potter”?’, The
-Atlantic, 12 September. <a
-href="https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/"
-title="[{'start':0,&#13;&#10;'end':80,&#13;&#10;'string':'https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.theatlantic.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/technology/archive/2016/09/">https://www.theatlantic.com/technology/archive/2016/09/bestseller-ometer/499256/</a><br>
-- <span class=SpellE>Podolny</span>, S. (2015) ‘If an Algorithm Wrote This, How
-Would You Even Know?’, The New York Times, 7 March. <a
-href="https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html"
-title="[{'start':0,&#13;&#10;'end':105,&#13;&#10;'string':'https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.nytimes.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2015/">https://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html</a><br>
-- <span class=SpellE>Risam</span>, R. and Josephs, K.B. (2021) The Digital
-Black Atlantic. U of Minnesota Press.<br>
-- Robertson, S. (2016) ‘The differences between digital humanities and digital
-history’, <span class=SpellE>Istoriya</span>, 7(7 (51)).<br>
-- Scott, James C. (2008). ‘Cities, People, and Language’ (<span class=SpellE>ch</span>
-2), in Seeing Like a State.<br>
-- <span class=SpellE>Seaver</span>, N. (2017) ‘Algorithms as culture: Some
-tactics for the ethnography of algorithmic systems’, Big Data &amp; Society,
-4(2), p. 2053951717738104. doi:10.1177/2053951717738104.<br>
-- <span class=SpellE>Seaver</span>, N. (2019a) ‘Captivating algorithms:
-Recommender systems as traps’, Journal of Material Culture, 24(4), pp. 421–436.
-doi:10.1177/1359183518820366.<br>
-- <span class=SpellE>Seaver</span>, N. (2019b) ‘Knowing Algorithms’, in <span
-class=SpellE>Vertesi</span>, J. and Ribes, D., <span class=SpellE>digitalSTS</span>.
-Available at: <a href="https://digitalsts.net/essays/knowing-algorithms/"
-title="[{'start':0,&#13;&#10;'end':49,&#13;&#10;'string':'https://digitalsts.net/essays/knowing-algorithms/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'digitalsts.net',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/essays/knowing-algorithms'}]">https://digitalsts.net/essays/knowing-algorithms/</a>
-(Accessed: 23 November 2021).<br>
-- <span class=SpellE>Seaver</span>, N. (2021) ‘Everything lies in a space:
-cultural data and spatial reality’, Journal of the Royal Anthropological
-Institute, 27(S1), pp. 43–61. doi:10.1111/1467-9655.13479.<br>
-- Vanderbilt, T. (2013) ‘The Science Behind the Netflix Algorithms That Decide
-What You’ll Watch Next’, Wired. <a
-href="https://www.wired.com/2013/08/qq-netflix-algorithm/"
-title="[{'start':0,&#13;&#10;'end':51,&#13;&#10;'string':'https://www.wired.com/2013/08/qq-netflix-algorithm/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'https://',&#13;&#10;'host':'www.wired.com',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2013/08/qq-netflix-algorithm'}]">https://www.wired.com/2013/08/qq-netflix-algorithm/</a><br>
-- Willard, L. (2016) ‘Tumblr’s GIF Economy: The Promotional Function of
-Industrially Gifted <span class=SpellE>Gifsets</span>’, Flow [Preprint]. <a
-href="http://www.flowjournal.org/2016/07/tumblrs-gif-economy/"
-title="[{'start':0,&#13;&#10;'end':55,&#13;&#10;'string':'http://www.flowjournal.org/2016/07/tumblrs-gif-economy/',&#13;&#10;'isURL':true,&#13;&#10;'protocol':'http://',&#13;&#10;'host':'www.flowjournal.org',&#13;&#10;'confirmedByProtocol':false,&#13;&#10;'path':'/2016/07/tumblrs-gif-economy'}]">http://www.flowjournal.org/2016/07/tumblrs-gif-economy/</a></p>
+
+
+### Schedule
+
+**Note: All readings will be made freely-available, so do not purchase any readings for this class. Some links require you to be on campus or logged in to the UCSD VPN.**
+
+**Week 1: What is Data? What is Culture?**
+
+Mon, Jan 3rd: Lecture. Intro to class content and syllabus. No readings before class.
+
+Wed, Jan 5th: Zoom lecture and activity. Read Williams (1976, <https://stuartgeiger.com/resources/williams-culture-keywords-t.pdf>) and Striphas (2016, <https://stuartgeiger.com/resources/striphas-culture-keywords.pdf>) before class.
+
+Fri, Jan 7th: Asynchronous participation. Read Hey's "The Data, Information, Knowledge, Wisdom Chain" (<https://www.jonohey.com/files/DIKW-chain-Hey-2004.pdf>). Then follow the instructions on the "Getting to know you survey" on canvas between Wed 9:51am and Fri 11:59pm. This is not just taking a survey, it is also coming up with questions for your fellow students.
+
+
+**Week 2: Quantifying humans:**
+
+M 1/10: Read “Algorithms and their others: Algorithmic culture in context” by Paul Dourish (<https://journals.sagepub.com/doi/10.1177/2053951716665128>)
+
+W 1/12: Read “Algorithmic psychometrics and the scalable subject” by Luke Stark (<https://journals.sagepub.com/doi/full/10.1177/0306312718772094>)
+
+F (async) 1/14: Making our own personality quizzes
+
+Due by Sunday 1/16 5:00pm: Write a 400-500 word essay about a real-world system of quantification. Discuss its intended use and the issues that arise.  
+
+
+**Week 3: Quantifying society:**
+
+M 1/17: Read ‘Cities, People, and Language’ by James C. Scott, from_Seeing Like a State_.
+
+W 1/19: Listen to Malcolm Gladwell’s “Puzzle Rush” and “The Tortoise and the Hare” (Season 4, Ep 1 and 2 of “Revisionist History”). About 40 minutes each with ads.
+
+<https://www.stitcher.com/show/revisionist-history/episode/puzzle-rush-62044421>
+
+<https://www.stitcher.com/show/revisionist-history/episode/the-tortoise-and-the-hare-62203674>
+
+F (async) 1/21: Making our own rankings of the best places to live
+
+**Week 4: Recommender systems and personalized recommendation:**
+
+M 1/24: No reading, lecture on how recommender systems work
+
+W 1/26: No reading, lecture part 2 and designing our own system
+
+F (async) 1/28: Looking inside our personalized models
+
+Due by Sunday 1/30 5:00pm: 200-250 word proposal from your group about your performance project related to a topic we have or will cover in this class. This should contain 3 different ideas about what you want to do, including the possible genre and the format it will take.
+
+**Week 5: The News Feed:**
+
+M 1/31: No reading, lecture
+
+W 2/2: Read “The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms” by Taini Bucher (<https://www.tandfonline.com/doi/abs/10.1080/1369118X.2016.1154086>)
+
+F (async) 2/4: The Facebook Demetricator and designing alternative news feeds
+
+Due by Sunday 5:00pm: 200-250 proposal about what you might write your final paper about. This should contain 3 different ideas, including the format it could take (especially if you want to do something other than a paper)
+
+**Week 6: Social media content moderation:**
+
+M 2/7: No reading, lecture on computational foundation of content moderation
+
+W 2/9: Read from_Behind the Screen_by Sarah Roberts, Intro and Ch 2.
+
+F (async) 2/11: Auditing the results of content moderation algorithms
+
+Due by Sunday 2/13 5:00pm: 400-500 word essay about an algorithmic imaginary around a social networking site. It could either be your own imaginary from your personal experience, a story about something from friends/family (anonymize, get permission from them), or from popular culture. Discuss what the imaginary is and how the operation of social networking site supports and/or undermines this imaginary.
+
+**Week 7: Netflix:**
+
+M 2/14: Read “How Netflix Reverse-Engineered Hollywood” by Alexis Madrigal (<https://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/>)
+
+W 2/16: Read “Catered to Your Future Self: Netflix’s Predictive Personalization and the Mathematization of Taste” by Neta Alexander, from_The Netflix Effect_
+
+F (async) 2/18: Diary of your streaming activity
+
+Due by Sunday 2/20 5:00pm: A draft script of your group’s performance  
+
+**Week 8: Search Engines**
+
+M 2/21: Read Algorithms of Oppression: How Search Engines Reinforce Racism by Safiya Noble, “Ch 1: A Society, Searching” and “3. Searching for People and Communities”
+
+W 2/23: Read "Algorithmically recognizable: Santorum’s Google problem, and Google’s Santorum problem” by Tarleton Gillespie
+
+F 2/25: Auditing search engine results: do we all see the same things?
+
+Due by Sunday 2/27 5:00pm: A full outline of your final paper, with a 250-500 word introduction.
+
+**Week 9: Journalism**
+
+M 2/28: Read “Automation in the Newsroom” by Celeste LeCompte (<https://niemanreports.org/articles/automation-in-the-newsroom/>)
+
+W 3/2: Read “What APIs can do for news” by David Weinberger (<https://niemanreports.org/articles/what-apis-can-do-for-news/>)
+
+F 3/4: Building our own newsbots
+
+Due by Sunday 3/6 5:00pm: 400-500 word essay about the role of data and/or AI in a culture industry of your choice. Your arguments should be based in primary and secondary sources, and you should cite at least 4 different sources. If you write about an industry we already covered, you must find 2 additional sources.
+
+
+**Week 10: Group performances and final project prep**
 
 
 
