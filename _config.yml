@@ -112,7 +112,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  wikipedia        : "staeiou"
+  # wikipedia        : "staeiou"
 
 
 # Reading Files
