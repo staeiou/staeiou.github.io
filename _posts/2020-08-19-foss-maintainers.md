@@ -16,7 +16,7 @@ Over the past few years, our team has been working on a few interrelated researc
 * [Nelle Varoquaux](https://nellev.github.io/), CNRS, Université Grenoble Alpes
 * [Chris Holdgraf](https://predictablynoisy.com), UC Berkeley, Berkeley Institute for Data Science
 
-# [One-page summary of research and recommendations](https://www.fordfoundation.org/media/5808/geiger-et-al_ford-sloan-one-pager.pdf)
+# [One-page summary of research and recommendations (PDF link)](https://www.fordfoundation.org/media/5808/geiger-et-al_ford-sloan-one-pager.pdf)
 
 # Presentations
 
