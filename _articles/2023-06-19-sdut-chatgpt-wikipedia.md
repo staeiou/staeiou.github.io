@@ -1,0 +1,29 @@
+---
+title: "Opinion: ChatGPT is this generation’s Wikipedia. We have an opportunity to learn from the past"
+category: articles
+permalink: /articles/2023-06-19-sdut-chatgpt-wikipedia
+excerpt: "This is an op-ed published in [the San Diego Union Tribune](https://www.sandiegouniontribune.com/opinion/commentary/story/2023-06-19/opinion-chatgpt-wikipedia-artificial-intelligence-ai-schools-education) as part of a set of commentaries on ChatGPT."
+venue: "San Diego Union Tribune"
+date: 2023-06-19
+---
+This is an op-ed published in [the San Diego Union Tribune](https://www.sandiegouniontribune.com/opinion/commentary/story/2023-06-19/opinion-chatgpt-wikipedia-artificial-intelligence-ai-schools-education) as part of a set of commentaries on ChatGPT.
+
+"ChatGPT is this generation’s Wikipedia. We have an opportunity to learn from the past" By R. Stuart Geiger
+
+I teach several courses at UC San Diego in communication and data science about the use and abuse of data, digital platforms, algorithms, personalization and artificial intelligence. I was preparing for my winter Data and Culture class when ChatGPT exploded on the scene. I’d used Natural Language Processing methods before GPT-1, but ChatGPT felt different. When I gave it my favorite assignments, it always passed my rubrics with remarkably average essays. Due to how ChatGPT works, I knew it would be difficult or impossible to definitively detect its use.
+
+On a whim, I had ChatGPT generate a syllabus for my class. It gave relevant topics and readings, including several new readings from my favorite scholars — which did not exist. I found similar “hallucinations” when I asked for direct quotes from a reading. I began to immunize my assignments, crafting prompts that ChatGPT would get wrong. But I soon realized that this was the wrong direction. One reason is because these systems are rapidly developing, so today’s flaws may be fixed tomorrow.
+
+More importantly, I realized there were striking parallels to Wikipedia, the online encyclopedia anyone can edit, which I’ve edited since 2004 and extensively researched. In the mid-2000s, there was panic about students using this new, uncertain and unreliable information resource. Schools banned Wikipedia while school officials shamed students who read it, and some even argued Wikipedia undermined the idea of truth. Yet the people who wrote Wikipedia didn’t naively trust it. Wikipedians agree it should never be cited definitively and could be dangerous if used uncritically for high-risk decisions. Instead, it was a resource, a starting point, an inherently imperfect and incomplete guide to reliable sources.
+
+These very imperfections mean you can observe how knowledge is represented and contested on Wikipedia. You can see the revision history of every article and spend days exploring the “edit wars” over how to represent a topic. The Wiki Education Foundation is an educational nonprofit that helps educators teach information and media literacy through critically engaging with Wikipedia. Students investigate how a topic is represented and debated on Wikipedia, then contribute themselves and follow how their contributions are received.
+
+Inspired by this, I required students to critically engage with this newest uncertain and unreliable information resource. And they did. They used ChatGPT to generate essays to prompts I had assigned in prior years. They documented their process, submitted the prompts they used, evaluated the generated essay, edited it as needed, and reflected on their experience. This led to insightful discussions about not just ChatGPT, but the value of writing, the meaning of a university degree and the future of work.
+
+There are different ways to use artificial intelligence in the writing process — and writing is a process, not just an end product. I motivate my students by sharing how I constantly write and rewrite to formulate my own thoughts and beliefs. You can thoughtfully engage with AI as one of many resources to help craft your argument, if you understand its capabilities and limitations. If you don’t, you are outsourcing your intellectual agency to a flawed, biased and opaque system, as students also do when they pay someone for an essay. Yet this can also occur when we “do our own research” using personalized search engines or social media platforms that show us what they think we want — a major topic in my classes.
+
+Crucially, you cannot trust an AI to do work that you cannot independently verify, and you absolutely cannot trust it to check its own work. In contrast, I’ve used ChatGPT as a “super thesaurus,” asking for five variations on a lengthy and awkward phrase, then picking the best one. This seems closer to technologies like spelling and grammar checkers, which many academic writing centers encourage.
+
+The Wikipedia comparison raises broader social, political and economic implications around ChatGPT and generative AI, which are my main concerns. Wikipedia is not-for-profit and practices openness, while OpenAI abandoned its original nonprofit structure and transparency pledge. Wikipedia cites sources and encourages following them, while ChatGPT was trained on copyrighted work but hallucinates its sources. Wikipedians worked with educators to develop curricula and classroom programs, while OpenAI has become a multi-billion dollar household name largely because it “disrupted” educators, whom I estimate have collectively spent millions of unpaid labor-hours scrambling to adapt.
+
+There are issues with Wikipedia, especially having to do with bias, diversity and inclusion, but we know this because of its transparency. It is far more difficult to go behind the scenes with ChatGPT to see how it is constructed, what its biases and limitations are, how its creators debate what it ought to be, and — the most important question we must ask of any system, be it technological, political, social or economic — how could it be otherwise?
