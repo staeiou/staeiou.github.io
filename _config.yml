@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "R. Stuart Geiger"
+locale                   : "zh-CN"
+title                    : "龙先鹏"
 title_separator          : "-"
-name                     : &name "R. Stuart Geiger"
+name                     : &name "龙先鹏"
 description              : &description "computational ethnographer<br/>ethnographer of computation"
-url                      : https://stuartgeiger.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://longxianpeng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "staeiou/staeiou.github.io"
+repository               : "longxianpeng/longxianpeng.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 seo_description          : "Site for Richard Stuart Geiger, Professor of Communication and Data Science at UC San Diego"
