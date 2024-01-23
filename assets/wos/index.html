@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web of Science Citation Analyzer</title>
+<style>
+    .table-container {
+        margin-top: 20px;
+        margin-left: 10%; /* 10% margin on the left */
+        margin-right: 10%; /* 10% margin on the right */
+        padding: 10px; /* Padding around the tables */
+        width: 80%; /* Adjust width to accommodate margins */
+        height: 400px; /* Fixed height for scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+        border: 1px solid #ddd;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    #navigation {
+        margin-bottom: 20px;
+    }
+
+    #navigation a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: blue;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Web of Science Citation Analyzer</h1>
+    <div id="navigation">
+        <a href="#authorsTable">Most Cited Authors</a>
+        <a href="#titlesTable">Most Cited Titles</a>
+        <a href="#publicationsTable">Most Cited Publications</a>
+    </div>
+
+    <input type="file" id="fileInput" multiple accept=".txt">
+	<button id="processButton">Process Files</button>
+	<p><small>Upload one or more files in the specified format.</small></p>
+
+	<!-- Progress Bar -->
+	<div id="progressContainer" style="display:none;">
+		<label for="fileProgress">Processing Files:</label>
+		<progress id="fileProgress" value="0" max="100"></progress>
+	</div>
+
+    <div class="table-container" id="authorsContainer">
+        <h2>Most Cited Authors</h2>
+        <table id="authorsTable"></table>
+    </div>
+
+    <div class="table-container" id="titlesContainer">
+        <h2>Most Cited Titles</h2>
+        <table id="titlesTable"></table>
+    </div>
+
+    <div class="table-container" id="publicationsContainer">
+        <h2>Most Cited Publications</h2>
+        <table id="publicationsTable"></table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
