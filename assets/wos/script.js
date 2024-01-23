@@ -1,3 +1,47 @@
+function normalizeAuthorName(name) {
+    // Remove punctuation and trim whitespace
+    let normalized = name.replace(/[.,]/g, '').trim();
+
+    // Handle names with common prefixes as a single last name
+    const namePrefixes = ["van", "van der", "de", "le", "la"]; // Extend this list as needed
+    let parts = normalized.split(' ');
+
+    // Check for and handle last name prefixes
+    let lastName = parts[0];
+    if (parts.length > 1 && namePrefixes.includes(lastName.toLowerCase())) {
+        lastName += " " + parts[1]; // Append the next part to the last name
+        parts = [lastName, ...parts.slice(2)]; // Reconstruct parts array
+    }
+
+    // Process initials for names with more than one part
+    if (parts.length > 1) {
+        let initials = parts[1];
+
+        if (initials.toUpperCase() === initials) {
+            initials = initials.length > 2 ? initials.substring(0, 2) : initials;
+        } else {
+            initials = initials.substring(0, 1);
+        }
+
+        normalized = lastName + ' ' + initials;
+    }
+
+    return normalized;
+}
+
+function resetApplication() {
+    // Clear file input
+    document.getElementById('fileInput').value = '';
+
+    // Reset progress bar
+    updateProgressBar(0);
+
+    // Clear tables
+    ['authorsTable', 'titlesTable', 'publicationsTable'].forEach(tableId => {
+        document.getElementById(tableId).innerHTML = '';
+    });
+}
+
 function parseCitedReferences(text) {
     const articles = text.split('\nER\n');
     let allReferences = [];
@@ -37,8 +81,11 @@ function parseCitedReferences(text) {
 function countCitations(references, index) {
     const counts = {};
     references.forEach(ref => {
-        const key = ref[index];
+        let key = ref[index];
         if (key) {
+            if (index === 'author') {
+                key = normalizeAuthorName(key); // Normalize author names
+            }
             counts[key] = (counts[key] || 0) + 1;
         }
     });
@@ -76,39 +123,51 @@ function processFiles() {
     let files = document.getElementById('fileInput').files;
     if (files.length === 0) return;
 
-    updateProgressBar(0); // Initialize progress bar
     let allReferences = [];
-    let filesProcessed = 0;
+    let promises = [];
 
-    Array.from(files).forEach(file => {
-        let reader = new FileReader();
-        reader.onload = function(e) {
-            let references = parseCitedReferences(e.target.result);
-            allReferences.push(...references);
-            filesProcessed++;
-            updateProgressBar((filesProcessed / files.length) * 100);
+    Array.from(files).forEach((file, index) => {
+        // Create a promise for each file
+        let promise = new Promise((resolve, reject) => {
+            let reader = new FileReader();
+            reader.onload = function(e) {
+                let references = parseCitedReferences(e.target.result);
+                allReferences.push(...references);
+                resolve(); // Resolve the promise when file is processed
+            };
+            reader.onerror = reject;
+            reader.readAsText(file);
+        });
 
-            if (filesProcessed === files.length) {
-                let authorCounts = countCitations(allReferences, 'author');
-                let titleCounts = countCitations(allReferences, 'title');
-                let publicationCounts = allReferences.map(ref => ref.publication)
-                                                     .reduce((acc, pub) => {
-                                                         acc[pub] = (acc[pub] || 0) + 1;
-                                                         return acc;
-                                                     }, {});
+        promises.push(promise);
 
-                let sortedAuthors = sortAndConvertCounts(authorCounts);
-                let sortedTitles = sortAndConvertCounts(titleCounts);
-                let sortedPublications = sortAndConvertCounts(publicationCounts);
+        // Update progress bar after each file is processed
+        promise.then(() => {
+            updateProgressBar(((index + 1) / files.length) * 100);
+        });
+    });
 
-                populateTable('authorsTable', sortedAuthors);
-                populateTable('titlesTable', sortedTitles);
-                populateTable('publicationsTable', sortedPublications);
-            }
-        };
-        reader.readAsText(file);
+    // When all promises are resolved, process the citations
+    Promise.all(promises).then(() => {
+        let authorCounts = countCitations(allReferences, 'author');
+        let titleCounts = countCitations(allReferences, 'title');
+        let publicationCounts = allReferences.map(ref => ref.publication)
+                                             .reduce((acc, pub) => {
+                                                 acc[pub] = (acc[pub] || 0) + 1;
+                                                 return acc;
+                                             }, {});
+
+        let sortedAuthors = sortAndConvertCounts(authorCounts);
+        let sortedTitles = sortAndConvertCounts(titleCounts);
+        let sortedPublications = sortAndConvertCounts(publicationCounts);
+
+        populateTable('authorsTable', sortedAuthors);
+        populateTable('titlesTable', sortedTitles);
+        populateTable('publicationsTable', sortedPublications);
     });
 }
 
 
+
 document.getElementById('processButton').addEventListener('click', processFiles);
+document.getElementById('resetButton').addEventListener('click', resetApplication);

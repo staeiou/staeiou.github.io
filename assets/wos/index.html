@@ -47,21 +47,22 @@
 </head>
 <body>
     <h1>Web of Science Citation Analyzer</h1>
-    <div id="navigation">
-        <a href="#authorsTable">Most Cited Authors</a>
-        <a href="#titlesTable">Most Cited Titles</a>
-        <a href="#publicationsTable">Most Cited Publications</a>
-    </div>
 
     <input type="file" id="fileInput" multiple accept=".txt">
 	<button id="processButton">Process Files</button>
-	<p><small>Upload one or more files in the specified format.</small></p>
+	<button id="resetButton">Reset</button> <!-- Reset button -->
+	<p><small>Upload one or more Web of Science files exported as Plain Text (.txt)</small></p>
 
 	<!-- Progress Bar -->
 	<div id="progressContainer" style="display:none;">
 		<label for="fileProgress">Processing Files:</label>
 		<progress id="fileProgress" value="0" max="100"></progress>
 	</div>
+    <div id="navigation">
+        <a href="#authorsTable">Most Cited Authors</a>
+        <a href="#titlesTable">Most Cited Titles</a>
+        <a href="#publicationsTable">Most Cited Publications</a>
+    </div>
 
     <div class="table-container" id="authorsContainer">
         <h2>Most Cited Authors</h2>
