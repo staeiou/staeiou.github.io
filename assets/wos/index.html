@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web of Science Citation Analyzer</title>
+    <title>Web of Science Outgoing Citation Analyzer</title>
 <style>
     .table-container {
         margin-top: 20px;
@@ -47,7 +47,7 @@
 </head>
 <body>
     <h1>Web of Science Citation Analyzer</h1>
-
+<p> In Web of Science, it is easy to analyze incoming citations, or citations *TO* a set of articles found in any search query. It is much harder to analyze outgoing citations, or citations *FROM* a set of articles found in any search query. This site lets you upload exported Plain Text results and analyzes the most common citations those articles make.</p>
     <input type="file" id="fileInput" multiple accept=".txt">
 	<button id="processButton">Process Files</button>
 	<button id="resetButton">Reset</button> <!-- Reset button -->
@@ -78,7 +78,7 @@
         <h2>Most Cited Publications</h2>
         <table id="publicationsTable"></table>
     </div>
-
+<p>By R. Stuart Geiger, (C) 2024. Freely licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">the AGPL v3.0</a>. Published on <a href="https://github.com/staeiou/staeiou.github.io/tree/master/assets/wos">GitHub</a>.</p>
     <script src="script.js"></script>
 </body>
 </html>
