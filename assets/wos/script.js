@@ -123,47 +123,55 @@ function processFiles() {
     let files = document.getElementById('fileInput').files;
     if (files.length === 0) return;
 
+    updateProgressBar(0); // Initialize progress bar
     let allReferences = [];
-    let promises = [];
+    let filesProcessed = 0;
+    let isValidFile = true; // Flag to track if files are valid
 
-    Array.from(files).forEach((file, index) => {
-        // Create a promise for each file
-        let promise = new Promise((resolve, reject) => {
-            let reader = new FileReader();
-            reader.onload = function(e) {
+    Array.from(files).forEach(file => {
+        let reader = new FileReader();
+        reader.onload = function(e) {
+            // Check if the file content starts with the required header
+            if (!e.target.result.startsWith("FN Clarivate Analytics Web of Science")) {
+                alert("Error: File '" + file.name + "' does not appear to be a Web of Science Plain Text export. The text file should begin with 'FN Clarivate Analytics Web of Science'");
+                isValidFile = false;
+                updateProgressBar(100); // Reset progress bar
+                return; // Stop processing this file
+            }
+
+            // If the file is valid, process its content
+            if (isValidFile) {
                 let references = parseCitedReferences(e.target.result);
                 allReferences.push(...references);
-                resolve(); // Resolve the promise when file is processed
-            };
-            reader.onerror = reject;
-            reader.readAsText(file);
-        });
+                filesProcessed++;
+            }
 
-        promises.push(promise);
+            // Update the progress bar and process citations when all files are processed
+            if (filesProcessed === files.length && isValidFile) {
+                let authorCounts = countCitations(allReferences, 'author');
+                let titleCounts = countCitations(allReferences, 'title');
+                let publicationCounts = allReferences.map(ref => ref.publication)
+                                                     .reduce((acc, pub) => {
+                                                         acc[pub] = (acc[pub] || 0) + 1;
+                                                         return acc;
+                                                     }, {});
 
-        // Update progress bar after each file is processed
-        promise.then(() => {
-            updateProgressBar(((index + 1) / files.length) * 100);
-        });
-    });
+                let sortedAuthors = sortAndConvertCounts(authorCounts);
+                let sortedTitles = sortAndConvertCounts(titleCounts);
+                let sortedPublications = sortAndConvertCounts(publicationCounts);
 
-    // When all promises are resolved, process the citations
-    Promise.all(promises).then(() => {
-        let authorCounts = countCitations(allReferences, 'author');
-        let titleCounts = countCitations(allReferences, 'title');
-        let publicationCounts = allReferences.map(ref => ref.publication)
-                                             .reduce((acc, pub) => {
-                                                 acc[pub] = (acc[pub] || 0) + 1;
-                                                 return acc;
-                                             }, {});
+                populateTable('authorsTable', sortedAuthors);
+                populateTable('titlesTable', sortedTitles);
+                populateTable('publicationsTable', sortedPublications);
+            }
 
-        let sortedAuthors = sortAndConvertCounts(authorCounts);
-        let sortedTitles = sortAndConvertCounts(titleCounts);
-        let sortedPublications = sortAndConvertCounts(publicationCounts);
-
-        populateTable('authorsTable', sortedAuthors);
-        populateTable('titlesTable', sortedTitles);
-        populateTable('publicationsTable', sortedPublications);
+            updateProgressBar((filesProcessed / files.length) * 100);
+        };
+        reader.onerror = () => {
+            alert("Error reading file: " + file.name);
+            updateProgressBar(100); // Reset progress bar
+        };
+        reader.readAsText(file);
     });
 }
 
