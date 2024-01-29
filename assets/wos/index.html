@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web of Science Outgoing Citation Analyzer</title>
+    <title>Web of Science Citation Analyzer</title>
 <style>
     .table-container {
         margin-top: 20px;
@@ -24,10 +24,13 @@
         border: 1px solid black;
     }
 
-    th, td {
-        padding: 8px;
-        text-align: left;
-    }
+th, td {
+    word-wrap: break-word; /* Ensures text wraps in cells */
+    overflow: hidden; /* Hide overflowed content */
+    max-width: 200px; /* Set a maximum width for each cell */
+    padding: 8px;
+    text-align: left;
+}
 
     th {
         background-color: #f2f2f2;
@@ -42,12 +45,13 @@
         text-decoration: none;
         color: blue;
     }
+	
 </style>
 
 </head>
 <body>
-    <h1>Web of Science Outgoing Citation Analyzer</h1>
-<p> In Web of Science, it is easy to analyze incoming citations, or citations *TO* a set of articles found in any search query. It is much harder to analyze outgoing citations, or citations *FROM* a set of articles found in any search query. This site lets you upload exported Plain Text results and analyzes the most common citations those articles make. See <a href="https://ucsd.zoom.us/rec/share/Zl1EP5h3wRbdv9lElCS0AwYZuVUGP0zAjzCq_TtEE0b_dnQIzPyPuTO9rmcoQ1j5.P8PVC9vge56r8ziD?startTime=1705972024000">demo video here</a>.</p>
+    <h1>Web of Science Citation Analyzer</h1>
+
     <input type="file" id="fileInput" multiple accept=".txt">
 	<button id="processButton">Process Files</button>
 	<button id="resetButton">Reset</button> <!-- Reset button -->
@@ -59,26 +63,51 @@
 		<progress id="fileProgress" value="0" max="100"></progress>
 	</div>
     <div id="navigation">
-        <a href="#authorsTable">Most Cited First Authors</a>
+        <a href="#authorsTable">Most Cited Authors</a>
         <a href="#titlesTable">Most Cited Titles</a>
         <a href="#publicationsTable">Most Cited Publications</a>
+		<a href="#keywordsTable">Most Common Author-Supplied Keywords</a>
+		<a href="#oneGramTable">Title & Abstract: Most Common 1-Grams</a>
+		<a href="#twoGramTable">Title & Abstract: Most Common 2-Grams</a>
+		<a href="#threeGramTable">Title & Abstract: Most Common 3-Grams</a>
     </div>
-
+<h2>Most Cited Authors</h2>
     <div class="table-container" id="authorsContainer">
-        <h2>Most Cited First Authors (WoS exports only include first author)</h2>
+        
         <table id="authorsTable"></table>
     </div>
-
+	
+<h2>Most Cited Titles</h2>
     <div class="table-container" id="titlesContainer">
-        <h2>Most Cited Titles</h2>
+
         <table id="titlesTable"></table>
     </div>
-
-    <div class="table-container" id="publicationsContainer">
         <h2>Most Cited Publications</h2>
+    <div class="table-container" id="publicationsContainer">
+
         <table id="publicationsTable"></table>
     </div>
-<p>By R. Stuart Geiger, (C) 2024. Freely licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">the AGPL v3.0</a>. Published on <a href="https://github.com/staeiou/staeiou.github.io/tree/master/assets/wos">GitHub</a>.</p>
+
+		<h2>Most Common Author-Supplied Keywords</h2>
+
+	<div class="table-container" id="keywordsContainer">
+		<table id="keywordsTable"></table>
+	</div>
+		<h2>Title & Abstract: Most Common 1-Grams (words)</h2>
+
+	<div class="table-container" id="oneGramContainer">
+		<table id="oneGramTable"></table>
+	</div>
+		<h2>Title & Abstract: Most Common 2-Grams</h2>
+
+	<div class="table-container" id="twoGramContainer">
+		<table id="twoGramTable"></table>
+	</div>
+		<h2>Title & Abstract: Most Common 3-Grams</h2>
+
+	<div class="table-container" id="threeGramContainer">
+		<table id="threeGramTable"></table>
+	</div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,60 @@
+const commonWords = new Set([
+    'the', 'of', 'and', 'a', 'to', 'in', 'is', 'you', 'that', 'it', 'he', 'was', 'for', 'on', 'are', 'as', 'with', 'his', 'they', 'I', 'at', 'be', 'this', 'have', 'from', 'or', 'one', 'had', 'by', 'word', 'but', 'not', 'what', 'all', 'were', 'we', 'when', 'your', 'can', 'said', 'there', 'use', 'an', 'each', 'which', 'she', 'do', 'how', 'their', 'if', 'will', 'up', 'about', 'out', 'many', 'then', 'them', 'these', 'so', 'some', 'her', 'would', 'make', 'like', 'him', 'into', 'time', 'has', 'more', 'go', 'see', 'no', 'way', 'could', 'my', 'than', 'first', 'been', 'call', 'who', 'its', 'now', 'find', 'long', 'down', 'did', 'get', 'come', 'made', 'may', 'part', 'through'
+]);
+
+
+function extractKeywords(text) {
+    const keywords = {};
+    text.toLowerCase().split('\n').forEach(line => {
+        if (line.startsWith('de ')) {
+            line.substring(3).split(';').forEach(keyword => {
+                const trimmed = keyword.trim();
+                if (trimmed) {
+                    keywords[trimmed] = (keywords[trimmed] || 0) + 1;
+                }
+            });
+        }
+    });
+    return keywords;
+}
+
+function cleanText(text) {
+    return text.toLowerCase().replace(/[^a-z0-9\s]/gi, '');
+}
+// Function to generate n-grams
+function generateNGrams(text, n) {
+    const words = cleanText(text).split(/\s+/);
+    const ngrams = {};
+    for (let i = 0; i <= words.length - n; i++) {
+        const ngram = words.slice(i, i + n).join(' ');
+        if (!ngram.split(' ').some(word => commonWords.has(word))) {
+            ngrams[ngram] = (ngrams[ngram] || 0) + 1;
+        }
+    }
+    return ngrams;
+}
+
+function extractNGrams(text) {
+    let allText = '';
+    text.split('\n').forEach(line => {
+        if (line.startsWith('TI ') || line.startsWith('AB ')) {
+            allText += ' ' + line.substring(3);
+        }
+    });
+
+    const ngrams = {
+        '1-gram': generateNGrams(allText, 1),
+        '2-gram': generateNGrams(allText, 2),
+        '3-gram': generateNGrams(allText, 3)
+    };
+
+    return ngrams;
+}
+
+function sortAndLimitCounts(counts, limit) {
+    return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, limit);
+}
+
 function normalizeAuthorName(name) {
     // Remove punctuation and trim whitespace
     let normalized = name.replace(/[.,]/g, '').trim();
@@ -107,6 +164,41 @@ function populateTable(tableId, data) {
     }
 }
 
+function populateNGramsTable(tableId, data) {
+    const table = document.getElementById(tableId);
+    table.innerHTML = ''; // Clear existing content
+
+    // Create headers
+    const header = table.createTHead();
+    const headerRow = header.insertRow();
+    headerRow.insertCell(0).textContent = 'N-Gram';
+    headerRow.insertCell(1).textContent = 'Item';
+    headerRow.insertCell(2).textContent = 'Count';
+
+    const tbody = table.createTBody();
+
+    // Iterate over each n-gram category (1-gram, 2-gram, 3-gram)
+    for (const [ngramType, ngramData] of Object.entries(data)) {
+        for (const [item, count] of ngramData) {
+            const row = tbody.insertRow();
+            row.insertCell(0).textContent = ngramType;
+            row.insertCell(1).textContent = item;
+            row.insertCell(2).textContent = count;
+        }
+    }
+}
+
+function populateNGramTable(tableId, data) {
+    const table = document.getElementById(tableId);
+    table.innerHTML = '<tr><th>Item</th><th>Count</th></tr>'; // Add header row
+
+    for (let [item, count] of data) {
+        const row = table.insertRow();
+        row.insertCell(0).textContent = item;
+        row.insertCell(1).textContent = count;
+    }
+}
+
 function updateProgressBar(percentage) {
     const progressBar = document.getElementById('fileProgress');
     const progressContainer = document.getElementById('progressContainer');
@@ -123,30 +215,37 @@ function processFiles() {
     let files = document.getElementById('fileInput').files;
     if (files.length === 0) return;
 
-    updateProgressBar(0); // Initialize progress bar
+    updateProgressBar(0);
     let allReferences = [];
+    let allTextForNGrams = '';
+    let keywordCounts = {};
     let filesProcessed = 0;
-    let isValidFile = true; // Flag to track if files are valid
+    let isValidFile = true;
 
     Array.from(files).forEach(file => {
         let reader = new FileReader();
         reader.onload = function(e) {
-            // Check if the file content starts with the required header
             if (!e.target.result.startsWith("FN Clarivate Analytics Web of Science")) {
-                alert("Error: File '" + file.name + "' does not appear to be a Web of Science Plain Text export. The text file should begin with 'FN Clarivate Analytics Web of Science'");
+                alert("Error: File '" + file.name + "' does not appear to be a Web of Science Plain Text export.");
                 isValidFile = false;
-                updateProgressBar(100); // Reset progress bar
-                return; // Stop processing this file
+                updateProgressBar(100);
+                return;
             }
 
-            // If the file is valid, process its content
             if (isValidFile) {
-                let references = parseCitedReferences(e.target.result);
+                let fileText = e.target.result;
+                let references = parseCitedReferences(fileText);
                 allReferences.push(...references);
+
+                let fileKeywords = extractKeywords(fileText);
+                for (const [key, value] of Object.entries(fileKeywords)) {
+                    keywordCounts[key] = (keywordCounts[key] || 0) + value;
+                }
+                allTextForNGrams += ' ' + fileText;
+
                 filesProcessed++;
             }
 
-            // Update the progress bar and process citations when all files are processed
             if (filesProcessed === files.length && isValidFile) {
                 let authorCounts = countCitations(allReferences, 'author');
                 let titleCounts = countCitations(allReferences, 'title');
@@ -160,22 +259,36 @@ function processFiles() {
                 let sortedTitles = sortAndConvertCounts(titleCounts);
                 let sortedPublications = sortAndConvertCounts(publicationCounts);
 
+                let sortedKeywords = sortAndConvertCounts(keywordCounts);
+                //let ngramCounts = extractNGrams(allTextForNGrams);
+                //let sortedNGrams = Object.fromEntries(Object.entries(ngramCounts).map(([n, counts]) => [n, sortAndLimitCounts(counts, 50)]));
+				
+				let ngramCounts = extractNGrams(allTextForNGrams);
+
+				let sorted1Grams = sortAndLimitCounts(ngramCounts['1-gram'], 50);
+				let sorted2Grams = sortAndLimitCounts(ngramCounts['2-gram'], 50);
+				let sorted3Grams = sortAndLimitCounts(ngramCounts['3-gram'], 50);
+
+				populateNGramTable('oneGramTable', sorted1Grams);
+				populateNGramTable('twoGramTable', sorted2Grams);
+				populateNGramTable('threeGramTable', sorted3Grams);
+
                 populateTable('authorsTable', sortedAuthors);
                 populateTable('titlesTable', sortedTitles);
                 populateTable('publicationsTable', sortedPublications);
+                populateTable('keywordsTable', sortedKeywords);
+                //populateNGramsTable('ngramsTable', sortedNGrams);
             }
 
             updateProgressBar((filesProcessed / files.length) * 100);
         };
         reader.onerror = () => {
             alert("Error reading file: " + file.name);
-            updateProgressBar(100); // Reset progress bar
+            updateProgressBar(100);
         };
         reader.readAsText(file);
     });
 }
-
-
 
 document.getElementById('processButton').addEventListener('click', processFiles);
 document.getElementById('resetButton').addEventListener('click', resetApplication);
