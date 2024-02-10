@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT Message Sender with Hex Encryption</title>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input[type="text"], textarea { width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; }
+        button { padding: 10px 20px; cursor: pointer; }
+        .message-result { margin-top: 20px; padding: 10px; background-color: #f0f0f0; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h2>Send MQTT Message</h2>
+    <div class="form-group">
+        <label for="topic">Topic:</label>
+        <input type="text" id="topic" placeholder="Enter topic">
+    </div>
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter message"></textarea>
+    </div>
+    <button onclick="sendMessage()">Send Message</button>
+    <div id="result" class="message-result" style="display:none;"></div>
+
+    <script>
+        const xorKey = 'SUPERsecretSECURITYkey'; // Must match the key used in the ESP8266
+
+        function xorEncryptToHex(input, key) {
+            let output = '';
+            for (let i = 0; i < input.length; i++) {
+                const charCode = input.charCodeAt(i) ^ key.charCodeAt(i % key.length);
+                output += charCode.toString(16).padStart(2, '0'); // Convert to hex and pad
+            }
+            return output;
+        }
+
+        function sendMessage() {
+            const topic = document.getElementById('topic').value;
+            let message = document.getElementById('message').value;
+            const resultElement = document.getElementById('result');
+
+            if (!topic || !message) {
+                resultElement.textContent = 'Both topic and message are required!';
+                resultElement.style.display = 'block';
+                return;
+            }
+
+            // Encrypt the message to hex
+            message = xorEncryptToHex(message, xorKey);
+
+            const client = mqtt.connect('wss://broker.hivemq.com:8884/mqtt');
+
+            client.on('connect', function () {
+                client.publish(topic, message, {}, function(err) {
+                    if (err) {
+                        resultElement.textContent = 'Error sending message';
+                    } else {
+                        resultElement.textContent = 'Message sent successfully';
+                    }
+                    resultElement.style.display = 'block';
+                    client.end();
+                });
+            });
+
+            client.on('error', function (err) {
+                resultElement.textContent = 'Connection error: ' + err;
+                resultElement.style.display = 'block';
+                client.end();
+            });
+        }
+    </script>
+</body>
+</html>
