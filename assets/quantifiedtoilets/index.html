@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantified Toilets 2.0</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f0f0f0;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+
+<h2>Quantified Toilets Exhibit</h2>
+<p>Real-time fictional analysis of attendee demographics and detected substances. This is not real data. Like the original <a href="https://cacm.acm.org/magazines/2021/7/253457-lessons-from-the-loo/fulltext">Quantified Toilets exhibit at CHI 2014</a> is intended to foster discussions about privacy.
+<table id="data-table">
+    <thead>
+        <tr>
+            <th>Date & Time</th>
+            <th>Toilet ID</th>
+            <th>Sample Size (ml)</th>
+            <th>Estimated Age</th>
+            <th>Estimated Sex</th>
+            <th>Estimated Race</th>
+			<th>Blood Alcohol Content (BAC)</th>
+            <th>Other Detected Substances</th>
+            <th>Stress Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data rows will be inserted here by JavaScript -->
+    </tbody>
+</table>
+
+<script>
+const sampleAges = [18,18,18,18,19,19,19,20,21,22,23,24,25,26,27,28,29,30,30,31,31,31,32,33,34,35,36,37,38,39,40,41,42,43,47,49,51,52,53,58,59,63,65];
+const sampleGenders = ['Male', 'Male', 'Male', 'Male', 'Male', 'Female',  'Female',  'Female',  'Female', 'Intersex'];
+const sampleRaces = ['Asian','Asian','Asian', 'Black', 'White','White','White', 'Native American', 'Hispanic', 'Mixed', 'Unknown', 'Unknown'];
+const sampleSubstances = ['Caffeine','Caffeine','Caffeine','Caffeine', 'Nicotine', 'THC', 'SSRI', 'Aspirin', 'Cocaine', 'Birth Control'];
+const stressLevels = ['Low', 'Moderate', 'High', 'Very High'];
+
+function formatDate(date) {
+    return date.toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
+
+function generateToiletID(gender) {
+    const type = gender === 'Male' ? Math.random() < 0.5 ? 'S' : 'U' : 'S';
+    const number = Math.floor(Math.random() * 100).toString().padStart(3, '0');
+    return `${type}${number}`;
+}
+
+function generateBAC() {
+//    return Math.random() < 0.75 ? 0.00.toFixed(2) : (Math.random() * 0.15).toFixed(2);
+    return Math.random() < 0.75 ? "----" : (Math.random() * 0.15).toFixed(2);
+}
+
+function pickSubstances(gender) {
+    let substances = sampleSubstances.slice(); // Clone the array
+    if (gender === 'Male') {
+        substances = substances.filter(substance => substance !== 'Birth Control');
+		substances = substances.filter(substance => substance !== 'Pregnancy Hormones');
+    }
+    const count = substanceCountProbability();
+    substances.sort(() => 0.5 - Math.random()); // Randomize array
+    return [...new Set(substances.slice(0, count))].join(', ');
+}
+
+function pickSubstances(gender) {
+    let substances = [];
+    const rolls = 4;
+    
+    for (let i = 0; i < rolls; i++) {
+        let substance;
+        if (gender === 'Female' | gender === 'Intersex') {
+            const randomFemale = Math.random();
+            if (randomFemale < 0.75) {
+                substance = 'Caffeine';
+            } else if (randomFemale < 0.8) {
+                substance = 'Nicotine';
+            } else if (randomFemale < 0.9) {
+                substance = ['SSRI', 'THC','Birth Control'][Math.floor(Math.random() * 2)];
+            } else {
+                substance = ['Pregnancy Hormones'][Math.floor(Math.random() * 2)];
+            }
+        } else {
+            const random = Math.random();
+            if (random < 0.75) {
+                substance = 'Caffeine';
+            } else if (random < 0.80) {
+                substance = 'Nicotine';
+            } else if (random < 0.9) {
+                substance = ['SSRI', 'THC'][Math.floor(Math.random() * 2)];
+            }
+        }
+        
+        if (substance) {
+            if (!substances.includes(substance)) {
+                substances.push(substance);
+            }
+        }
+    }
+	
+	if (Math.random() < 0.2) {
+		return '----';
+	}
+    
+    if (substances.length === 0) {
+        return '----';
+    } else if (substances.length === 1) {
+        return substances[0];
+    } else {
+        return substances.join(', ');
+    }
+}
+
+
+
+
+function substanceCountProbability() {
+    const rand = Math.random();
+    if (rand < 0.5) return 1;
+    if (rand < 0.8) return 2;
+    if (rand < 0.9) return 3;
+    return 4;
+}
+
+function addData(dateTime) {
+    let tbody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+    let row = tbody.insertRow(0); // Insert at the beginning
+
+    const gender = sampleGenders[Math.floor(Math.random() * sampleGenders.length)];
+
+    let dateCell = row.insertCell(0);
+    dateCell.textContent = formatDate(dateTime);
+
+    let toiletIdCell = row.insertCell(1);
+    toiletIdCell.textContent = generateToiletID(gender);
+	
+    let sampleSizeCell = row.insertCell(2);
+    sampleSizeCell.textContent = (Math.random() * (100 - 5) + 5).toFixed(0) + " ml";
+
+    let ageCell = row.insertCell(3);
+    ageCell.textContent = sampleAges[Math.floor(Math.random() * sampleAges.length)];
+
+    let genderCell = row.insertCell(4);
+    genderCell.textContent = gender;
+
+    let raceCell = row.insertCell(5);
+    raceCell.textContent = sampleRaces[Math.floor(Math.random() * sampleRaces.length)];
+	
+    let bacCell = row.insertCell(6);
+    bacCell.textContent = generateBAC();
+
+    let subCell = row.insertCell(7);
+    subCell.textContent = pickSubstances(gender);
+
+    let stressCell = row.insertCell(8);
+    stressCell.textContent = stressLevels[Math.floor(Math.random() * stressLevels.length)];
+}
+
+function generateRandomData() {
+    setTimeout(() => {
+        addData(new Date());
+        generateRandomData(); // Schedule the next update
+    }, Math.random() * (5000 - 500)/2 + 500);
+}
+
+// Load history for the past 4 hours, ensuring the most recent records are first
+function loadInitialData() {
+    const now = new Date();
+    for (let i = 240; i > 0; i--) { // Every minute for 4 hours
+        const timeOffset = i * 60 * 1000; // Time offset in milliseconds
+        const pastTime = new Date(now.getTime() - timeOffset);
+        addData(pastTime);
+    }
+}
+
+// Start generating data
+window.onload = () => {
+    loadInitialData();
+    generateRandomData();
+};
+</script>
+
+</body>
+</html>
