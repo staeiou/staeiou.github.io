@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hi! I’m Stuart, an Assistant Professor at the University of California, San Diego with appointments in the [Department of Communication](https://communication.ucsd.edu) and the [Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu). I am also affiliate faculty in [Computer Science & Engineering](https://cse.ucsd.edu), [Computational Social Science](https://css.ucsd.edu), and the [Institute for Practical Ethics'](https://ipe.ucsd.edu), where I lead IPE's [Working Group on Data Governance & Accountability](https://groups.google.com/a/ucsd.edu/g/ipedata-g). 
+Hi! I’m Stuart, an Assistant Professor at the University of California, San Diego with appointments in the [Department of Communication](https://communication.ucsd.edu) and the [Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu). I am also affiliate faculty in [Computer Science & Engineering](https://cse.ucsd.edu), [Computational Social Science](https://css.ucsd.edu), and the [Institute for Practical Ethics](https://ipe.ucsd.edu), where I lead IPE's [Working Group on Data Governance & Accountability](https://ipe.ucsd.edu/research/data-science.html). 
 
 My work is on the social, cultural, political, and economic aspects of data science, automation, and AI. I have long focused on the role of AI in the governance and moderation of social media platforms and online communities, but I also care about issues like fairness, privacy, accountability, and labor in many application domains where AI is being deployed. Also, I have long taken the institutions of scientific and technological research as my object of study, asking how the disciplines and professions are changing around data science, automation, and AI. 
 
