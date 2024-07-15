@@ -38,11 +38,11 @@
             <th>Brainwave ID</th>
             <th>Age</th>
             <th>Gender</th>
+			<th>% Energy</th>
             <th>Mood</th>
             <th>Thoughts</th>
-            <th>Thought Language</th>
-	    <th>Altered State</th>
-            <th>Psychological Diagnosis</th>
+            <th>Attention</th>
+            <th>Psychology</th>
             <th>MBTI Type</th>
         </tr>
     </thead>
@@ -52,22 +52,171 @@
 </table>
 
 <script>
-const sampleAges = [18, 18, 18, 18, 19, 19, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 24,28,28,32,32,34,39,32,34,44,48,49,29,39,30, 31, 31, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 49, 51, 52, 53, 58, 59, 63, 65];
-const sampleGenders = ['Man', 'Woman', 'Man', 'Woman', 'Genderqueer', 'Man', 'Woman', 'Non-binary'];
-const moods = ['Happy', 'Sad', 'Scared', 'Tired', 'Bored', 'Angry', 'Anxious', 'Excited', 'Calm'];
+const sampleAges = [18, 18, 18, 18, 19, 19, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 30, 31, 31, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 49, 51, 52, 53, 58, 59, 63, 65];
+const sampleGenders = ['Male', 'Female', 'Non-binary'];
+const moods = ['Happy', 'Sad', 'Scared', 'Stoned', 'Hungover', 'Anxious', 'Excited', 'Calm'];
 const thoughts = [
-    'My hair is such a mess!', "I am so underdressed!", 'I should be finishing my presentation', 'That was such a stupid question!', 'That was the worst presentation!',
-    'Am I networking enough?', 'I only have 2 minutes left in my talk!?!', 'Hope no one notices I reused these slides', 'Am I supposed to read my paper?', 'I have no idea what Actor-Network Theory is and I\'m afraid to ask', 'I\'ve never actually read Latour', 'I\'m nodding like I understand, but I am so confused!','Post-phenomenology? I don\'t even get regular phenomenology!', 'Does anyone actually understand Derrida?',
-    'Where’s the coffee?', 'I need a nap!', 'It it obvious I\'m stoned?', "I don't think I'm an STS person", "I'm getting a divorce", "I need new underwear", "I need a drink", "I'm pregnant!", "I'm going to be sick!",
-    'This room is too cold!', "I need coffee!", "I think he was my reviewer #2!", "I think he rejected my paper!", 'Is it obvious I’m hungover?', 'I\'m an imposter and they\'re going to find out' , 'My grant proposal was rejected and I\’m pretending I\'m fine', 'If everything is infrastructure, then nothing is!', 
-    'Bullshit!', 'I need to go on sabbatical', 'Am I talking too much?', 'Is it obvious I\'m stoned?', 'I miss my family', 'I want to go home', 'I want to go home', 'I want to get stoned', 'I want to get stoned', 'Will anyone notice if I leave?', 'I regret going to this session', 'I\'ve never actually read Latour', 'I\'ve never actually read Haraway', 'Bullshit!', 'What a sexist pig!', 'What an ass!', 'I hate him, but he\'s a really big deal', 'Stop standing so close to me!', 'We\'re all going to get COVID', 'We\'re all going to get COVID!', 'I lost my program with all the vouchers!', 'My brain thinks it is midnight right now', 'If one more person says "AI" I\'m going to scream!', 
-    'My article just got rejected from Social Studies of Science', 'Should I switch my research focus?', 'Do they think I’m a fraud?', 'I zoned out during that last presentation', 'Is it too late for coffee?',
-    'Hoping I can just blend into the background', 'I lost my conference badge', 'I miss my cat', "I miss my kids", 'STS people are really weird', 'Wondering if anyone reads my blog', 'I didn\'t take a shower this morning, do I smell?', 'Wearing the same outfit as yesterday, will anyone notice?', 
+    'My hair is such a mess!', 
+    'I am so underdressed!', 
+    'I should be finishing my presentation', 
+    'That was such a stupid question!', 
+    'That was the worst presentation!',
+    'Am I networking enough?', 
+    'I only have 2 minutes left in my talk!?!', 
+    'Hope no one notices I reused these slides', 
+    'Am I supposed to read my paper?', 
+    'I have no idea what Actor-Network Theory is and I\'m afraid to ask', 
+    'I\'ve never actually read Latour', 
+    'I\'m nodding like I understand, but I am so confused!',
+    'Post-phenomenology? I don\'t even get regular phenomenology!', 
+    'Does anyone actually understand Derrida?',
+    'Where’s the coffee?', 
+    'I need a nap!', 
+    'It it obvious I\'m stoned?', 
+    "I don't think I'm an STS person", 
+    "I'm getting a divorce", 
+    "I need new underwear", 
+    "I need a drink", 
+    "I'm pregnant!", 
+    "I'm going to be sick!",
+    'This room is too cold!', 
+    "I need coffee!", 
+    "I think he was my reviewer #2!", 
+    "I think he rejected my paper!", 
+    'Is it obvious I’m hungover?', 
+    'I\'m an imposter and they\'re going to find out', 
+    'My grant proposal was rejected and I\’m pretending I\'m fine', 
+    'If everything is infrastructure, then nothing is!', 
+    'Bullshit!', 
+    'I need to go on sabbatical', 
+    'Am I talking too much?', 
+    'Is it obvious I\'m stoned?', 
+    'I miss my family', 
+    'I want to go home', 
+    'I want to go home', 
+    'I want to get stoned', 
+    'I want to get stoned', 
+    'Will anyone notice if I leave?', 
+    'I regret going to this session', 
+    'I\'ve never actually read Latour', 
+    'I\'ve never actually read Haraway', 
+    'Bullshit!', 
+    'What a sexist pig!', 
+    'What an ass!', 
+    'I hate him, but he\'s a really big deal', 
+    'Stop standing so close to me!', 
+    'We\'re all going to get COVID', 
+    'We\'re all going to get COVID!', 
+    'I lost my program with all the vouchers!', 
+    'My brain thinks it is midnight right now', 
+    'If one more person says "AI" I\'m going to scream!', 
+    'My article just got rejected from Social Studies of Science', 
+    'Should I switch my research focus?', 
+    'Do they think I’m a fraud?', 
+    'I zoned out during that last presentation', 
+    'Is it too late for coffee?',
+    'Hoping I can just blend into the background', 
+    'I lost my conference badge', 
+    'I miss my cat', 
+    "I miss my kids", 
+    'STS people are really weird', 
+    'Wondering if anyone reads my blog', 
+    'I didn\'t take a shower this morning, do I smell?', 
+    'Wearing the same outfit as yesterday, will anyone notice?',
+    'Did I really just say that out loud?', 
+    'I should have prepared better for this talk', 
+    'Is it bad if I skip the next session?', 
+    'I need to update my CV', 
+    'Why do I always get nervous before presenting?', 
+    'Did I cite that correctly?', 
+    'I can’t believe I forgot my notes', 
+    'I should have brought more business cards', 
+    'What if they ask a question I can’t answer?', 
+    'I wish I had more time to explore the city', 
+    'I wonder if my abstract makes sense', 
+    'Am I the only one who feels lost?', 
+    'I can’t believe I’m presenting after that amazing speaker', 
+    'How do they expect us to process so much information?', 
+    'Is it unprofessional to leave early?', 
+    'Why is the Wi-Fi so terrible?', 
+    'I hope my presentation file doesn’t get corrupted', 
+    'I should have double-checked the schedule', 
+    'Why are all the good sessions scheduled at the same time?', 
+    'I need to revise my research proposal', 
+    'Should I attend that networking dinner?', 
+    'I can’t believe I paid so much for this conference', 
+    'I should be writing my paper instead of attending sessions', 
+    'I hope I don’t fall asleep during the keynote', 
+    'How am I supposed to take notes without my laptop?', 
+    'I hope they don’t notice I’m reusing my last year’s presentation', 
+    'Is it just me or is everyone else more confident?', 
+    'How did they get published in that journal?', 
+    'Why does everything seem so theoretical?', 
+    'I should have practiced my talk more', 
+    'What if I stumble over my words?', 
+    'I need to remember to follow up with that contact', 
+    'Am I making any sense?', 
+    'I can’t believe how early this session starts', 
+    'I need to find a power outlet for my laptop', 
+    'I’m really not good at small talk', 
+    'How do they expect us to network with such a tight schedule?', 
+    'I hope there’s still food left at the reception', 
+    'I should have read more background literature', 
+    'Is it rude to check my phone during the session?', 
+    'I need to remember to ask that question during the Q&A', 
+    'Why are the breakout rooms so far apart?', 
+    'I hope my poster presentation goes well', 
+    'I should have applied for that travel grant', 
+    'Why is the lighting in here so bad?', 
+    'I need to update my website', 
+    'I can’t wait to be done with this conference', 
+    'What if I forget my main points?', 
+    'I hope my voice doesn’t shake during the talk', 
+    'I can’t believe I ran out of business cards', 
+    'Why did I agree to be a session chair?', 
+    'I should have worn more comfortable shoes', 
+    'I need to check my emails during the break', 
+    'Is it normal to feel this overwhelmed?', 
+    'I wish I had more time for Q&A', 
+    'How do they expect us to fit all this into one day?', 
+    'I should have booked a hotel closer to the venue', 
+    'I hope I don’t sound too nervous', 
+    'Why are academic conferences always so stressful?', 
+    'I need to proofread my slides one last time', 
+    'Is it just me or are these chairs uncomfortable?', 
+    'I should have brought a backup copy of my presentation', 
+    'Why do I always leave everything to the last minute?', 
+    'I need to remember to collect my reimbursement receipts', 
+    'I hope I don’t lose my voice before my talk', 
+    'Is it too late to make changes to my presentation?', 
+    'I should have asked for feedback before submitting my abstract', 
+    'I can’t believe I forgot my charger', 
+    'I need to find a quiet place to review my notes', 
+    'I hope my presentation fits within the time limit', 
+    'Why do I always get so anxious before presenting?', 
+    'I should have printed out more copies of my paper', 
+    'I can’t believe how many people are at this conference', 
+    'I hope the projector works with my laptop', 
+    'I need to catch up on sleep', 
+    'Why is everything so expensive?', 
+    'I hope I don’t trip on the stage', 
+    'I should have brought a water bottle', 
+    'Why is the schedule so packed?', 
+    'I need to check my flight status', 
+    'Is it unprofessional to eat during the session?', 
+    'I can’t believe I forgot my adapter', 
+    'I should have double-checked the room number', 
+    'I hope I don’t get asked any tough questions', 
+    'Why do they schedule sessions so early in the morning?', 
+    'I should have asked someone to review my slides', 
+    'I need to remember to thank the organizers', 
+    'Why do academic conferences always feel so chaotic?', 
+    'I should have prepared better for the panel discussion'
 ];
-const diagnoses = ['OCD', 'None', 'None', 'Depression', 'Neuroticism', 'Neuroticism and ADHD', 'ADHD', 'ADHD', 'ADHD', 'Depression and Anxiety',  'ADHD, Depression, and Anxiety','ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety',  'Depression and Anxiety', 'Anxiety', 'Anxiety', 'BPD', 'Hypochondria', 'None', 'ADHD', 'PTSD', 'Bipolar Disorder', 'None'];
+const diagnoses = ['OCD', 'None', 'None', 'Depression', 'ADHD', 'ADHD', 'ADHD', 'Depression and Anxiety',  'ADHD, Depression, and Anxiety','ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety',  'Depression and Anxiety', 'Anxiety', 'Anxiety', 'BPD', 'Hypochondria', 'None', 'ADHD', 'PTSD', 'Bipolar Disorder', 'None'];
 const mbtiTypes = ['INTJ', 'ENTP', 'ENFP', 'ISTJ', 'ISFJ', 'ENFJ', 'ESTP', 'ESFP', 'INTP', 'INFJ', 'ISTP', 'ISFP', 'ENTJ', 'ESTJ', 'INFP', 'ESFJ'];
-const attentionLevels = ['None', 'Daydreaming', 'Meditating', 'Daydreaming', 'Fasting', 'Fasting', 'None', 'None', 'None', 'High: Amphetamines', 'High: THC', 'High: Psilocybin', 'None', 'High: Amphetamines', 'High: THC', 'High: Cocaine', 'High: Ecstacy', 'High: THC', ];
-const languages = ['English', 'Dutch', 'French', 'German', 'Swedish', 'Polish', 'Portugese', 'Mandarin', 'Cantonese', 'Italian', 'Bengali', 'Portugese', 'German', 'Hindi', 'Japanese', 'English', 'English', 'Dutch', 'German', 'Spanish', 'French']
+const attentionLevels = ['Highly Focused', 'Focused', 'Tired', 'Alert', 'Moderate', 'Distracted', 'Daydreaming'];
+
 function formatDate(date) {
     return date.toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
 }
@@ -106,16 +255,15 @@ function addData(dateTime) {
 
     let genderCell = row.insertCell(3);
     genderCell.textContent = sampleGenders[Math.floor(Math.random() * sampleGenders.length)];
+	
+	let complexityCell = row.insertCell(4);
+    complexityCell.textContent = (Math.random() * 50 + 50).toFixed(0);
 
-    let moodCell = row.insertCell(4);
+    let moodCell = row.insertCell(5);
     moodCell.textContent = moods[Math.floor(Math.random() * moods.length)];
     
-    let thoughtCell = row.insertCell(5);
+    let thoughtCell = row.insertCell(6);
     thoughtCell.innerHTML = pickRandom(thoughts, Math.floor(Math.random() * 3) + 1); 
-
-    let complexityCell = row.insertCell(6);
-    complexityCell.textContent = languages[Math.floor(Math.random() * languages.length)];
-	
     let attentionCell = row.insertCell(7);
     attentionCell.textContent = attentionLevels[Math.floor(Math.random() * attentionLevels.length)];
 
