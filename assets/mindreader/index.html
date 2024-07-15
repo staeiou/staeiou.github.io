@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantified Minds 2.0</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 10px;
+        background-color: #f0f0f0;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        text-align: left;
+        padding: 2px;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+
+<h2>Quantified Minds 2.0</h2>
+<p>Real-time fictional analysis of attendee thoughts, psychological states, and personality types. This is not real data. This is a satire intended to foster discussions about privacy and mental surveillance.
+<table id="data-table">
+    <thead>
+        <tr>
+            <th>Date & Time</th>
+            <th>Brainwave ID</th>
+            <th>Age</th>
+            <th>Gender</th>
+			<th>% Energy</th>
+            <th>Mood</th>
+            <th>Thoughts</th>
+            <th>Attention</th>
+            <th>Psychology</th>
+            <th>MBTI Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data rows will be inserted here by JavaScript -->
+    </tbody>
+</table>
+
+<script>
+const sampleAges = [18, 18, 18, 18, 19, 19, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 30, 31, 31, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 49, 51, 52, 53, 58, 59, 63, 65];
+const sampleGenders = ['Male', 'Female', 'Non-binary'];
+const moods = ['Happy', 'Sad', 'Scared', 'Stoned', 'Hungover', 'Anxious', 'Excited', 'Calm'];
+const thoughts = [
+    'Did I cite that paper correctly?', 'How many people cited my latest publication?', 'I should be finishing my presentation', 'That was such a stupid question!', 'That was the worst presentation!',
+    'Am I networking enough?', 'This panel is running over time', 'I forgot to turn on my email auto-reply', 'Hope no one notices I reused these slides', 'Am I supposed to read my paper?',
+    'I\'ve never actually read Latour', 'Post-phenomenology? I don\'t even get regular phenomenology!',
+    'Where’s the coffee?', 'I need a nap so badly!', 'It it obvious I\'m stoned?',
+    'This room is too cold', 'Is it obvious I’m hungover?', 'I\'m an imposter and they\'re going to find out' , 'My grant proposal was rejected and I\’m pretending it’s fine',
+    'Did anyone else notice that logical fallacy?', 'I wish I was on sabbatical', 'Am I talking too much?', 'Accidentally called a colleague by the wrong name', 'I miss my family', 'I want to go home', 'I want to go home', 'I want to get stoned', 'I want to get stoned', 'Will anyone notice if I leave?', 'I regret going to this session', 'I\'ve never actually read Latour', 'I\'ve never actually read Haraway', 'Bullshit!', 'What a sexist pig!', 'What an ass!', 'I hate him, but he\'s a really big deal', 'Stop standing so close to me!', 'We\'re all going to get COVID', 'We\'re all going to get COVID!',
+    'My article got rejected from a major journal', 'Should I switch my research focus?', 'Do they think I’m a fraud?', 'I zoned out during that last presentation', 'Is it too late for coffee?',
+    'Hoping I can just blend into the background', 'I lost my conference badge', 'I miss my cat', 'Wondering if anyone reads my blog', 'I didn\'t take a shower this morning, do I smell?',
+    'Should have used a different methodology', 'Why didn’t I ask for feedback sooner?', 'Wearing the same outfit as yesterday', 'This could have been an email', 
+];
+const diagnoses = ['OCD', 'None', 'None', 'Depression', 'ADHD', 'ADHD', 'ADHD', 'Depression and Anxiety',  'ADHD, Depression, and Anxiety','ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety',  'Depression and Anxiety', 'Anxiety', 'Anxiety', 'BPD', 'Hypochondria', 'None', 'ADHD', 'PTSD', 'Bipolar Disorder', 'None'];
+const mbtiTypes = ['INTJ', 'ENTP', 'ENFP', 'ISTJ', 'ISFJ', 'ENFJ', 'ESTP', 'ESFP', 'INTP', 'INFJ', 'ISTP', 'ISFP', 'ENTJ', 'ESTJ', 'INFP', 'ESFJ'];
+const attentionLevels = ['Highly Focused', 'Focused', 'Tired', 'Alert', 'Moderate', 'Distracted', 'Daydreaming'];
+
+function formatDate(date) {
+    return date.toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
+
+function generateBrainwaveID() {
+    const number = Math.floor(Math.random() * 1000).toString().padStart(3, '0');
+    return `BW${number}`;
+}
+
+function pickRandom(array, count) {
+    let result = [];
+    let clonedArray = [...array];
+    while (result.length < count && clonedArray.length > 0) {
+        const index = Math.floor(Math.random() * clonedArray.length);
+        result.push(`<li>${clonedArray[index]}</li>`);
+        clonedArray.splice(index, 1); // Remove the picked element
+    }
+    return `<ul>${result.join('')}</ul>`;
+}
+
+
+function addData(dateTime) {
+    let tbody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+    let row = tbody.insertRow(0);
+
+    let dateCell = row.insertCell(0);
+    dateCell.textContent = formatDate(dateTime);
+
+    let brainwaveIdCell = row.insertCell(1);
+    brainwaveIdCell.textContent = generateBrainwaveID();
+    
+
+
+    let ageCell = row.insertCell(2);
+    ageCell.textContent = sampleAges[Math.floor(Math.random() * sampleAges.length)];
+
+    let genderCell = row.insertCell(3);
+    genderCell.textContent = sampleGenders[Math.floor(Math.random() * sampleGenders.length)];
+	
+	let complexityCell = row.insertCell(4);
+    complexityCell.textContent = (Math.random() * 50 + 50).toFixed(0);
+
+    let moodCell = row.insertCell(5);
+    moodCell.textContent = moods[Math.floor(Math.random() * moods.length)];
+    
+    let thoughtCell = row.insertCell(6);
+    thoughtCell.innerHTML = pickRandom(thoughts, Math.floor(Math.random() * 3) + 1); 
+    let attentionCell = row.insertCell(7);
+    attentionCell.textContent = attentionLevels[Math.floor(Math.random() * attentionLevels.length)];
+
+    let diagnosisCell = row.insertCell(8);
+    diagnosisCell.textContent = diagnoses[Math.floor(Math.random() * diagnoses.length)];
+
+    let mbtiCell = row.insertCell(9);
+    mbtiCell.textContent = mbtiTypes[Math.floor(Math.random() * mbtiTypes.length)];
+}
+
+function generateRandomData() {
+    setTimeout(() => {
+        addData(new Date());
+        generateRandomData();
+    }, Math.random() * (5000 - 500) + 500);
+}
+
+function loadInitialData() {
+    const now = new Date();
+    for (let i = 240; i > 0; i--) {
+        const timeOffset = i * 60 * 1000;
+        const pastTime = new Date(now.getTime() - timeOffset);
+        addData(pastTime);
+    }
+}
+
+window.onload = () => {
+    loadInitialData();
+    generateRandomData();
+};
+</script>
+
+</body>
+</html>
