@@ -41,6 +41,7 @@
             <th>Mood</th>
             <th>Thoughts</th>
             <th>Thought Language</th>
+	    <th>Altered State</th>
             <th>Psychological Diagnosis</th>
             <th>MBTI Type</th>
         </tr>
@@ -53,7 +54,7 @@
 <script>
 const sampleAges = [18, 18, 18, 18, 19, 19, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 30, 31, 31, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 49, 51, 52, 53, 58, 59, 63, 65];
 const sampleGenders = ['Male', 'Female', 'Non-binary'];
-const moods = ['Happy', 'Sad', 'Scared', 'Stoned', 'Hungover', 'Anxious', 'Excited', 'Calm'];
+const moods = ['Happy', 'Sad', 'Scared', 'Tired', 'Bored', 'Angry', 'Anxious', 'Excited', 'Calm'];
 const thoughts = [
     'My hair is such a mess!', "I am so underdressed!", 'I should be finishing my presentation', 'That was such a stupid question!', 'That was the worst presentation!',
     'Am I networking enough?', 'I only have 2 minutes left in my talk!?!', 'Hope no one notices I reused these slides', 'Am I supposed to read my paper?', 'I have no idea what Actor-Network Theory is and I\'m afraid to ask', 'I\'ve never actually read Latour', 'I\'m nodding like I understand, but I am so confused!','Post-phenomenology? I don\'t even get regular phenomenology!', 'Does anyone actually understand Derrida?',
@@ -65,7 +66,7 @@ const thoughts = [
 ];
 const diagnoses = ['OCD', 'None', 'None', 'Depression', 'ADHD', 'ADHD', 'ADHD', 'Depression and Anxiety',  'ADHD, Depression, and Anxiety','ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety',  'Depression and Anxiety', 'Anxiety', 'Anxiety', 'BPD', 'Hypochondria', 'None', 'ADHD', 'PTSD', 'Bipolar Disorder', 'None'];
 const mbtiTypes = ['INTJ', 'ENTP', 'ENFP', 'ISTJ', 'ISFJ', 'ENFJ', 'ESTP', 'ESFP', 'INTP', 'INFJ', 'ISTP', 'ISFP', 'ENTJ', 'ESTJ', 'INFP', 'ESFJ'];
-const attentionLevels = ['Highly Focused', 'Annoyed', '', 'Focused', 'Tired', 'Alert', 'Moderate', 'Distracted', 'Daydreaming'];
+const attentionLevels = ['None', 'Daydreaming', 'Meditating', 'Daydreaming', 'Fasting', 'Fasting', 'None', 'None', 'None', 'High: Amphetamines', 'High: THC', 'High: Psilocybin', 'None', 'High: Amphetamines', 'High: THC', 'High: Cocaine', 'High: Ecstacy', 'High: THC', ];
 const languages = ['English', 'Dutch', 'French', 'German', 'Swedish', 'Polish', 'Portugese', 'Mandarin', 'Cantonese', 'Italian', 'Bengali', 'Portugese', 'German', 'Hindi', 'Japanese', 'English', 'English', 'Dutch', 'German', 'Spanish', 'French']
 function formatDate(date) {
     return date.toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
