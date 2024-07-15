@@ -38,11 +38,11 @@
             <th>Brainwave ID</th>
             <th>Age</th>
             <th>Gender</th>
-			<th>% Energy</th>
             <th>Mood</th>
             <th>Thoughts</th>
-            <th>Attention</th>
-            <th>Psychology</th>
+            <th>Thought Language</th>
+	    <th>Altered State</th>
+            <th>Psychological Diagnosis</th>
             <th>MBTI Type</th>
         </tr>
     </thead>
@@ -52,9 +52,9 @@
 </table>
 
 <script>
-const sampleAges = [18, 18, 18, 18, 19, 19, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 30, 31, 31, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 49, 51, 52, 53, 58, 59, 63, 65];
-const sampleGenders = ['Male', 'Female', 'Non-binary'];
-const moods = ['Happy', 'Sad', 'Scared', 'Stoned', 'Hungover', 'Anxious', 'Excited', 'Calm'];
+const sampleAges = [18, 18, 18, 18, 19, 19, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 24,28,28,32,32,34,39,32,34,44,48,49,29,39,30, 31, 31, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 49, 51, 52, 53, 58, 59, 63, 65];
+const sampleGenders = ['Man', 'Woman', 'Man', 'Woman', 'Genderqueer', 'Man', 'Woman', 'Non-binary'];
+const moods = ['Happy', 'Sad', 'Scared', 'Tired', 'Bored', 'Angry', 'Anxious', 'Excited', 'Calm'];
 const thoughts = [
     'My hair is such a mess!', 
     'I am so underdressed!', 
@@ -159,7 +159,6 @@ const thoughts = [
     'I can’t believe how early this session starts', 
     'I need to find a power outlet for my laptop', 
     'I’m really not good at small talk', 
-    'How do they expect us to network with such a tight schedule?', 
     'I hope there’s still food left at the reception', 
     'I should have read more background literature', 
     'Is it rude to check my phone during the session?', 
@@ -177,7 +176,6 @@ const thoughts = [
     'I should have worn more comfortable shoes', 
     'I need to check my emails during the break', 
     'Is it normal to feel this overwhelmed?', 
-    'I wish I had more time for Q&A', 
     'How do they expect us to fit all this into one day?', 
     'I should have booked a hotel closer to the venue', 
     'I hope I don’t sound too nervous', 
@@ -192,9 +190,6 @@ const thoughts = [
     'I should have asked for feedback before submitting my abstract', 
     'I can’t believe I forgot my charger', 
     'I need to find a quiet place to review my notes', 
-    'I hope my presentation fits within the time limit', 
-    'Why do I always get so anxious before presenting?', 
-    'I should have printed out more copies of my paper', 
     'I can’t believe how many people are at this conference', 
     'I hope the projector works with my laptop', 
     'I need to catch up on sleep', 
@@ -213,12 +208,12 @@ const thoughts = [
     'Why do academic conferences always feel so chaotic?', 
     'I should have prepared better for the panel discussion'
 ];
-const diagnoses = ['OCD', 'None', 'None', 'Depression', 'ADHD', 'ADHD', 'ADHD', 'Depression and Anxiety',  'ADHD, Depression, and Anxiety','ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety',  'Depression and Anxiety', 'Anxiety', 'Anxiety', 'BPD', 'Hypochondria', 'None', 'ADHD', 'PTSD', 'Bipolar Disorder', 'None'];
+const diagnoses = ['OCD', 'None', 'None', 'Depression', 'Neuroticism', 'Neuroticism and ADHD', 'ADHD', 'ADHD', 'ADHD', 'Depression and Anxiety',  'ADHD, Depression, and Anxiety','ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety', 'ADHD, Depression, and Anxiety',  'Depression and Anxiety', 'Anxiety', 'Anxiety', 'BPD', 'Hypochondria', 'None', 'ADHD', 'PTSD', 'Bipolar Disorder', 'None'];
 const mbtiTypes = ['INTJ', 'ENTP', 'ENFP', 'ISTJ', 'ISFJ', 'ENFJ', 'ESTP', 'ESFP', 'INTP', 'INFJ', 'ISTP', 'ISFP', 'ENTJ', 'ESTJ', 'INFP', 'ESFJ'];
-const attentionLevels = ['Highly Focused', 'Focused', 'Tired', 'Alert', 'Moderate', 'Distracted', 'Daydreaming'];
-
+const attentionLevels = ['None', 'Daydreaming', 'Meditating', 'Daydreaming', 'Fasting', 'Fasting', 'None', 'None', 'None', 'High: Amphetamines', 'High: THC', 'High: Psilocybin', 'None', 'High: Amphetamines', 'High: THC', 'High: Cocaine', 'High: Ecstacy', 'High: THC', ];
+const languages = ['English', 'Dutch', 'French', 'German', 'Swedish', 'Polish', 'Portugese', 'Mandarin', 'Cantonese', 'Italian', 'Bengali', 'Portugese', 'German', 'Hindi', 'Japanese', 'English', 'English', 'Dutch', 'German', 'Spanish', 'French']
 function formatDate(date) {
-    return date.toLocaleString('en-US', { year: 'numeric', hour12: true, month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    return date.toLocaleString('en-US', { year: 'numeric', hour12: false, month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
 }
 
 function generateBrainwaveID() {
@@ -255,15 +250,16 @@ function addData(dateTime) {
 
     let genderCell = row.insertCell(3);
     genderCell.textContent = sampleGenders[Math.floor(Math.random() * sampleGenders.length)];
-	
-	let complexityCell = row.insertCell(4);
-    complexityCell.textContent = (Math.random() * 50 + 50).toFixed(0);
 
-    let moodCell = row.insertCell(5);
+    let moodCell = row.insertCell(4);
     moodCell.textContent = moods[Math.floor(Math.random() * moods.length)];
     
-    let thoughtCell = row.insertCell(6);
+    let thoughtCell = row.insertCell(5);
     thoughtCell.innerHTML = pickRandom(thoughts, Math.floor(Math.random() * 3) + 1); 
+
+    let complexityCell = row.insertCell(6);
+    complexityCell.textContent = languages[Math.floor(Math.random() * languages.length)];
+	
     let attentionCell = row.insertCell(7);
     attentionCell.textContent = attentionLevels[Math.floor(Math.random() * attentionLevels.length)];
 
