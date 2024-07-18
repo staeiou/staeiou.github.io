@@ -74,10 +74,17 @@ const thoughts = [
     'Hope no one notices I reused these slides', 
     'Am I supposed to read my paper?', 
     'I have no idea what Actor-Network Theory is and I\'m afraid to ask', 
+        'I have no idea what Actor-Network Theory is and I\'m afraid to ask', 
+    'I have no idea what Actor-Network Theory is and I\'m afraid to ask', 
+    'I have no idea what agential realism is and I\'m afraid to ask', 
+'I have no idea what agential realism is and I\'m afraid to ask', 
+    'I have no idea what post-phenomenology is and I\'m afraid to ask', 
     'I\'ve never actually read Latour', 
     'I\'m nodding like I understand, but I am so confused!',
     'Post-phenomenology? I don\'t even get regular phenomenology!', 
     'Does anyone actually understand Derrida?',
+    'Does anyone actually understand Derrida?',
+    'Does anyone actually understand Latour?',
     'Where’s the coffee?', 
     'I need a nap!', 
     'It it obvious I\'m stoned?', 
@@ -260,8 +267,10 @@ function pickRandom(array, count) {
         result.push(`<li>${clonedArray[index]}</li>`);
         clonedArray.splice(index, 1); // Remove the picked element
     }
+    result = [...new Set(result)];
     return `<ul>${result.join('')}</ul>`;
 }
+
 
 
 function addData(dateTime) {
