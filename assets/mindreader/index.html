@@ -282,7 +282,7 @@ function formatDate(date) {
 }
 
 function generateBrainwaveID() {
-    const number = Math.floor(Math.random() * 1000).toString().padStart(3, '0');
+    const number = Math.floor(Math.random() * 100000).toString().padStart(5, '0');
     return `BW${number}`;
 }
 
