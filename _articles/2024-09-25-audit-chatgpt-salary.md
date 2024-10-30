@@ -9,4 +9,4 @@ date: 2024-09-25
 
 [Download the PDF here](https://arxiv.org/pdf/2409.15567)
 
-[Link to Slide Deck][https://stuartgeiger.com/assets/salary_audit.pdf]
+[Link to Slide Deck](https://stuartgeiger.com/assets/salary_audit.pdf)
