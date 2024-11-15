@@ -1,7 +1,7 @@
 ---
 title: The Hidden Labor of Scaling Open-Source Projects
-published: 2021-08-20
-excerpt: "Free and open-source software (F/OSS) projects have a massive impact on our society. They form the backbone of critical digital infrastructure, supporting everything from major corporations to academic research and non-profit initiatives. However, as these projects grow and scale, the challenges faced by those who maintain them often go unnoticed. I want to share insights from [our recent study](https://dl.acm.org/doi/abs/10.1145/3449249), where we delved into the labor involved in maintaining and scaling F/OSS projects, and offer recommendations on how we can better support these essential contributors."
+published: 2021-08-02
+excerpt: "Free and open-source software (F/OSS) projects have a massive impact on our society. They form the backbone of critical digital infrastructure, supporting everything from major corporations to academic research and non-profit initiatives. However, as these projects grow and scale, the challenges faced by those who maintain them often go unnoticed. I want to share insights from our recent study, where we delved into the labor involved in maintaining and scaling F/OSS projects, and offer recommendations on how we can better support these essential contributors."
 permalink: /posts/2021/08/language-dynamics-foss/ 
 ---
 
