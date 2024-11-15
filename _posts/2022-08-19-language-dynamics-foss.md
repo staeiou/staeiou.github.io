@@ -6,7 +6,7 @@ permalink: /posts/2022/08/language-dynamics-foss/
 ---
 
 
-# **The Language Dynamics of FOSS: Unlocking Communication Patterns to Boost Community Health**
+# **The Language Dynamics of Free and Open-Source Software Communities**
 
 Free and open-source software (FOSS) has become an indispensable part of global digital infrastructure. These projects thrive on the contributions of unpaid volunteers, whose efforts fuel innovation and ensure the ongoing development and maintenance of software relied upon by individuals, organizations, and governments worldwide. Yet, this dependence on volunteer labor is also a vulnerability: sustaining these communities hinges on their ability to recruit and retain contributors.
 
