@@ -1,7 +1,7 @@
 ---
 title: The Language Dynamics of Free and Open-Source Software Communities
 published: 2022-08-19
-excerpt: "Links about our research"
+excerpt: "This blog post summarizes a recent research paper, in which my collaborators and I investigated how patterns of communication, particularly sentiment and expressions of gratitude, influence newcomer retention in FOSS projects."
 permalink: /posts/2022/08/language-dynamics-foss/ 
 ---
 
