@@ -12,6 +12,8 @@ Free and open-source software (FOSS) has become an indispensable part of global 
 
 This blog post summarizes [a recent research paper](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13134) in which my collaborators and I investigated how patterns of communication, particularly sentiment and expressions of gratitude, influence newcomer retention in FOSS projects. In the context of open collaboration platforms like GitHub, the interactions between contributors leave a rich digital record, offering unique opportunities to analyze the social and linguistic dynamics at play in these communities. For practitioners and stakeholders, understanding these dynamics is vital to fostering sustainable, inclusive, and thriving software communities.
 
+This work is part of a broader set of projects funded by the Sloan and Ford Foundations as part of their focus on Digital Infrastructure, check out the other [amazing work from other grantees here](https://www.fordfoundation.org/work/learning/learning-reflections/critical-digital-infrastructure-research/).
+
 ---
 
 # **Study Overview**
