@@ -1,5 +1,5 @@
 ---
-title: Presentations and publications about the work of maintaining free & open-source software
+title: The Language Dynamics of Free and Open-Source Software Communities
 published: 2022-08-19
 excerpt: "Links about our research"
 permalink: /posts/2022/08/language-dynamics-foss/ 
