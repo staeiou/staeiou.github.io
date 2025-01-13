@@ -185,7 +185,11 @@ body:hover .visually-hidden button {
   .fa {
     color: #000;
   }
-
+   
+  .fa-bluesky,
+  .fa-bluesky-square {
+    color: $bluesky-color;
+  }
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
