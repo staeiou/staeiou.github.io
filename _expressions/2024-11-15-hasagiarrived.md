@@ -5,5 +5,5 @@ collection: expressions
 permalink: /expressions/hasAGIarrived/ 
 ---
 
-<a href="https://hasAGIarrived.com">See if AGI has arrived or not at hasAGIarrived.com</>
+<a href="https://hasAGIarrived.com">See if AGI has arrived or not at hasAGIarrived.com</a>
 
