@@ -11,7 +11,7 @@ The Society Reset Button is a speculative fictional device that satirizes techno
 
 The device uses an ESP32 microcontroller and a small LCD screen, which displays an updating set of satirical metrics about the state of Society. The units of measurement are fictional and reflect absurd unmeasurable aspects, to precise digits: Oppression in pounds per square inch (PSI), Truth to Power as a ratio (so little Truth to speak to so much Power), Inequality in terms of Musks (Elon), the percentage of Privacy that is remaining, and the Moral Arc of the Universe in degrees (per Martin Luther King, Jr.’s maxim that it is long, but bends towards justice). The device also tracks the number of reset attempts.
 
-A flashing cursor invites the participant to reset Society by pressing the button. Can this technological device really give this Society the reset that we all deserve? Oh, if only social change could be so easy…..
+A flashing cursor invites the participant to reset Society by pressing the button. Can this technological device really give this Society the reset that we all deserve? See what happens when you press the button...
 
 If the embedded video below does not load or is too small, view direct on Vimeo: <a href="https://vimeo.com/1056455019">https://vimeo.com/1056455019</a>
 <br/>
