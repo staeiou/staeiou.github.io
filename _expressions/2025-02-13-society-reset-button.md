@@ -5,7 +5,7 @@ collection: expressions
 permalink: /expressions/society-reset-button/ 
 ---
 
-Materials: Arduino C++ (<a href="https://github.com/staeiou/cyd_society_reset/blob/main/cyd_society_reset_nowifi_color.ino">code</a>) on <a href="https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display">ESP32-2432S028R</a> on polylactic acid (PLA) bioplastic (<a href="https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/tree/main/3dModels">case</a>) on <a href="https://baomain.com/products/baomain-red-sign-momentary-emergency-stop-weatherproof-push-button-switch-660v-with-box">Baomain 660V button</a> (polypropylene); acrylic on aluminum 
+Materials: Arduino C++ (<a href="https://github.com/staeiou/cyd_society_reset/blob/main/cyd_society_reset_nowifi_color.ino">code</a>) on <a href="https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display">ESP32-2432S028R</a> on polylactic acid (PLA) bioplastic (<a href="https://www.printables.com/model/744864-esp32-cheap-yellow-display-usb-c-version-enclosure">case</a>) on <a href="https://baomain.com/products/baomain-red-sign-momentary-emergency-stop-weatherproof-push-button-switch-660v-with-box">Baomain 660V button</a> (polypropylene); acrylic on aluminum 
 
 If the embedded video below does not load or is too small, view direct on Vimeo: <a href="https://vimeo.com/1056455019">https://vimeo.com/1056455019</a>
 <br/>
