@@ -1,13 +1,15 @@
 ---
-title: "COMM 106D: Data and Culture (Winter 2022, UCSD)"
 collection: teaching
-teaching_type: "Course"
-permalink: /teaching/COMM-106D-data-culture-w22/ 
-redirect_from:
-  - /teaching/COMM-106D-data-culture-w22-ucsd/ 
-institution: "UC San Diego (UCSD), Dept of Communication"
 date: 2021-11-09
-excerpt: "Intermediate undergraduate course on the relationship between data and culture"
+excerpt: Intermediate undergraduate course on the relationship between data and culture
+institution: UC San Diego (UCSD), Dept of Communication
+location: San Diego, CA
+permalink: /teaching/COMM-106D-data-culture-w22/
+redirect_from:
+- /teaching/COMM-106D-data-culture-w22-ucsd/
+title: 'COMM 106D: Data and Culture (Winter 2022, UCSD)'
+type: Course
+venue: UC San Diego (UCSD), Dept of Communication
 ---
 
 ## COMM 106D: Data and Culture -- Winter 2022 (UCSD Communication)
@@ -152,6 +154,3 @@ Due by Sunday 3/6 5:00pm: 400-500 word essay about the role of data and/or AI in
 
 
 **Week 10: Group performances and final project prep**
-
-
-

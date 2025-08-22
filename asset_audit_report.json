@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "other": 390,
+    "data": 22,
+    "notebooks": 6,
+    "documents": 62,
+    "web": 79,
+    "images": 257,
+    "fonts": 16
+  },
+  "duplicates": {
+    "50d2b1c4323523ef752e505fe86e9cbb0d5643b2": {
+      "files": [
+        "files/conflict-bots-cscw.pdf",
+        "files/bot-conflict-cscw18.pdf"
+      ],
+      "size": 1090853,
+      "wasted_space": 1090853
+    },
+    "53c786961808c4ca5b149b519853ce65c863a54f": {
+      "files": [
+        "files/wikisym13-cluebot.pdf",
+        "files/cluebot.pdf"
+      ],
+      "size": 429935,
+      "wasted_space": 429935
+    },
+    "007b5802d871b4f2687e429a12bcf4b25ea620a8": {
+      "files": [
+        "files/participation-wikipedia-deletions.pdf",
+        "files/article-deletion-wikisym-geiger-ford.pdf"
+      ],
+      "size": 955859,
+      "wasted_space": 955859
+    },
+    "8af1dfb2770a6666d56b9e9dc514b19b3a95c96e": {
+      "files": [
+        "files/hcomp.pdf",
+        "files/defining-civic-values-hcomp-matias-geiger.pdf"
+      ],
+      "size": 545768,
+      "wasted_space": 545768
+    },
+    "b90d801b53d441ce13bdb68656f083941a5cb5bb": {
+      "files": [
+        "files/cscw13-labor-hours.pdf",
+        "files/geiger-cscw13-labor-hours.pdf"
+      ],
+      "size": 1488953,
+      "wasted_space": 1488953
+    },
+    "909198a78cefea3001aecd18123fa2a64c682f50": {
+      "files": [
+        "files/trace-ethnography-hicss-geiger-ribes.pdf",
+        "files/trace-ethnography-hicss.pdf"
+      ],
+      "size": 370123,
+      "wasted_space": 370123
+    },
+    "053cf48007716a7dbf51abe1d02de02b42bc0c9e": {
+      "files": [
+        "assets/salary audit.pdf",
+        "assets/salary_audit.pdf"
+      ],
+      "size": 3804124,
+      "wasted_space": 3804124
+    },
+    "7be74d6b75f7718c19dd69ce859225335d289b61": {
+      "files": [
+        "assets/geiger_photo_2025.jpg",
+        "images/assets/geiger_photo_2025.jpg"
+      ],
+      "size": 833490,
+      "wasted_space": 833490
+    },
+    "b4f0e30b8321b9b5e776f67bc0fda01a7ed60ebe": {
+      "files": [
+        "assets/officemap.png",
+        "assets/office.png"
+      ],
+      "size": 2079575,
+      "wasted_space": 2079575
+    },
+    "3590b21de749513638d074ed09e1e22f1f01958f": {
+      "files": [
+        "images/oban3.jpg",
+        "images/2008/05/oban3.jpg"
+      ],
+      "size": 43564,
+      "wasted_space": 43564
+    },
+    "260ee159b60684fec1696feb12e4fe7dafc20e14": {
+      "files": [
+        "images/2014/05/copy-1500x500-1-980x326.jpg",
+        "images/2014/05/1500x500-1-980x326.jpg"
+      ],
+      "size": 66829,
+      "wasted_space": 66829
+    },
+    "62d088e9927ea7902c1ed9b0bcc44f75f365b7b7": {
+      "files": [
+        "images/2014/05/13728814394_37b1085722_o1.jpg",
+        "images/2014/05/13728814394_37b1085722_o.jpg"
+      ],
+      "size": 5602836,
+      "wasted_space": 5602836
+    },
+    "02897b0e0c4cbc9d52654c8dc311aeb1ab5c1ffa": {
+      "files": [
+        "images/2014/05/13728814394_37b1085722_o-150x150.jpg",
+        "images/2014/05/13728814394_37b1085722_o1-150x150.jpg"
+      ],
+      "size": 6819,
+      "wasted_space": 6819
+    },
+    "d0cf98f72729b7f2a0f696597d04171edf61ba02": {
+      "files": [
+        "images/2014/05/copy-1500x500-1-300x100.jpg",
+        "images/2014/05/1500x500-1-300x100.jpg"
+      ],
+      "size": 11124,
+      "wasted_space": 11124
+    },
+    "37c35d5f3dc2575a0d97018cf1d8b877c9020c2f": {
+      "files": [
+        "images/2014/05/1500x500-1-150x150.jpg",
+        "images/2014/05/copy-1500x500-1-150x150.jpg"
+      ],
+      "size": 10221,
+      "wasted_space": 10221
+    },
+    "e24200d0bdfd622d802e0bb14aa6e892590f655a": {
+      "files": [
+        "images/2014/05/13728814394_37b1085722_o-300x200.jpg",
+        "images/2014/05/13728814394_37b1085722_o1-300x200.jpg"
+      ],
+      "size": 13241,
+      "wasted_space": 13241
+    },
+    "9727b577027397bcd15fc316d5316b011507e2d7": {
+      "files": [
+        "images/2014/05/copy-1500x500-1-1024x341.jpg",
+        "images/2014/05/1500x500-1-1024x341.jpg"
+      ],
+      "size": 71390,
+      "wasted_space": 71390
+    },
+    "a72f5bc4da4e60225dd75b4c3075ccef9b9ff3b0": {
+      "files": [
+        "images/2014/05/1500x500-1.jpg",
+        "images/2014/05/copy-1500x500-1.jpg"
+      ],
+      "size": 93932,
+      "wasted_space": 93932
+    }
+  },
+  "total_files": 832,
+  "duplicate_sets": 18,
+  "wasted_space_bytes": 17518636
+}
