@@ -9,7 +9,7 @@ date: 2010-02-25
 excerpt: This paper traces out a heterogeneous network of humans and non-humans involved
   in the identification and banning of a single vandal in Wikipedia.
 paperurl: /files/cscw-sustaining-order-wikipedia.pdf
-permalink: /publication/2010-02-25-cscw-banning-vandal/
+permalink: /articles/2010-02-25-cscw-banning-vandal/
 title: 'The Work of Sustaining Order in Wikipedia: The Banning of a Vandal'
 venue: 'Proceedings of CSCW '
 ---

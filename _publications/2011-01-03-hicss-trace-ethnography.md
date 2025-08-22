@@ -9,7 +9,7 @@ excerpt: We detail the methodology of ‘trace ethnography’, which combines th
   of participant-observation with the wealth of data in logs so as to reconstruct
   patterns and practices of users in distributed sociotechnical systems
 paperurl: /files/trace-ethnography-hicss-geiger-ribes.pdf
-permalink: /publication/2011-01-03-hicss-trace-ethnography/
+permalink: /articles/2011-01-03-hicss-trace-ethnography/
 title: 'Trace Ethnography: Following Coordination through Documentary Practices'
 venue: 'Proceedings of HICSS '
 ---

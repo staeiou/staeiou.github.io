@@ -8,7 +8,7 @@ date: 2011-10-05
 excerpt: This paper investigates Wikipedia&apos;s article deletion processes, finding
   that it is heavily populated by specialists.
 paperurl: /files/article-deletion-wikisym-geiger-ford.pdf
-permalink: /publication/2011-10-05-wikisym-article-deletion/
+permalink: /articles/2011-10-05-wikisym-article-deletion/
 title: Participation in Wikipedia’s Article Deletion Processes
 venue: Proceedings of WikiSym
 ---

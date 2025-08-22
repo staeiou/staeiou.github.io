@@ -11,7 +11,7 @@ excerpt: This report of a survey of academic data scientists discusses what data
   who practice and support data science. We provide evidence-based recommendations
   about how universities can better support an emerging set of roles and responsibilities
   around data and computation within and across academic fields.
-permalink: /publication/2018-06-01-data-science-careers/
+permalink: /articles/2018-06-01-data-science-careers/
 title: 'Career Paths and Prospects in Academic Data Science: Report of the Moore-Sloan
   Data Science Environments Survey'
 venue: ''

@@ -8,7 +8,7 @@ date: 2009-10-27
 excerpt: A short paper showing the recent explosive growth of automated editors (or
   bots) in Wikipedia, which have taken on many new tasks in administrative spaces.
 paperurl: /files/geiger-wikisym-bots.pdf
-permalink: /publication/2009-10-27-wikisym-social-roles-bots//
+permalink: /articles/2009-10-27-wikisym-social-roles-bots//
 title: The Social Roles of Bots and Assisted Editing Tools
 venue: Proceedings of Wikisym
 ---

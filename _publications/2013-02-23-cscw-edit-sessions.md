@@ -8,7 +8,7 @@ date: 2013-02-23
 excerpt: This paper establishes a quantitative metric for measuring editor activity
   through temporal edit sessions.
 paperurl: /files/cscw-sessions.pdf
-permalink: /publication/2013-02-23-cscw-edit-sessions/
+permalink: /articles/2013-02-23-cscw-edit-sessions/
 title: Using Edit Sessions to Measure Participation in Wikipedia
 venue: Proceedings of CSCW
 ---

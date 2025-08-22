@@ -11,7 +11,7 @@ excerpt: A mixed-method trace ethnographic analysis of issues around the governa
   of automated software agents in Wikipedia, focusing on how to interpret cases where
   bots reverted each other's edits.
 paperurl: https://upload.wikimedia.org/wikipedia/commons/f/f4/Operationalizing-conflict-bots-wikipedia-cscw-preprint.pdf
-permalink: /publication/2017-09-12-conflict-bots-cscw/
+permalink: /articles/2017-09-12-conflict-bots-cscw/
 title: 'Operationalizing conflict and cooperation between automated software agents
   in Wikipedia: A replication and expansion of ''Even Good Bots Fight'''
 venue: Proceedings of the ACM on Human-Compter Interaction

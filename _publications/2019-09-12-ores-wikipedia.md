@@ -14,7 +14,7 @@ excerpt: This paper presents an overview and case studies of ORES, Wikipedia's r
   models to serve predictions, auditing predictions, and developing interfaces or
   automated agents that act on those predictions.
 paperurl: https://arxiv.org/pdf/1909.05189.pdf
-permalink: /publication/2019-09-12-ores-wikipedia/
+permalink: /articles/2019-09-12-ores-wikipedia/
 title: 'ORES: Lowering Barriers with Participatory Machine Learning in Wikipedia'
 venue: Proceedings of the ACM on Human-Computer Interaction (CSCW 2020)
 ---

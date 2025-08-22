@@ -8,7 +8,7 @@ date: 2012-11-05
 excerpt: This paper studies the role of computational infrastructure and organizational
   structure in the Open Science Grid.
 paperurl: /files/artifacts-that-organize.pdf
-permalink: /publication/2012-11-05-infoorg-artifacts-that-organize/
+permalink: /articles/2012-11-05-infoorg-artifacts-that-organize/
 title: 'Artifacts that Organize: Delegation in the Distributed Organization'
 venue: Information and Organization
 ---

@@ -9,7 +9,7 @@ date: 2013-08-03
 excerpt: This paper examines what happened when one of Wikipedia&apos;s counter-vandalism
   bots unexpectedly went offline.
 paperurl: /files/wikisym13-cluebot.pdf
-permalink: /publication/2013-08-03-wikisym-levee-breaks-bots/
+permalink: /articles/2013-08-03-wikisym-levee-breaks-bots/
 title: 'When the Levee Breaks: Without Bots, What Happens to Wikipedia’s Quality Control
   Processes?'
 venue: Proceedings of WikiSym

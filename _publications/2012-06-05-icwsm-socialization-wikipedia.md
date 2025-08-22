@@ -9,7 +9,7 @@ date: 2012-06-05
 excerpt: A descriptive study of Wikipedia&apos;s highly-automated socialization processes
   and an A/B test to improve templated messages to newcomers.
 paperurl: /files/defense-mechanism-icwsm.pdf
-permalink: /publication/2012-06-05-icwsm-socialization-wikipedia/
+permalink: /articles/2012-06-05-icwsm-socialization-wikipedia/
 title: Defense Mechanism or Socialization Tactic? Improving Wikipedia’s Notifications
   to Rejected Contributors
 venue: Proceedings of ICWSM

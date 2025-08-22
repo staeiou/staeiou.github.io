@@ -11,7 +11,7 @@ date: 2018-11-11
 excerpt: An ongoing series of short papers that report from discussions where we share
   our experiences doing data science well (or at least better), for many definitions
   of the term.
-permalink: /publication/2018-11-11-BIDS-best-practices/
+permalink: /articles/2018-11-11-BIDS-best-practices/
 title: Reports from the BIDS Best Practices in Data Science Series
 venue: ''
 ---

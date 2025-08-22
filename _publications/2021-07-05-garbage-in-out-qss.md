@@ -11,7 +11,7 @@ excerpt: Supervised machine learning, in which models are automatically derived 
   what extent a random sample of ML application papers across disciplines give specific
   details about whether best practices were followed in labeling training data.
 paperurl: https://arxiv.org/pdf/2107.02278.pdf
-permalink: /publication/2021-07-05-garbage-in-out-qss/
+permalink: /articles/2021-07-05-garbage-in-out-qss/
 title: '''Garbage In, Garbage Out'' Revisited: What Do Machine Learning Application
   Papers Report About Human-Labeled Training Data?'
 venue: Quantitative Science Studies

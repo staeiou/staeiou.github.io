@@ -9,7 +9,7 @@ excerpt: I describe the complex social and technical environment in which bots e
   in Wikipedia, emphasizing not only how bots produce order and enforce rules, but
   also how humans produce bots and negotiate rules around their operation.
 paperurl: /files/lives-of-bots-wikipedia-cpov.pdf
-permalink: /publication/2011-11-01-cpov-lives-of-bots/
+permalink: /articles/2011-11-01-cpov-lives-of-bots/
 title: The Lives of Bots
 venue: 'Wikipedia: A Critical Point of View'
 ---

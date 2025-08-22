@@ -8,7 +8,7 @@ excerpt: This article introduces and discusses the role of bespoke code in Wikip
   which is code that runs alongside a platform or system, rather than being integrated
   into server-side codebases.
 paperurl: /files/bespoke-code-ics.pdf
-permalink: /publication/2014-01-03-ics-bots-bespoke-code/
+permalink: /articles/2014-01-03-ics-bots-bespoke-code/
 title: Bots, bespoke code, and the materiality of software platforms
 venue: Information, Communication, and Society
 ---

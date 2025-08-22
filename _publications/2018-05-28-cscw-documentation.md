@@ -12,7 +12,7 @@ excerpt: Data analytics increasingly relies on open source software (OSS) librar
   work raises many challenges, particularly in open source communities. In this collaboration
   between ethnographers and data scientists, we discuss the types, roles, practices,
   and motivations around documentation in data analytics OSS libraries.
-permalink: /publication/2018-05-28-cscw-documentation/
+permalink: /articles/2018-05-28-cscw-documentation/
 title: 'The Types, Roles, and Practices of Documentation in Data Analytics Open Source
   Software Libraries: A Collaborative Ethnography of Documentation Work'
 venue: Computer-Supported Cooperative Work (JCSCW)

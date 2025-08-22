@@ -8,7 +8,7 @@ date: 2013-05-01
 excerpt: A mixed-method, multi-study analysis of editor retention, socialization,
   gatekeeping, and governance in Wikipedia.
 paperurl: http://www-users.cs.umn.edu/~halfak/publications/The_Rise_and_Decline/halfaker13rise-preprint.pdf
-permalink: /publication/2013-05-01-abs-rise-and-decline-wikipedia/
+permalink: /articles/2013-05-01-abs-rise-and-decline-wikipedia/
 title: 'The Rise and Decline of an Open Collaboration Community: How Wikipedia’s reaction
   to sudden popularity is causing its decline'
 venue: American Behavioral Scientist
