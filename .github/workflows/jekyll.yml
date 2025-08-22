@@ -1,0 +1,110 @@
+# GitHub Actions workflow for Jekyll site with custom file organization
+# This workflow copies files from _storage/ to their proper locations before building
+name: Deploy Jekyll site to GitHub Pages
+
+on:
+  # Runs on pushes targeting the main branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Copy files from _storage to proper locations
+        run: |
+          echo "Setting up file structure from _storage..."
+          
+          # Copy root-level PDFs and files
+          # Files in _storage root go to site root
+          find _storage -maxdepth 1 -type f -exec cp {} . \; 2>/dev/null || true
+          
+          # Copy papers directory
+          # _storage/papers/* → papers/*
+          if [ -d "_storage/papers" ]; then
+            mkdir -p papers
+            cp -r _storage/papers/* papers/ 2>/dev/null || true
+            echo "Copied papers directory"
+          fi
+          
+          # Copy portfolio directory
+          # _storage/portfolio/* → portfolio/*
+          if [ -d "_storage/portfolio" ]; then
+            mkdir -p portfolio
+            cp -r _storage/portfolio/* portfolio/ 2>/dev/null || true
+            echo "Copied portfolio directory"
+          fi
+          
+          # Copy resources directory
+          # _storage/resources/* → resources/*
+          if [ -d "_storage/resources" ]; then
+            mkdir -p resources
+            cp -r _storage/resources/* resources/ 2>/dev/null || true
+            echo "Copied resources directory"
+          fi
+          
+          # Copy assets directory (for files that should be in /assets/)
+          # _storage/assets/* → assets/*
+          if [ -d "_storage/assets" ]; then
+            mkdir -p assets
+            cp -r _storage/assets/* assets/ 2>/dev/null || true
+            echo "Copied assets directory"
+          fi
+          
+          # List what we copied for debugging
+          echo "Files now in root:"
+          ls -la *.pdf 2>/dev/null | head -10 || echo "No PDFs in root"
+          echo ""
+          echo "Directories created:"
+          ls -d */ | grep -E "^(papers|portfolio|resources|assets)" || echo "No directories"
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true # runs 'bundle install' and caches installed gems
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

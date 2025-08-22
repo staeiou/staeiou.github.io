@@ -156,6 +156,7 @@ include:
   - "portfolio/papers/*.pdf"
   - "portfolio/*.pdf"
 exclude:
+  - _storage
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
