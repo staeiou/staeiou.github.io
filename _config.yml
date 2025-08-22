@@ -13,7 +13,7 @@ title                    : "R. Stuart Geiger"
 title_separator          : "-"
 name                     : &name "R. Stuart Geiger"
 description              : &description "computational ethnographer<br/>ethnographer of computation"
-url                      : "" # https://stuartgeiger.com
+url                      : "https://stuartgeiger.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "staeiou/staeiou.github.io"
 
@@ -145,7 +145,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "G-M7YK1P1291"
+    tracking_id          : "G-4ECHRNYHRS"
 
 # Reading Files
 include:
