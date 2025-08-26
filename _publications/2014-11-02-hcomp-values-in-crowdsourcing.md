@@ -9,6 +9,7 @@ excerpt: We review various crowdsourcing and collective action systems, identify
   particular sets of civic values and assumptions.
 paperurl: /files/defining-civic-values-hcomp-matias-geiger.pdf
 permalink: /articles/2014-11-02-hcomp-values-in-crowdsourcing/
+redirect_from: /publications/2014-11-02-hcomp-values-in-crowdsourcing/
 title: Defining, Designing, and Evaluating Civic Values in Human Computation and Collective
   Action Systems
 venue: Proceedings of HCOMP, Citizen-X Workshop

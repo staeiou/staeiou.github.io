@@ -12,6 +12,7 @@ excerpt: This report of a survey of academic data scientists discusses what data
   about how universities can better support an emerging set of roles and responsibilities
   around data and computation within and across academic fields.
 permalink: /articles/2018-06-01-data-science-careers/
+redirect_from: /publications/2018-06-01-data-science-careers/
 title: 'Career Paths and Prospects in Academic Data Science: Report of the Moore-Sloan
   Data Science Environments Survey'
 venue: ''

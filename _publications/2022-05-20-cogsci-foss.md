@@ -7,6 +7,7 @@ collection: publications
 date: 2022-05-20
 excerpt: 'Open-source software projects, maintained largely by unpaid volunteers, face recruitment and retention challenges. Using dynamical systems analysis of community communications, we found that sentiment and gratitude expressions significantly shape newcomer retention, with impacts modulated by the context of first contact.'
 permalink: /articles/2022-05-20-cogsci-community-context-open-source
+redirect_from: /publications/2022-05-20-cogsci-community-context-open-source
 title: 'Community, Time, and (Con)text: A Dynamical Systems Analysis of Online Communication
   and Community Health among Open-Source Software Communities'
 venue: Cognitive Science

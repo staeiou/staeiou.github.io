@@ -10,6 +10,7 @@ excerpt: We examined how graduate students experienced and social-ecological res
   Research (LTER) Network.
 paperurl: /files/lter-network-level-science-es.pdf
 permalink: /articles/2013-09-01-ecosoc-lter-students/
+redirect_from: /publications/2013-09-01-ecosoc-lter-students/
 title: 'The Next Generation of Scientists: Examining the Experiences of Graduate Students
   in Network-Level Social-Ecological Science'
 venue: Ecology and Society

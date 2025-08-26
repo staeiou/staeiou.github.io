@@ -10,6 +10,7 @@ excerpt: Habermasians have been debating about the role of the Internet in the p
   that mediate our knowledge of the blogosphere.
 paperurl: /files/gnovis-habermas-blogopublic-sphere.pdf
 permalink: /articles/2009-10-01-gnovis-habermas-understand-internet/
+redirect_from: /publications/2009-10-01-gnovis-habermas-understand-internet/
 title: Does Habermas Understand the Internet? The Algorithmic Construction of the
   Blogo/Public Sphere
 venue: Gnovis

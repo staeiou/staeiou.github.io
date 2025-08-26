@@ -10,6 +10,7 @@ excerpt: I describe the complex social and technical environment in which bots e
   also how humans produce bots and negotiate rules around their operation.
 paperurl: /files/lives-of-bots-wikipedia-cpov.pdf
 permalink: /articles/2011-11-01-cpov-lives-of-bots/
+redirect_from: /publications/2011-11-01-cpov-lives-of-bots/
 title: The Lives of Bots
 venue: 'Wikipedia: A Critical Point of View'
 ---

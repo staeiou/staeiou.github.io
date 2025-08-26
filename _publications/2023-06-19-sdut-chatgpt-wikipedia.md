@@ -6,6 +6,7 @@ date: 2023-06-19
 excerpt: This is an op-ed published in [the San Diego Union Tribune](https://www.sandiegouniontribune.com/opinion/commentary/story/2023-06-19/opinion-chatgpt-wikipedia-artificial-intelligence-ai-schools-education)
   as part of a set of commentaries on ChatGPT.
 permalink: /articles/2023-06-19-sdut-chatgpt-wikipedia
+redirect_from: /publications/2023-06-19-sdut-chatgpt-wikipedia
 title: 'Opinion: ChatGPT is this generation’s Wikipedia. We have an opportunity to
   learn from the past'
 venue: San Diego Union Tribune

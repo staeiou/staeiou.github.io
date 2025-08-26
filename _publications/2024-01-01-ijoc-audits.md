@@ -5,6 +5,7 @@ collection: publications
 date: 2024-01-01
 excerpt: 'Through four algorithmic audit cases, we demonstrate how scoping decisions shape audit outcomes and reflect institutional power. We propose moving beyond technical certification toward building infrastructures for democratic understanding and contestation, recognizing auditing as a political practice that must engage with institutional reform, not just algorithmic behavior.'
 permalink: /articles/2024-01-01
+redirect_from: /publications/2024-01-01
 title: 'Making Algorithms Public: Reimagining Auditing From Matters of Fact to Matters
   of Concern'
 venue: International Journal of Communication

@@ -9,6 +9,7 @@ excerpt: This paper discusses the Snuggle project, built to support newcomer soc
   and reflexive critique of Wikipedia&apos;s existing socialization processes.
 paperurl: http://www-users.cs.umn.edu/~halfak/publications/Snuggle/halfaker14snuggle-personal.pdf
 permalink: /articles/2014-05-01-chi-snuggle-wikipedia/
+redirect_from: /publications/2014-05-01-chi-snuggle-wikipedia/
 title: 'Snuggle: Designing for efﬁcient socialization and ideological critique'
 venue: Proceedings of CHI
 ---

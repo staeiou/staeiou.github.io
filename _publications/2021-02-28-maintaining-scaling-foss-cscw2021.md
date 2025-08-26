@@ -17,6 +17,7 @@ excerpt: We report findings from an interview-based study of maintainers of free
   across many dimensions.
 paperurl: /files/maintaining-scaling-foss-cscw2021.pdf
 permalink: /articles/2021-02-28-maintaining-scaling-foss-cscw2021/
+redirect_from: /publications/2021-02-28-maintaining-scaling-foss-cscw2021/
 title: The Labor of Maintaining and Scaling Free and Open-Source Software Projects
 venue: Proceedings of the ACM on Human-Computer Interaction (CSCW 2021)
 ---

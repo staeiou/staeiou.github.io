@@ -9,6 +9,7 @@ excerpt: This article introduces and discusses the role of bespoke code in Wikip
   into server-side codebases.
 paperurl: /files/bespoke-code-ics.pdf
 permalink: /articles/2014-01-03-ics-bots-bespoke-code/
+redirect_from: /publications/2014-01-03-ics-bots-bespoke-code/
 title: Bots, bespoke code, and the materiality of software platforms
 venue: Information, Communication, and Society
 ---

@@ -8,6 +8,7 @@ excerpt: This report is a high-level summary analysis of the 2017 GitHub Open So
   Survey dataset, presenting frequency counts, proportions, and frequency or proportion
   bar plots for every question asked in the survey.
 permalink: /articles/2017-06-07-github-survey/
+redirect_from: /publications/2017-06-07-github-survey/
 title: Summary Analysis of the 2017 GitHub Open Source Survey
 venue: SocArxiv Preprints
 ---

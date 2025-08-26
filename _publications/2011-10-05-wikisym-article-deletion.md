@@ -9,6 +9,7 @@ excerpt: This paper investigates Wikipedia&apos;s article deletion processes, fi
   that it is heavily populated by specialists.
 paperurl: /files/article-deletion-wikisym-geiger-ford.pdf
 permalink: /articles/2011-10-05-wikisym-article-deletion/
+redirect_from: /publications/2011-10-05-wikisym-article-deletion/
 title: Participation in Wikipedia’s Article Deletion Processes
 venue: Proceedings of WikiSym
 ---

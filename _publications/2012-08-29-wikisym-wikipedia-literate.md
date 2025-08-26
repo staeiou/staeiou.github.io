@@ -10,6 +10,7 @@ excerpt: We introduce and advocate a multi-faceted theory of literacy to investi
   Wikipedia’s communities.
 paperurl: /files/writing-up-wikisym.pdf
 permalink: /articles/2012-08-29-wikisym-wikipedia-literate/
+redirect_from: /publications/2012-08-29-wikisym-wikipedia-literate/
 title: '“Writing up rather than writing down”: Becoming Wikipedia Literate'
 venue: Proceedings of WikiSym
 ---

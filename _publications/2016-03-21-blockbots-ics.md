@@ -14,6 +14,7 @@ excerpt: This article introduces and discusses bot-based collective blocklists (
   and moderation of the public sphere.
 paperurl: /files/blockbots-ics.pdf
 permalink: /articles/2016-03-21-blockbots-ics/
+redirect_from: /publications/2016-03-21-blockbots-ics/
 title: 'Bot-based collective blocklists in Twitter: the counterpublic moderation of
   harassment in a networked public space'
 venue: Information, Communication, and Society

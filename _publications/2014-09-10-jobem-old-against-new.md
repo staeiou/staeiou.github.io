@@ -9,6 +9,7 @@ excerpt: On the history and continued relevance of the term &quot;broadcasting&q
   in an era of social media.
 paperurl: /files/jobem.pdf
 permalink: /articles/2014-09-10-jobem-old-against-new/
+redirect_from: /publications/2014-09-10-jobem-old-against-new/
 title: Old Against New, or a Coming of Age? Broadcasting in an Era of Electronic Media.
 venue: Journal of Broadcasting and Electronic Media
 ---

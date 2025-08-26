@@ -13,6 +13,7 @@ excerpt: 'Scholars and practitioners across domains are increasingly concerned w
   in participating in a highly automated social-technical environment.'
 paperurl: /files/algoculture-bds.pdf
 permalink: /articles/2017-09-26-beyond-black-box-wikipedia-bds/
+redirect_from: /publications/2017-09-26-beyond-black-box-wikipedia-bds/
 title: 'Beyond opening up the black box: Investigating the role of algorithmic systems
   in Wikipedian organizational culture'
 venue: Big Data & Society
