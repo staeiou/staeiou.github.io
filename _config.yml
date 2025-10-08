@@ -9,18 +9,18 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "light_only" # Currently available options are "default", "air", "light_only"
-title                    : "R. Stuart Geiger"
+title                    : "Summary of Lu Kangkai's Personal Experience"
 title_separator          : "-"
-name                     : &name "R. Stuart Geiger"
+name                     : &name "LuKangkai"
 description              : &description "computational ethnographer<br/>ethnographer of computation"
-url                      : "https://stuartgeiger.com"
+url                      : "https://Lu-Kangkai.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "staeiou/staeiou.github.io"
 
 # Site Author
 author:
   # Biographic information
-  avatar           : "kk.jpg"
+  avatar           : "kk.png"
   name             : "LuKangkai"
   pronouns         : # example: "she/her"  
   bio              : "As a sophomore at Zhoukou Normal University, Lu Kangkai has achieved outstanding performance in competitions, practical activities and academic studies, with strong comprehensive abilities."
