@@ -1,6 +1,6 @@
 ---
 title: Sentiment-O-Matic 
-excerpt: A no-code web app to run pretrained small language models classify text for tasks like sentiment analysis, emotion detection, content moderation, and other supervised small language models. 
+excerpt: A web app to enter/upload texts, then score or classify those texts for tasks like sentiment analysis, emotion detection, content moderation, and other supervised Natural Language Processing tasks. 
 collection: expressions
 permalink: /expressions/sentimentomatic/ 
 ---
