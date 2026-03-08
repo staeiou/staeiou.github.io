@@ -1,5 +1,5 @@
 ---
-title: Sentiment-O-Matic 
+title: Sentiment-O-Matic, a no-code web app for playing with small sentiment analysis and content moderation models
 excerpt: A web app to enter/upload texts, then score or classify those texts for tasks like sentiment analysis, emotion detection, content moderation, and other supervised Natural Language Processing tasks. 
 collection: expressions
 permalink: /expressions/sentimentomatic/ 
