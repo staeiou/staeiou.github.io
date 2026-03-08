@@ -1,5 +1,5 @@
 ---
-title: Auditomatic
+title: Audit-O-Matic, a no-code web app for auditing Large Language Models
 excerpt: A local-first web app for designing and running systematic evaluations of Large Language Models, in your browser, no coding required.
 collection: expressions
 permalink: /expressions/auditomatic/ 
