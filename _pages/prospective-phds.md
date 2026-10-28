@@ -1,0 +1,11 @@
+---
+permalink: /prospective-phd-students/
+title: "For Prospective Ph.D Students"
+author_profile: true
+---
+
+If you are interested in the Ph.D programs at UCSD in Data Science or Computer Science & Engineering, I am not able to take on new Ph.D students due to funding constraints. 
+
+If you are interested in the UCSD Communication Ph.D program, my apologies for not being able to give individual feedback on applications, as I receive hundreds of e-mails from prospective students each application cycle. You should know COMM Ph.D students are admitted and funded by the department, not the advisor, based on their fit and potential for success in the department, not the advisor. Our Ph.D students do not leave the program as "clones" of their advisors, but rather as independent scholars, whose dissertations synthesize a broad range of the kind of work done in and beyond the department. You do not even choose your permanent advisor until your second year, after completing first-year coursework that covers a broad range of disciplines and traditions. Co-advising is common and Ph.D students get mentoring and feedback from many professors, including beyond those who sit on their dissertation committees. So the question "Are you taking new Ph.D students in Comm" does not apply in the same way it does in many programs with STEM-style research groups or labs. 
+
+If you are an independently-minded scholar with your own research agenda that in any way is based in the humanistic and/or qualitative social scientific study of computation, data, quantification, platformization, and/or artificial intelligence, who could potentially be advised by multiple professors in UCSD Comm, then I encourage you to apply --- regardless of how much my current work aligns with what you want to do. You do not need my permission to mention me in your application. If you are seeking to primarily learn and practice more quantitative and computational methods, or see your main contribution as designing and building systems, then UCSD Comm may not be the perfect program for you, as we do not regularly offer courses in these methods. Some of our Ph.D students use mixed-methods approaches combining quant/comp/design methods with primarily qualitative/humanistic methods, and you can take some classes in these topics outside the department, but this is not the norm.
